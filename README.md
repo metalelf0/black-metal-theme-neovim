@@ -104,13 +104,15 @@ With lazy.nvim:
 There are 16 themes included, each with a dark, alternative and light variant. Yes, I know, light variants aren't `TRVE`. Just don't use them if you don't like them.
 The light theme is used when `{ variant = "light" }` is passed to `setup(options)` or when `vim.o.background = "light"`.
 
+If you are ok with the default config, just load themes with either `:colorscheme <band_name>` or `:colorscheme <band_name>-alt`. If you need further customization, here you go: 
+
 Default options are given below:
 
 ```lua
 require("black-metal").setup({
   -----MAIN OPTIONS-----
   --
-  -- Can be one of: bathory | burzum | dark-funeral | darkthrone | emperor | gorgoroth | immortal | impaled-nazarene | khold | marduk | mayhem | nile | taake | venom
+  -- Can be one of: bathory | burzum | dark-funeral | darkthrone | emperor | gorgoroth | immortal | impaled-nazarene | khold | marduk | mayhem | nile | taake | thyrfing | venom | windir
   theme = "bathory",
   -- Can be one of: 'light' | 'dark', or set via vim.o.background
   variant = "dark",
