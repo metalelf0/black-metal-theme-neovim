@@ -10,65 +10,75 @@ If you want to support the project, buy a T-shirt with the logo on [printify](ht
 
 ## Included themes
 
+Here are the included themes. Each band has a default theme (on the left) and an alternative variant (on the right).
+
 ### Bathory
 
-<img width="450" alt="bathory" src="https://github.com/user-attachments/assets/0999bc6e-b5fb-4d04-842c-733609157004" />
+![bathory-full](https://github.com/user-attachments/assets/504edd20-df33-4399-bb4a-1b203b8d6a64)
 
 ### Burzum
 
-<img width="450" alt="burzum" src="https://github.com/user-attachments/assets/4eca109b-99ce-4127-a27a-cec2f3a94436" />
+![burzum-full](https://github.com/user-attachments/assets/bfc67176-9c71-4ede-b99e-36048102140d)
 
 ### Dark Funeral
 
-<img width="450" alt="dark-funeral" src="https://github.com/user-attachments/assets/f35d878c-d7a5-4e61-8897-b6d13be42bed" />
+![dark-funeral-full](https://github.com/user-attachments/assets/79850c1c-f5ea-4fac-b6d5-e11e0a1db808)
 
 ### Darkthrone
 
-<img width="450" alt="darkthrone" src="https://github.com/user-attachments/assets/e6552259-6a1b-4952-bc7e-03be3866c45b" />
+![darkthrone-full](https://github.com/user-attachments/assets/25baf96c-85e5-4f84-ac40-39278c71d3f0)
 
 ### Emperor
 
-<img width="450" alt="emperor" src="https://github.com/user-attachments/assets/6a06f7ab-9315-4942-837b-06fdddfdea16" />
+![emperor-full](https://github.com/user-attachments/assets/e12d7afa-06ca-4ccb-881f-3d1d433f7b47)
 
 ### Gorgoroth
 
-<img width="450" alt="gorgoroth" src="https://github.com/user-attachments/assets/c972574a-a816-44ca-828e-ab672021d38c" />
+![gorgoroth-full](https://github.com/user-attachments/assets/4a0cc06f-8f3d-4414-a2e0-2ca1999e896d)
 
 ### Immortal
 
-<img width="450" alt="immortal" src="https://github.com/user-attachments/assets/65f4b381-9faf-4d38-b54d-6011d381dec2" />
+![immortal-full](https://github.com/user-attachments/assets/720931e6-d8d4-479d-986a-088c0937fd7f)
 
 ### Impaled Nazarene
 
-<img width="450" alt="impaled-nazarene" src="https://github.com/user-attachments/assets/7c3795f5-9ed1-4ca5-9ac5-abe28925d3b6" />
+![impaled-nazarene-full](https://github.com/user-attachments/assets/bd818bea-1cf1-4ef9-9687-775c2f7440b0)
 
 ### Khold
 
-<img width="450" alt="khold" src="https://github.com/user-attachments/assets/9ed760e5-76e2-42b7-b969-b708e52ceda1" />
+![khold-full](https://github.com/user-attachments/assets/78d95824-0ad7-4cdc-98ea-0d29bf56f798)
 
 ### Marduk
 
-<img width="450" alt="marduk" src="https://github.com/user-attachments/assets/c979f2f1-cb28-4b0f-bdb5-ddaf95034979" />
+![marduk-full](https://github.com/user-attachments/assets/9dca9fea-7a70-490c-b2de-798dcfa8d3f4)
 
 ### Mayhem
 
-<img width="450" alt="mayhem" src="https://github.com/user-attachments/assets/2f3a259d-bcd0-421c-a89e-67e58732f28b" />
+![mayhem-full](https://github.com/user-attachments/assets/5ccc7621-97e3-4601-b5b8-c550b3dd7042)
 
 ### Nile 
 
-<img width="450" alt="nile" src="https://github.com/user-attachments/assets/2b45098f-863d-4a1b-aa97-c3957571e367" />
+![nile-full](https://github.com/user-attachments/assets/05b73f47-5bf5-479a-a940-3447fd9e1474)
 
 ### Taake
 
-<img width="450" alt="taake" src="https://github.com/user-attachments/assets/8c551eed-e429-4d2b-8727-aea8eac14e04" />
+![taake-full](https://github.com/user-attachments/assets/96cfb452-e1ef-4fbb-8c2f-1bb8fc3177dc)
+
+### Thyrfing
+
+![thyrfing-full](https://github.com/user-attachments/assets/ab786221-3c18-48d1-9eff-b4412577ae7f)
 
 ### Venom
 
-<img width="450" alt="venom" src="https://github.com/user-attachments/assets/289d4ac4-0ce8-4a6b-88ff-7da871edfed5" />
+![venom-full](https://github.com/user-attachments/assets/bacd0404-cf31-4872-ad64-25066bd27a72)
+
+### Windir
+
+![windir-full](https://github.com/user-attachments/assets/7d584730-c8bb-42db-9f49-774a7db14aeb)
 
 ## Rationale
 
-Each theme palette is a slight variation of the base one. I picked two accent colors from an album cover for each band.
+Each theme palette is a slight variation of the base one. I picked two accent colors from an album cover for each band. I also included an alternative variant for each album with a not-black background. 
 
 ## Installation
 
@@ -91,7 +101,7 @@ With lazy.nvim:
 
 ## Configuration
 
-There are 14 themes included, each with a light and dark variant. Yes, I know, light variants aren't `TRVE`. Just don't use them if you don't like them.
+There are 16 themes included, each with a dark, alternative and light variant. Yes, I know, light variants aren't `TRVE`. Just don't use them if you don't like them.
 The light theme is used when `{ variant = "light" }` is passed to `setup(options)` or when `vim.o.background = "light"`.
 
 Default options are given below:
@@ -104,7 +114,7 @@ require("black-metal").setup({
   theme = "bathory",
   -- Can be one of: 'light' | 'dark', or set via vim.o.background
   variant = "dark",
-  -- Use an alternate, darker bg
+  -- Use an alternate, lighter bg
   alt_bg = false,
   -- If true, docstrings will be highlighted like strings, otherwise they will be
   -- highlighted like comments. Note, behavior is dependent on the language server.
@@ -215,7 +225,9 @@ See `black-metal.palette` for color names.
 - Mayhem: The dawn of the black hearts, 1995
 - Nile: Black seeds of vengeance, 2000
 - Taake:  Hordalands doedskvad, 2005
+- Thyrfing: Valdr Galga, 1999
 - Venom: Welcome to hell, 1981
+- Windir: Arntor, 1999
 
 ## Disclaimers
 
