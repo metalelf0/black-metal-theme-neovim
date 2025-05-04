@@ -2,7 +2,7 @@
 --- colors taken from Phantom, 2002
 local M = {
 	alt = "#5f8787",
-	alt_bg = "#111113",
+	alt_bg = "#39121b",
 	bg = "#000000",
 	comment = "#505050",
 	constant = "#aaaaaa",

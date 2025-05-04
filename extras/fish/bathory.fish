@@ -6,7 +6,7 @@
 # use in ~/.config/fish/conf.d/
 
 # preferred bg: 000000
-# alt background: 111113
+# alt background: 3E2018
 
 ### Full palette. 
 ### Colors defined in neomdern/palette/BATHORY.lua

@@ -1,0 +1,48 @@
+[colors]
+foreground = "#c1c1c1"
+background = "#000000"
+# background = "#181c15" # alternate, darker bg
+cursor_bg = "#c1c1c1"
+cursor_border = "#c1c1c1"
+cursor_fg = "#000000"
+selection_bg = "#333333"
+selection_fg = "#c1c1c1"
+split = "#505050"
+compose_cursor = "#aaaaaa"
+scrollbar_thumb = "#505050"
+
+ansi = ["#181c15", "#5f8787", "#c1c1c1", "#888888", "#aaaaaa", "#999999", "#D9D98E", "#c1c1c1"]
+brights = ["#505050", "#5f8787", "#c1c1c1", "#888888", "#aaaaaa", "#5E77A3", "#D9D98E", "#c1c1c1"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#505050"
+background = "#000000"
+
+[colors.tab_bar.active_tab]
+fg_color = "#5f8787"
+bg_color = "#333333"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#505050"
+bg_color = "#000000"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#505050"
+bg_color = "#000000"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#5f8787"
+bg_color = "#333333"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#5f8787"
+bg_color = "#000000"
+
+[metadata]
+aliases = []
+name = "WINDIR"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "${upstream}"
+author = "Andrea Schiavini (original code by Casey Miller)"

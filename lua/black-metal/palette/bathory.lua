@@ -2,7 +2,7 @@
 --- colors taken from Hammerheart, 1990
 local M = {
 	alt = "#5f8787",
-	alt_bg = "#111113",
+	alt_bg = "#3E2018",
 	bg = "#000000",
 	comment = "#505050",
 	constant = "#aaaaaa",

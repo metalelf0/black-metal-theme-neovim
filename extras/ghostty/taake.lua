@@ -6,14 +6,14 @@
 # author: Andrea Schiavini (original code by Casey Miller)
 
 background = #000000
-# alternate, darker background #111113
+# alternate, darker background #403035
 foreground = #c1c1c1
 selection-background = #333333
 selection-foreground = #c1c1c1
 cursor-color = #c1c1c1
 
 # normal
-palette = 0 =#111113
+palette = 0 =#403035
 palette = 1 =#5f8787
 palette = 2 =#c1c1c1
 palette = 3 =#888888

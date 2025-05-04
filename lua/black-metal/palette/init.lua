@@ -50,7 +50,9 @@ M.themes = {
 	mayhem = "mayhem",
 	nile = "nile",
 	taake = "taake",
+	thyrfing = "thyrfing",
 	venom = "venom",
+	windir = "windir",
 }
 
 for key, theme in pairs(M.themes) do

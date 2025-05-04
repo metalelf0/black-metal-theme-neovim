@@ -1,7 +1,7 @@
 [colors]
 foreground = "#c1c1c1"
 background = "#000000"
-# background = "#111113" # alternate, darker bg
+# background = "#211816" # alternate, darker bg
 cursor_bg = "#c1c1c1"
 cursor_border = "#c1c1c1"
 cursor_fg = "#000000"
@@ -11,7 +11,7 @@ split = "#505050"
 compose_cursor = "#aaaaaa"
 scrollbar_thumb = "#505050"
 
-ansi = ["#111113", "#5f8787", "#c1c1c1", "#888888", "#aaaaaa", "#999999", "#f8f7f2", "#c1c1c1"]
+ansi = ["#211816", "#5f8787", "#c1c1c1", "#888888", "#aaaaaa", "#999999", "#f8f7f2", "#c1c1c1"]
 brights = ["#505050", "#5f8787", "#c1c1c1", "#888888", "#aaaaaa", "#79241f", "#f8f7f2", "#c1c1c1"]
 
 [colors.tab_bar]

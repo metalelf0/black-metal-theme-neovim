@@ -4,7 +4,7 @@
 # author: Andrea Schiavini (original code by Casey Miller)
 
 # preferred bg: 000000
-# alt background: 111113
+# alt background: 191A11
 
 # Syntax Highlighting Colors
 set -g fish_color_normal c1c1c1

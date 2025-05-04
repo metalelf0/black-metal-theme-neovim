@@ -2,7 +2,7 @@
 --- colors taken from Filosofem, 1996
 local M = {
 	alt = "#5f8787",
-	alt_bg = "#111113",
+	alt_bg = "#231c14",
 	bg = "#000000",
 	comment = "#505050",
 	constant = "#aaaaaa",

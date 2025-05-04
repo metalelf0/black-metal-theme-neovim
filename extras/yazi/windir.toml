@@ -1,0 +1,98 @@
+# name: WINDIR colors for Yazi
+# url: https://github.com/sxyazi/yazi
+# upstream: ${upstream}
+# author: Andrea Schiavini (original code by Casey Miller)
+
+[manager]
+cwd = { fg = "#888888" }
+
+hovered         = { fg = "#c1c1c1", bg = "#000000" }
+preview_hovered = { fg = "#c1c1c1", bg = "#000000" }
+
+find_keyword  = { fg = "#5f8787", italic = true }
+find_position = { fg = "#5f8787", bg = "reset", italic = true }
+
+marker_copied   = { fg = "#D9D98E" }
+marker_cut      = { fg = "${error}" }
+marker_selected = { fg = "#5f8787" }
+
+tab_active   = { fg = "#5f8787", bg = "#333333" }
+tab_inactive = { fg = "#505050", bg = "#333333" }
+tab_width    = 1
+
+count_cut      = { fg = "#5f8787", bg = "#000000" }
+count_copied   = { fg = "#5f8787", bg = "#000000" }
+count_selected = { fg = "#5f8787", bg = "#000000" }
+
+border_symbol = "│"
+border_style  = { fg = "#505050" }
+
+[mode]
+normal_main   = { fg = "#000000", bg = "#aaaaaa", bold = true }
+normal_alt    = { fg = "#000000", bg = "#aaaaaa", bold = true }
+select_main   = { fg = "#000000", bg = "#999999", bold = true }
+select_alt    = { fg = "#000000", bg = "#999999", bold = true }
+unset_main    = { fg = "#000000", bg = "#D9D98E", bold = true }
+unset_alt     = { fg = "#000000", bg = "#D9D98E", bold = true }
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#333333", bg = "#333333" }
+
+progress_label  = { fg = "#5f8787", bold = true }
+progress_normal = { fg = "#5f8787", bg = "#333333" }
+progress_error  = { fg = "#000000", bg = "${error}" }
+
+permissions_t = { fg = "#c1c1c1" }
+permissions_r = { fg = "#888888" }
+permissions_w = { fg = "#5f8787" }
+permissions_x = { fg = "#aaaaaa" }
+permissions_s = { fg = "#9b99a3" }
+
+[input]
+border   = { fg = "#505050" }
+title    = {}
+value    = {}
+selected = { reversed = true }
+
+[select]
+border   = { fg = "#505050" }
+active   = { fg = "#999999" }
+inactive = {}
+
+[tasks]
+border  = { fg = "#505050" }
+title   = {}
+hovered = { underline = true }
+
+[which]
+mask            = { bg = "#000000" }
+cand            = { fg = "#c1c1c1" }
+rest            = { fg = "#5E77A3" }
+desc            = { fg = "#D9D98E" }
+separator       = "  "
+separator_style = { fg = "#9b99a3"}
+
+[help]
+on      = { fg = "#5E77A3" }
+run    = { fg = "#D9D98E" }
+desc    = { fg = "#505050" }
+hovered = { fg = "#c1c1c1", bg = "#000000", bold = true }
+footer  = { fg = "#505050", bg = "#000000" }
+
+[filetype]
+rules = [
+# Media
+{ mime = "image/*", fg = "#5E77A3"},
+{ mime = "{audio,video}/*", fg = "#D9D98E"},
+
+# Archives
+{ mime = "application/{,g}zip", fg = "#5f8787"},
+{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#5f8787"},
+
+# Fallback
+{ name = "*", fg = "#c1c1c1"},
+{ name = "*/", fg = "#888888"}
+]
+  

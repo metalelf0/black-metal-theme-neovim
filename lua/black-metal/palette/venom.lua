@@ -2,7 +2,7 @@
 --- colors taken from Welcome to hell, 1981
 local M = {
 	alt = "#5f8787",
-	alt_bg = "#111113",
+	alt_bg = "#211816",
 	bg = "#000000",
 	comment = "#505050",
 	constant = "#aaaaaa",
@@ -14,7 +14,7 @@ local M = {
 	operator = "#9b99a3",
 	property = "#c1c1c1",
 	string = "#f8f7f2",
-	type = "#79241f",
+	type = "#fc302e",
 	visual = "#333333",
 	diag_red = "#5f8787",
 	diag_blue = "#999999",

@@ -2,7 +2,7 @@
 --- colors taken from Twilight of the Idols - In Conspiracy with Satan, 2003
 local M = {
 	alt = "#5f8787",
-	alt_bg = "#111113",
+	alt_bg = "#2a2325",
 	bg = "#000000",
 	comment = "#505050",
 	constant = "#aaaaaa",

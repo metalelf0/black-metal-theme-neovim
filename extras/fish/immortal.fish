@@ -6,7 +6,7 @@
 # use in ~/.config/fish/conf.d/
 
 # preferred bg: 000000
-# alt background: 111113
+# alt background: 1b161f
 
 ### Full palette. 
 ### Colors defined in neomdern/palette/IMMORTAL.lua
