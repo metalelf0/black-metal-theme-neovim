@@ -1,0 +1,65 @@
+<!-- vim: set nomodeline: -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>/Users/andrea.schiavini/Documents/codice_elf0/black-metal-theme-neovim/preview.rb</title>
+<meta name="colorscheme" content="bathory"></meta>
+<style>
+* {font-family: "Iosevka Comfy",monospace}
+body {background-color: #3e2018; color: #c1c1c1}
+.Constant {color: #aaaaaa}
+.-function-builtin {color: #888888}
+.Float {color: #aaaaaa}
+.-string-regexp {color: #999999}
+.String {color: #fbcb97}
+.Comment {font-style: italic; color: #505050}
+.-punctuation-special {color: #999999}
+.-variable {color: #c1c1c1}
+.-type {color: #e78a43}
+.-variable-builtin {color: #e78a43}
+.-string-escape {color: #999999}
+.-variable-parameter {color: #5f8787}
+.-variable-member {color: #c1c1c1}
+.-spell {}
+.-punctuation-bracket {color: #5f8787}
+.-string-special-symbol {color: #fbcb97}
+.-keyword {color: #999999}
+.-punctuation-delimiter {color: #c1c1c1}
+.Number {color: #aaaaaa}
+.-function {color: #888888}
+.-operator {color: #9b99a3}
+</style>
+</head>
+<body style="display: flex">
+<pre>
+<span class="-variable"><span class="-function"><span class="-keyword">require</span></span></span> <span class="String">'</span><span class="String">gem</span><span class="String">'</span>
+<span class="-variable">string</span> <span class="-operator">=</span> <span class="String">&quot;</span><span class="String">a string</span><span class="String">&quot;</span>
+<span class="-variable">symbol</span> <span class="-operator">=</span> <span class="-string-special-symbol">:symbol</span>
+<span class="-variable">fixnum</span> <span class="-operator">=</span> <span class="Number">666</span>
+<span class="-variable">float</span> <span class="-operator">=</span> <span class="Float">0.00</span>
+<span class="-variable">array</span> <span class="-operator">=</span> <span class="Constant"><span class="-type"><span class="-type">Array</span></span></span><span class="-punctuation-delimiter">.</span><span class="-variable"><span class="-function">new</span></span>
+<span class="-variable">array</span> <span class="-operator">=</span> <span class="-punctuation-bracket">[</span><span class="String">&quot;</span><span class="String">black</span><span class="String">&quot;</span><span class="-punctuation-delimiter">,</span> <span class="String">'</span><span class="String">metal</span><span class="String">'</span><span class="-punctuation-delimiter">,</span> <span class="Number">666</span><span class="-punctuation-bracket">]</span>
+<span class="-variable">hash</span> <span class="-operator">=</span> <span class="-punctuation-bracket">{</span> <span class="Number">666</span><span class="-operator">:</span> <span class="String">'</span><span class="String">beast</span><span class="String">'</span><span class="-punctuation-delimiter">,</span> <span class="String">&quot;</span><span class="String">666</span><span class="String">&quot;</span> <span class="-operator">=&gt;</span> <span class="String">&quot;</span><span class="String">beast</span><span class="String">&quot;</span> <span class="-punctuation-bracket">}</span>
+<span class="-variable">regex</span> <span class="-operator">=</span> <span class="-operator"><span class="-punctuation-bracket">/</span></span><span class="String"><span class="-string-regexp"><span class="-punctuation-bracket">[</span><span class="Constant">a</span><span class="Constant">b</span><span class="Constant">c</span><span class="-punctuation-bracket">]</span></span></span><span class="-operator"><span class="-punctuation-bracket">/</span></span>
+
+<span class="Comment"><span class="-spell"><span class="Comment"># this is a comment</span></span></span>
+<span class="-keyword">class</span> <span class="Constant"><span class="-type"><span class="-type">Person</span></span></span>
+  <span class="-variable"><span class="-function"><span class="-function-builtin">attr_accessor</span></span></span> <span class="-string-special-symbol">:name</span>
+
+  <span class="-keyword">def</span> <span class="-variable"><span class="-function">initialize</span></span><span class="-punctuation-bracket">(</span><span class="-variable"><span class="-variable-parameter">name</span></span><span class="-operator">:</span><span class="-punctuation-bracket">)</span>
+    <span class="-variable-member">@name</span> <span class="-operator">=</span> <span class="-variable">name</span>
+  <span class="-keyword"><span class="-keyword">end</span></span>
+
+  <span class="-keyword">def</span> <span class="-variable-builtin">self</span><span class="-punctuation-delimiter">.</span><span class="-variable"><span class="-function">greet</span></span>
+    <span class="String">&quot;</span><span class="String">hallo</span><span class="String">&quot;</span>
+  <span class="-keyword">end</span>
+<span class="-keyword">end</span>
+
+<span class="-variable">person1</span> <span class="-operator">=</span> <span class="Constant"><span class="-type"><span class="-type">Person</span></span></span><span class="-punctuation-delimiter">.</span><span class="-variable"><span class="-function">new</span></span><span class="-punctuation-bracket">(</span><span class="-string-special-symbol">name</span><span class="-operator"><span class="-punctuation-delimiter">:</span></span> <span class="String">&quot;</span><span class="String">Chris</span><span class="String">&quot;</span><span class="-punctuation-bracket">)</span>
+<span class="-variable"><span class="-function">puts</span></span> <span class="Constant"><span class="-type"><span class="-type">Person</span></span></span><span class="-punctuation-delimiter">::</span><span class="-variable"><span class="-function">greet</span></span><span class="-punctuation-delimiter">,</span> <span class="String">&quot;</span><span class="String"> </span><span class="String">&quot;</span><span class="-punctuation-delimiter">,</span> <span class="-variable">person1</span><span class="-punctuation-delimiter">.</span><span class="-variable"><span class="-function">name</span></span><span class="-punctuation-delimiter">,</span> <span class="String">&quot;</span><span class="-string-escape">\n</span><span class="String">&quot;</span>
+<span class="-variable"><span class="-function">puts</span></span> <span class="String">&quot;</span><span class="String">another </span><span class="-punctuation-special">#{</span><span class="Constant"><span class="-type"><span class="-type">Person</span></span></span><span class="-punctuation-delimiter">::</span><span class="-variable"><span class="-function">greet</span></span><span class="-punctuation-bracket"><span class="-punctuation-special">}</span></span><span class="String"> </span><span class="-punctuation-special">#{</span><span class="-variable">person1</span><span class="-punctuation-delimiter">.</span><span class="-variable"><span class="-function">name</span></span><span class="-punctuation-bracket"><span class="-punctuation-special">}</span></span><span class="String">&quot;</span>
+
+</pre>
+</body>
+</html>

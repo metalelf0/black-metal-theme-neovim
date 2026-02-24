@@ -1,0 +1,61 @@
+<!-- vim: set nomodeline: -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>/Users/andrea.schiavini/Documents/codice_elf0/black-metal-theme-neovim/preview.rb</title>
+<meta name="colorscheme" content="cockatoo"></meta>
+<style>
+* {font-family: "Iosevka Comfy",monospace}
+body {background-color: #2f353e; color: #e2e2e8}
+.Keyword {color: #86aadc}
+.Constant {color: #e87c69}
+.PreProc {color: #7fa0af}
+.Function {color: #e6bb86}
+.Parameter {}
+.String {color: #7fa0af}
+.Builtin {color: #f49ba7}
+.Special {color: #f0a16c}
+.Comment {color: #606d86}
+.Field {color: #8f9fbc}
+.Delimiter {color: #f0a16c}
+.-spell {}
+.Bracket {color: #708296}
+.Identifier {}
+.Operator {color: #f0a16c}
+.Number {color: #a48fd1}
+.Type {color: #caafeb}
+</style>
+</head>
+<body style="display: flex">
+<pre>
+<span class="Identifier"><span class="Function"><span class="PreProc">require</span></span></span> <span class="String">'</span><span class="String">gem</span><span class="String">'</span>
+<span class="Identifier">string</span> <span class="Operator">=</span> <span class="String">&quot;</span><span class="String">a string</span><span class="String">&quot;</span>
+<span class="Identifier">symbol</span> <span class="Operator">=</span> <span class="Special">:symbol</span>
+<span class="Identifier">fixnum</span> <span class="Operator">=</span> <span class="Number">666</span>
+<span class="Identifier">float</span> <span class="Operator">=</span> <span class="Number">0.00</span>
+<span class="Identifier">array</span> <span class="Operator">=</span> <span class="Constant"><span class="Type"><span class="Type">Array</span></span></span><span class="Delimiter">.</span><span class="Identifier"><span class="Function">new</span></span>
+<span class="Identifier">array</span> <span class="Operator">=</span> <span class="Bracket">[</span><span class="String">&quot;</span><span class="String">black</span><span class="String">&quot;</span><span class="Delimiter">,</span> <span class="String">'</span><span class="String">metal</span><span class="String">'</span><span class="Delimiter">,</span> <span class="Number">666</span><span class="Bracket">]</span>
+<span class="Identifier">hash</span> <span class="Operator">=</span> <span class="Bracket">{</span> <span class="Number">666</span><span class="Operator">:</span> <span class="String">'</span><span class="String">beast</span><span class="String">'</span><span class="Delimiter">,</span> <span class="String">&quot;</span><span class="String">666</span><span class="String">&quot;</span> <span class="Operator">=&gt;</span> <span class="String">&quot;</span><span class="String">beast</span><span class="String">&quot;</span> <span class="Bracket">}</span>
+<span class="Identifier">regex</span> <span class="Operator">=</span> <span class="Operator"><span class="Bracket">/</span></span><span class="String"><span class="String"><span class="Bracket">[</span><span class="Constant">a</span><span class="Constant">b</span><span class="Constant">c</span><span class="Bracket">]</span></span></span><span class="Operator"><span class="Bracket">/</span></span>
+
+<span class="Comment"><span class="-spell"><span class="Comment"># this is a comment</span></span></span>
+<span class="Keyword">class</span> <span class="Constant"><span class="Type"><span class="Type">Person</span></span></span>
+  <span class="Identifier"><span class="Function"><span class="Builtin">attr_accessor</span></span></span> <span class="Special">:name</span>
+
+  <span class="Keyword">def</span> <span class="Identifier"><span class="Function">initialize</span></span><span class="Bracket">(</span><span class="Identifier"><span class="Parameter">name</span></span><span class="Operator">:</span><span class="Bracket">)</span>
+    <span class="Field">@name</span> <span class="Operator">=</span> <span class="Identifier">name</span>
+  <span class="Keyword"><span class="Keyword">end</span></span>
+
+  <span class="Keyword">def</span> <span class="Builtin">self</span><span class="Delimiter">.</span><span class="Identifier"><span class="Function">greet</span></span>
+    <span class="String">&quot;</span><span class="String">hallo</span><span class="String">&quot;</span>
+  <span class="Keyword">end</span>
+<span class="Keyword">end</span>
+
+<span class="Identifier">person1</span> <span class="Operator">=</span> <span class="Constant"><span class="Type"><span class="Type">Person</span></span></span><span class="Delimiter">.</span><span class="Identifier"><span class="Function">new</span></span><span class="Bracket">(</span><span class="Special">name</span><span class="Operator"><span class="Delimiter">:</span></span> <span class="String">&quot;</span><span class="String">Chris</span><span class="String">&quot;</span><span class="Bracket">)</span>
+<span class="Identifier"><span class="Function">puts</span></span> <span class="Constant"><span class="Type"><span class="Type">Person</span></span></span><span class="Delimiter">::</span><span class="Identifier"><span class="Function">greet</span></span><span class="Delimiter">,</span> <span class="String">&quot;</span><span class="String"> </span><span class="String">&quot;</span><span class="Delimiter">,</span> <span class="Identifier">person1</span><span class="Delimiter">.</span><span class="Identifier"><span class="Function">name</span></span><span class="Delimiter">,</span> <span class="String">&quot;</span><span class="Special">\n</span><span class="String">&quot;</span>
+<span class="Identifier"><span class="Function">puts</span></span> <span class="String">&quot;</span><span class="String">another </span><span class="Special">#{</span><span class="Constant"><span class="Type"><span class="Type">Person</span></span></span><span class="Delimiter">::</span><span class="Identifier"><span class="Function">greet</span></span><span class="Bracket"><span class="Special">}</span></span><span class="String"> </span><span class="Special">#{</span><span class="Identifier">person1</span><span class="Delimiter">.</span><span class="Identifier"><span class="Function">name</span></span><span class="Bracket"><span class="Special">}</span></span><span class="String">&quot;</span>
+
+</pre>
+</body>
+</html>
