@@ -1,11 +1,11 @@
 local M = {}
 
-function M.get()
+function M.get(colors)
 	---@type black-metal.Config
 	local Config = require("black-metal").options()
 	local Util = require("black-metal.util")
-	---@type black-metal.Theme
-	local c = require("black-metal.palette").get(Config.theme, Config.variant)
+	local c = colors
+
 	local hl = {}
 
 	hl.special = {

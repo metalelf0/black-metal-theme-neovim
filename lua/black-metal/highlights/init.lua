@@ -47,7 +47,7 @@ end
 function M.setup()
 	---@type black-metal.Config
 	local Config = require("black-metal").options()
-	---@type black-metal.Theme
+
 	local c = require("black-metal.palette").get(Config.theme, Config.variant)
 
 	local custom_colors = Config.colors
@@ -56,9 +56,9 @@ function M.setup()
 		c[label] = color
 	end
 
-	local COMMON = require("black-metal.highlights.common").get()
-	local SYNTAX = require("black-metal.highlights.syntax").get()
-	local PLUGIN = require("black-metal.highlights.plugin").get()
+	local COMMON = require("black-metal.highlights.common").get(c)
+	local SYNTAX = require("black-metal.highlights.syntax").get(c)
+	local PLUGIN = require("black-metal.highlights.plugin").get(c)
 
 	vim_highlights(COMMON)
 	for _, group in pairs(SYNTAX) do
