@@ -2,7 +2,7 @@ local Config = require("black-metal.config")
 local M = {
 	---@type black-metal.Config
 	__opts = {},
-	__setup_called = false,
+	-- __setup_called = false,
 }
 
 ---Returns a read-only copy of the config.
@@ -43,10 +43,10 @@ end
 ---Set the config options.
 ---@param opts black-metal.Config
 function M.setup(opts)
-	if M.__setup_called then
-		return
-	end
-
+	-- if M.__setup_called then
+	-- 	return
+	-- end
+	--
 	---@type black-metal.Config
 	M.__opts = vim.tbl_deep_extend("force", Config.default, opts or {})
 	M.__theme = M.__opts.theme
@@ -58,7 +58,7 @@ function M.setup(opts)
 			{ noremap = true, silent = true }
 		)
 	end
-	M.__setup_called = true
+	-- M.__setup_called = true
 end
 
 return M
