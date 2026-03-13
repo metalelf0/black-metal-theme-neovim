@@ -13,7 +13,7 @@ find_keyword  = { fg = "#5f8787", italic = true }
 find_position = { fg = "#5f8787", bg = "reset", italic = true }
 
 marker_copied   = { fg = "#DC2A22" }
-marker_cut      = { fg = "${error}" }
+marker_cut      = { fg = "#5f8787" }
 marker_selected = { fg = "#5f8787" }
 
 tab_active   = { fg = "#5f8787", bg = "#333333" }
@@ -42,7 +42,7 @@ separator_style = { fg = "#333333", bg = "#333333" }
 
 progress_label  = { fg = "#5f8787", bold = true }
 progress_normal = { fg = "#5f8787", bg = "#333333" }
-progress_error  = { fg = "#000000", bg = "${error}" }
+progress_error  = { fg = "#000000", bg = "#5f8787" }
 
 permissions_t = { fg = "#c1c1c1" }
 permissions_r = { fg = "#888888" }

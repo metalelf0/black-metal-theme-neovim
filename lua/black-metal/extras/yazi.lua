@@ -24,7 +24,7 @@ find_keyword  = { fg = "${alt}", italic = true }
 find_position = { fg = "${alt}", bg = "reset", italic = true }
 
 marker_copied   = { fg = "${string}" }
-marker_cut      = { fg = "${error}" }
+marker_cut      = { fg = "${red}" }
 marker_selected = { fg = "${alt}" }
 
 tab_active   = { fg = "${alt}", bg = "${visual}" }
@@ -53,7 +53,7 @@ separator_style = { fg = "${visual}", bg = "${visual}" }
 
 progress_label  = { fg = "${alt}", bold = true }
 progress_normal = { fg = "${alt}", bg = "${visual}" }
-progress_error  = { fg = "${bg}", bg = "${error}" }
+progress_error  = { fg = "${bg}", bg = "${red}" }
 
 permissions_t = { fg = "${fg}" }
 permissions_r = { fg = "${yellow}" }
