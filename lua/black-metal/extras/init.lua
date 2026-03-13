@@ -1,6 +1,6 @@
 local M = {}
 
----@alias Extra {ext:string, url:string, label:string}
+---@alias Extra {ext:nil|string, url:string, label:string}
 
 -- map of plugin name to plugin extension
 --- @type table<string, Extra>
@@ -11,7 +11,7 @@ M.extras = {
     fish_themes = {ext = "theme", url = "https://fishshell.com/docs/current/interactive.html#syntax-highlighting", label = "Fish Themes"},
     foot = {ext = "ini", url = "https://codeberg.org/dnkl/foot", label = "Foot"},
     fzf = { ext = "zsh", url = "https://github.com/junegunn/fzf", label = "Fzf"},
-    ghostty = {ext = "lua", url = "https://ghostty.org/", label = "Ghostty"},
+    ghostty = { url = "https://ghostty.org/", label = "Ghostty"},
     kitty = {ext = "conf", url = "https://sw.kovidgoyal.net/kitty/conf.html", label = "Kitty"},
     wezterm = {ext = "toml", url = "https://wezfurlong.org/wezterm/config/files.html", label = "WezTerm"},
     windows_terminal = {ext = "json", url = "https://aka.ms/terminal-documentation", label = "Windows Terminal"},
@@ -42,7 +42,10 @@ function M.setup()
 		for _, theme in pairs(themes) do
 			black_metal.load(theme)
 			local palette = require("black-metal.terminal").colors(true)
-			local fname = extra .. "/" .. theme .. "." .. info.ext
+			local fname = extra .. "/" .. theme
+			if info.ext then
+				fname = fname .. "." .. info.ext
+			end
 			local url = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/" .. fname
 			write(
 				template.generate(palette, {
