@@ -20,7 +20,7 @@ set -g number aaaaaa
 set -g operator 9b99a3 
 set -g property c1c1c1 
 set -g str f8f7f2 
-set -g type 79241f 
+set -g type fc302e 
 
 # Syntax Highlighting Colors
 set -g fish_color_normal c1c1c1
@@ -31,7 +31,7 @@ set -g fish_color_redirection aaaaaa
 set -g fish_color_end 9b99a3
 set -g fish_color_error 5f8787
 set -g fish_color_param c1c1c1
-set -g fish_color_valid_path 79241f
+set -g fish_color_valid_path fc302e
 set -g fish_color_option 5f8787
 set -g fish_color_comment 505050
 set -g fish_color_selection --background=000000
@@ -46,7 +46,7 @@ set -g fish_color_search_match --background=000000
 
 # Completion Pager Colors
 set -g fish_pager_color_progress 5f8787
-set -g fish_pager_color_prefix 79241f
+set -g fish_pager_color_prefix fc302e
 set -g fish_pager_color_completion c1c1c1
 set -g fish_pager_color_description 505050
 set -g fish_pager_color_selected_prefix 5f8787
