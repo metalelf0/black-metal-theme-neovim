@@ -24,24 +24,24 @@ selection-foreground = ${fg}
 cursor-color = ${fg}
 
 # normal
-palette = 0 =${black}
-palette = 1 =${red}
-palette = 2 =${green}
-palette = 3 =${yellow}
-palette = 4 =${blue}
-palette = 5 =${purple}
-palette = 6 =${cyan}
-palette = 7 =${fg}
+palette = 0=${black}
+palette = 1=${red}
+palette = 2=${green}
+palette = 3=${yellow}
+palette = 4=${blue}
+palette = 5=${purple}
+palette = 6=${cyan}
+palette = 7=${fg}
 
 # bright
-palette = 8 =${grey}
-palette = 9 =${red}
-palette = 10 =${green}
-palette = 11 =${yellow}
-palette = 12 =${blue}
-palette = 13 =${magenta}
-palette = 14 =${cyan}
-palette = 15 =${fg}
+palette = 8=${grey}
+palette = 9=${red}
+palette = 10=${green}
+palette = 11=${yellow}
+palette = 12=${blue}
+palette = 13=${magenta}
+palette = 14=${cyan}
+palette = 15=${fg}
 ]=],
 		colors
 	)
