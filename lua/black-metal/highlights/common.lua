@@ -17,6 +17,8 @@ function M.get(colors)
 		darkgutter = c.alt_bg
 	end
 
+	local cul = Util.blend(c.bg, 0.95, "#ffffff")
+
 	hl.ColorColumn = { bg = c.line }
 	hl.Conceal = { fg = c.func, bg = Config.transparent and "none" or c.bg }
 	hl.CurSearch = { fg = c.type, bg = c.visual }
@@ -26,7 +28,7 @@ function M.get(colors)
 	hl.lCursor = { fmt = "reverse" }
 	hl.CursorIM = { fmt = "reverse" }
 	hl.CursorColumn = { bg = c.line }
-	hl.CursorLine = { bg = c.line }
+	hl.CursorLine = { bg = cul }
 	hl.CursorLineNr = {
 		fg = c.fg,
 		bg = ((Config.cursorline_gutter and c.line or nil) or (Config.dark_gutter and darkgutter or "none")) or c.bg,
