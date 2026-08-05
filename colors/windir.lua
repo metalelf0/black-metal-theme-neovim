@@ -1,2 +1,2 @@
 require("black-metal").setup({})
-require("black-metal").load("windir")
+require("black-metal").load("windir", "dark")

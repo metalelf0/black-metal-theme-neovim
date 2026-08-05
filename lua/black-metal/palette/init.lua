@@ -64,7 +64,7 @@ end
 ---@param variant string
 M.get = function(theme, variant)
 	if variant == "light" then
-		return require("black-metal.palette.day").get()
+		return vim.deepcopy(require("black-metal.palette.light." .. theme))
 	else
 		return vim.deepcopy(M[theme])
 	end

@@ -18,6 +18,7 @@ function M.get(colors)
 	end
 
 	local cul = Util.blend(c.bg, 0.95, "#ffffff")
+	local shadow = Util.blend(c.string, 0.15, "#000000")
 
 	hl.ColorColumn = { bg = c.line }
 	hl.Conceal = { fg = c.func, bg = Config.transparent and "none" or c.bg }
@@ -97,12 +98,17 @@ function M.get(colors)
 	hl.Terminal = { fg = c.fg, bg = Config.transparent and "none" or c.bg }
 	hl.ToolbarButton = { fg = c.bg, bg = c.visual }
 	hl.ToolbarLine = { fg = c.fg }
-	hl.Visual = { fg = c.alt, bg = c.visual }
+	hl.Visual = { bg = c.visual }
 	hl.VisualNOS = { fg = "none", bg = c.comment, fmt = "underline" }
 	hl.WarningMsg = { fg = c.diag_yellow, fmt = "bold" }
 	hl.Whitespace = { fg = c.comment }
 	hl.WildMenu = { fg = c.diag_blue, bg = Util.blend(c.diag_blue, 0.1, c.bg) }
 	hl.WinSeparator = { fg = c.comment }
+	-- Markdown improvements
+	hl["@markup.link.label.markdown_inline"] = { bg = shadow, fg = c.string }
+	hl["@lsp.type.decorator.markdown"] = { bg = shadow, fg = c.string }
+	hl["@markup.raw"] = { bg = cul }
+	hl.RenderMarkdownCode = { bg = cul }
 	return hl
 end
 

@@ -1,2 +1,2 @@
 require("black-metal").setup({})
-require("black-metal").load("mayhem")
+require("black-metal").load("mayhem", "dark")

@@ -1,2 +1,2 @@
 require("black-metal").setup({ alt_bg = true })
-require("black-metal").load("darkthrone")
+require("black-metal").load("darkthrone", "dark")

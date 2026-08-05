@@ -1,2 +1,2 @@
 require("black-metal").setup({})
-require("black-metal").load("bathory")
+require("black-metal").load("bathory", "dark")

@@ -17,6 +17,7 @@ local M = {}
 ---@field term_colors? boolean If true, enables terminal colors
 ---@field toggle_variant_key? nil|string Keymap (normal mode) to toggle light/dark mode
 ---@field transparent? boolean If true, does not set background colors
+---@field trve? boolean If true (default), light variants are disabled -- there is no light in trve black metal
 ---@field variant? string light | dark
 M.default = {
     alt_bg = false,
@@ -30,6 +31,7 @@ M.default = {
     theme = "bathory",
     toggle_variant_key = nil,
     transparent = false,
+    trve = true,
     variant = "dark",
 
     code_style = {
