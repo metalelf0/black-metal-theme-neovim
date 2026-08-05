@@ -92,7 +92,8 @@ With lazy.nvim:
   priority = 1000,
   config = function()
     require("black-metal").setup({
-      -- optional configuration here
+      -- optional configuration here, e.g.:
+      trve = true, -- switch this to false if you want light variants
     })
     require("black-metal").load()
   end,
@@ -239,5 +240,4 @@ See `black-metal.palette` for color names.
 - I know Nile don't play black metal, but I don't want to name the repo 'Black Metal and Technical Death Metal' ;).
 - Darkthrone don't have an alternative variant. Bear with it. It's Transilvanian Hunger. Black and white, no need for any other color.
 - Bands and album choices have been made completely on personal taste. If your fave band is missing, just ask and I'll try adding it.
-
 
