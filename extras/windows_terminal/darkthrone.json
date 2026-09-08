@@ -19,7 +19,7 @@
     "name": "${_style_name}",
     "purple": "#999999",
     "red": "#5f8787",
-    "selectionBackground": "#333333",
+    "selectionBackground": "#222222",
     "white": "#c1c1c1",
     "yellow": "#888888"
 }
