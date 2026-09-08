@@ -42,7 +42,6 @@ function M.load(theme, variant)
 	end
 
 	-- there is no light in trve black metal
-	vim.print(vim.inspect(M.__opts.trve))
 	if M.__opts.trve and resolved == "light" then
 		vim.notify(
 			"black-metal: `trve` is true (default), so light variants are disabled -- there is no light in trve black metal. Set `trve = false` to use them.",
