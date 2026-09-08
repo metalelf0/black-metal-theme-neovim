@@ -18,7 +18,7 @@ function M.get(colors)
 	end
 
 	local cul = Util.blend(c.bg, 0.95, "#ffffff")
-	local shadow = Util.blend(c.string, 0.15, "#000000")
+	local shadow = Util.blend("#000000", 0.05, c.bg)
 
 	hl.ColorColumn = { bg = c.line }
 	hl.Conceal = { fg = c.func, bg = Config.transparent and "none" or c.bg }
