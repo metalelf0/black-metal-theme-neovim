@@ -1,0 +1,36 @@
+# name: GORGOROTH colors for Herdr
+# url: https://github.com/herd
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/herdr/gorgoroth.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+[theme]
+background = "#000000"
+foreground = "#c1c1c1"
+alternate_background = "#2a2325"
+alternate_foreground = "#5f8787"
+comment = "#505050"
+visual_selection = "#222222"
+line_highlight = "#000000"
+
+[colors]
+black = "#2a2325"
+grey = "#505050"
+red = "#5f8787"
+orange = "#aaaaaa"
+green = "#c1c1c1"
+yellow = "#888888"
+blue = "#aaaaaa"
+purple = "#999999"
+magenta = "#9b8d7f"
+cyan = "#ddeecc"
+white = "#c1c1c1"
+
+[palette]
+string = "#ddeecc"
+number = "#aaaaaa"
+keyword = "#999999"
+function = "#888888"
+type = "#9b8d7f"
+constant = "#aaaaaa"
+operator = "#9b99a3"
+property = "#c1c1c1"

@@ -1,0 +1,38 @@
+{
+  "name": "VENOM colors for Claude Code",
+  "url": "https://claude.ai/code",
+  "upstream": "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/claude_code/venom.json",
+  "author": "Andrea Schiavini (original code by Casey Miller)",
+  "theme": {
+    "background": "#000000",
+    "foreground": "#c1c1c1",
+    "alternateBackground": "#211816",
+    "alternateForeground": "#5f8787",
+    "comment": "#505050",
+    "visualSelection": "#222222",
+    "lineHighlight": "#000000"
+  },
+  "colors": {
+    "black": "#211816",
+    "grey": "#505050",
+    "red": "#5f8787",
+    "orange": "#aaaaaa",
+    "green": "#c1c1c1",
+    "yellow": "#888888",
+    "blue": "#aaaaaa",
+    "purple": "#999999",
+    "magenta": "#fc302e",
+    "cyan": "#f8f7f2",
+    "white": "#c1c1c1"
+  },
+  "palette": {
+    "string": "#f8f7f2",
+    "number": "#aaaaaa",
+    "keyword": "#999999",
+    "function": "#888888",
+    "type": "#fc302e",
+    "constant": "#aaaaaa",
+    "operator": "#9b99a3",
+    "property": "#c1c1c1"
+  }
+}

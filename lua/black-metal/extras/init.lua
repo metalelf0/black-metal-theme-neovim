@@ -16,6 +16,14 @@ M.extras = {
     wezterm = {ext = "toml", url = "https://wezfurlong.org/wezterm/config/files.html", label = "WezTerm"},
     windows_terminal = {ext = "json", url = "https://aka.ms/terminal-documentation", label = "Windows Terminal"},
     yazi = { ext = "toml", url = "https://github.com/sxyazi/yazi", label = "Yazi"},
+    bat = {ext = "tmTheme", url = "https://github.com/sharkdp/bat", label = "Bat"},
+    claude_code = {ext = "json", url = "https://claude.ai/code", label = "Claude Code"},
+    herdr = {ext = "toml", url = "https://github.com/herd", label = "Herdr"},
+    lazygit = {ext = "yml", url = "https://github.com/jesseduffield/lazygit", label = "Lazygit"},
+    opencode = {ext = "json", url = "https://opencode.ai", label = "Opencode"},
+    pi = {ext = "yaml", url = "https://github.com/pi", label = "Pi"},
+    starship = {ext = "toml", url = "https://starship.rs", label = "Starship"},
+    tmux = {ext = "conf", url = "https://github.com/tmux/tmux", label = "Tmux"},
 	-- stylua: ignore end
 }
 

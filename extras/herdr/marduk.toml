@@ -1,0 +1,36 @@
+# name: MARDUK colors for Herdr
+# url: https://github.com/herd
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/herdr/marduk.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+[theme]
+background = "#000000"
+foreground = "#c1c1c1"
+alternate_background = "#060b12"
+alternate_foreground = "#5f8787"
+comment = "#505050"
+visual_selection = "#222222"
+line_highlight = "#000000"
+
+[colors]
+black = "#060b12"
+grey = "#505050"
+red = "#5f8787"
+orange = "#aaaaaa"
+green = "#c1c1c1"
+yellow = "#888888"
+blue = "#aaaaaa"
+purple = "#999999"
+magenta = "#626b67"
+cyan = "#a5aaa7"
+white = "#c1c1c1"
+
+[palette]
+string = "#a5aaa7"
+number = "#aaaaaa"
+keyword = "#999999"
+function = "#888888"
+type = "#626b67"
+constant = "#aaaaaa"
+operator = "#9b99a3"
+property = "#c1c1c1"
