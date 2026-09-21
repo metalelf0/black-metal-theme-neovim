@@ -218,22 +218,22 @@ function M.get(colors)
 			fg = c.diag_blue,
 		},
 
-		DiagnosticUnderlineError = {
-			fmt = Config.diagnostics.undercurl and "undercurl" or "underline",
-			sp = c.diag_red,
-		},
-		DiagnosticUnderlineHint = {
-			fmt = Config.diagnostics.undercurl and "undercurl" or "underline",
-			sp = c.diag_blue,
-		},
-		DiagnosticUnderlineInfo = {
-			fmt = Config.diagnostics.undercurl and "undercurl" or "underline",
-			sp = c.diag_blue,
-		},
-		DiagnosticUnderlineWarn = {
-			fmt = Config.diagnostics.undercurl and "undercurl" or "underline",
-			sp = c.diag_yellow,
-		},
+        DiagnosticUnderlineError = {
+            fmt = Config.underline ~= false and (Config.diagnostics.undercurl and "undercurl" or (Config.diagnostics.underline and "underline" or "none")) or "none",
+            sp = c.diag_red,
+        },
+        DiagnosticUnderlineHint = {
+            fmt = Config.underline ~= false and (Config.diagnostics.undercurl and "undercurl" or (Config.diagnostics.underline and "underline" or "none")) or "none",
+            sp = c.diag_blue,
+        },
+        DiagnosticUnderlineInfo = {
+            fmt = Config.underline ~= false and (Config.diagnostics.undercurl and "undercurl" or (Config.diagnostics.underline and "underline" or "none")) or "none",
+            sp = c.diag_blue,
+        },
+        DiagnosticUnderlineWarn = {
+            fmt = Config.underline ~= false and (Config.diagnostics.undercurl and "undercurl" or (Config.diagnostics.underline and "underline" or "none")) or "none",
+            sp = c.diag_yellow,
+        },
 
 		LspReferenceText = { bg = c.visual },
 		LspReferenceWrite = { bg = c.visual },
