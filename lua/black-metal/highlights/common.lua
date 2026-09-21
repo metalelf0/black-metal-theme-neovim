@@ -49,7 +49,7 @@ function M.get(colors)
 	hl.Directory = { fg = c.func }
 	hl.ErrorMsg = { fg = c.diag_red, fmt = "bold" }
 	hl.EndOfBuffer = { fg = Config.show_eob and c.comment or c.bg }
-	hl.FloatBorder = { fg = c.comment, bg = Config.plain_float and "none" or c.bg }
+	hl.FloatBorder = { fg = c.comment, bg = (Config.transparent or Config.plain_float) and "none" or c.bg }
 	hl.FloatTitle = { fg = c.comment, bg = Config.plain_float and "none" or c.line }
 	hl.Folded = { fg = c.comment, bg = Config.transparent and "none" or c.line }
 	hl.FoldColumn = {
