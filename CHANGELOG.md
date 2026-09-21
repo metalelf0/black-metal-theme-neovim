@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## v2.1.0 - 2026-09-21
 
 - add configuration for disabling underline and undercurl styles
 - make FloatBorder transparent when transparent mode is enabled
