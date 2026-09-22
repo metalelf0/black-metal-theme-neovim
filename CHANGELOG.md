@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+- fix crash when underline styling is disabled
+
 ## v2.1.0 - 2026-09-21
 
 - add configuration for disabling underline and undercurl styles

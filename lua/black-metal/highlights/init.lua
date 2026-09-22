@@ -7,8 +7,11 @@ local M = {}
 ---@param config black-metal.Config
 ---@return string
 local function process_fmt(fmt, config)
-    if config.underline ~= false or fmt == nil or fmt == "none" then
-        return fmt or "none"
+    if type(fmt) ~= "string" then
+        return "none"
+    end
+    if config.underline ~= false or fmt == "none" then
+        return fmt
     end
     -- Remove underline and undercurl
     local parts = {}
