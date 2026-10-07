@@ -1,21 +1,21 @@
 ---@type black-metal.Theme
 --- light variant colors: shared base + accents derived from In the nightside eclipse, 1994
 local M = {
-	alt = "#3b5959",
-	alt_bg = "#dcd8ed",
-	bg = "#f2f0ec",
-	comment = "#6e685d",
-	constant = "#6d6d6d",
-	fg = "#242019",
-	func = "#696969",
-	keyword = "#6b6b6b",
-	line = "#f2f0ec",
-	number = "#6d6d6d",
-	operator = "#6c6a76",
-	property = "#242019",
-	string = "#6e5482", -- first accent
-	type = "#5746d8", -- second accent
-	visual = "#d6c9ad",
+	alt = "#595131",
+	alt_bg = "#cfc1e6",
+	bg = "#e9e2f3",
+	comment = "#584f69",
+	constant = "#613b7d",
+	fg = "#15101e",
+	func = "#3c3479",
+	keyword = "#5b327b",
+	line = "#e9e2f3",
+	number = "#3e3781",
+	operator = "#574c6c",
+	property = "#15101e",
+	string = "#5e486f", -- first accent
+	type = "#4431d4", -- second accent
+	visual = "#d0bee9",
 	diag_red = "#a13b3b",
 	diag_blue = "#3a6ea5",
 	diag_yellow = "#8a6d1f",

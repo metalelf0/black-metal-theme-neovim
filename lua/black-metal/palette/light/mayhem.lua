@@ -1,21 +1,21 @@
 ---@type black-metal.Theme
 --- light variant colors: shared base + accents derived from The dawn of the black hearts, 1995
 local M = {
-	alt = "#3b5959",
-	alt_bg = "#e1bbbb",
-	bg = "#f2f0ec",
-	comment = "#6e685d",
-	constant = "#6d6d6d",
-	fg = "#242019",
-	func = "#696969",
-	keyword = "#6b6b6b",
-	line = "#f2f0ec",
-	number = "#6d6d6d",
-	operator = "#6c6a76",
-	property = "#242019",
-	string = "#5e4c0d", -- first accent
-	type = "#664b00", -- second accent
-	visual = "#d6c9ad",
+	alt = "#324c5c",
+	alt_bg = "#e4afaf",
+	bg = "#f4edd2",
+	comment = "#524b3e",
+	constant = "#444c24",
+	fg = "#000000",
+	func = "#554925",
+	keyword = "#534822",
+	line = "#f4edd2",
+	number = "#683e2c",
+	operator = "#514939",
+	property = "#000000",
+	string = "#5a480c", -- first accent
+	type = "#5c4400", -- second accent
+	visual = "#f0e1a8",
 	diag_red = "#a13b3b",
 	diag_blue = "#3a6ea5",
 	diag_yellow = "#8a6d1f",

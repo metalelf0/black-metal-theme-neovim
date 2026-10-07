@@ -1,21 +1,21 @@
 ---@type black-metal.Theme
 --- light variant colors: shared base + accents derived from Twilight of the Idols - In Conspiracy with Satan, 2003
 local M = {
-	alt = "#3b5959",
-	alt_bg = "#d4cfd0",
-	bg = "#f2f0ec",
-	comment = "#6e685d",
-	constant = "#6d6d6d",
-	fg = "#242019",
-	func = "#696969",
-	keyword = "#6b6b6b",
-	line = "#f2f0ec",
-	number = "#6d6d6d",
-	operator = "#6c6a76",
-	property = "#242019",
-	string = "#3b6213", -- first accent
-	type = "#655443", -- second accent
-	visual = "#d6c9ad",
+	alt = "#315459",
+	alt_bg = "#cfbfc7",
+	bg = "#e6e0e2",
+	comment = "#604954",
+	constant = "#535127",
+	fg = "#11090d",
+	func = "#67492c",
+	keyword = "#3d5723",
+	line = "#e6e0e2",
+	number = "#4d4f22",
+	operator = "#634554",
+	property = "#11090d",
+	string = "#335511", -- first accent
+	type = "#5c4c3d", -- second accent
+	visual = "#d7c1c8",
 	diag_red = "#a13b3b",
 	diag_blue = "#3a6ea5",
 	diag_yellow = "#8a6d1f",

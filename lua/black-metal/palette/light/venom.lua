@@ -1,21 +1,21 @@
 ---@type black-metal.Theme
 --- light variant colors: shared base + accents derived from Welcome to hell, 1981
 local M = {
-	alt = "#3b5959",
-	alt_bg = "#e6dddb",
-	bg = "#f2f0ec",
-	comment = "#6e685d",
-	constant = "#6d6d6d",
-	fg = "#242019",
-	func = "#696969",
-	keyword = "#6b6b6b",
-	line = "#f2f0ec",
-	number = "#6d6d6d",
-	operator = "#6c6a76",
-	property = "#242019",
-	string = "#695f2b", -- first accent
-	type = "#c20200", -- second accent
-	visual = "#d6c9ad",
+	alt = "#325c4f",
+	alt_bg = "#ddcacc",
+	bg = "#f3f2f2",
+	comment = "#6c5151",
+	constant = "#6f5034",
+	fg = "#211212",
+	func = "#793534",
+	keyword = "#5e5526",
+	line = "#f3f2f2",
+	number = "#764b32",
+	operator = "#6f4e4e",
+	property = "#211212",
+	string = "#5e5527", -- first accent
+	type = "#ae0200", -- second accent
+	visual = "#e0d6d6",
 	diag_red = "#a13b3b",
 	diag_blue = "#3a6ea5",
 	diag_yellow = "#8a6d1f",

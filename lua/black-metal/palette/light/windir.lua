@@ -1,21 +1,21 @@
 ---@type black-metal.Theme
 --- light variant colors: shared base + accents derived from Arntor, 1999
 local M = {
-	alt = "#3b5959",
-	alt_bg = "#cee5bd",
-	bg = "#f2f0ec",
-	comment = "#6e685d",
-	constant = "#6d6d6d",
-	fg = "#242019",
-	func = "#696969",
-	keyword = "#6b6b6b",
-	line = "#f2f0ec",
-	number = "#6d6d6d",
-	operator = "#6c6a76",
-	property = "#242019",
-	string = "#626213", -- first accent
-	type = "#416095", -- second accent
-	visual = "#d6c9ad",
+	alt = "#634436",
+	alt_bg = "#bfdeb5",
+	bg = "#ddecd5",
+	comment = "#506049",
+	constant = "#423b7d",
+	fg = "#172112",
+	func = "#344d79",
+	keyword = "#5e5e26",
+	line = "#ddecd5",
+	number = "#735431",
+	operator = "#4d6043",
+	property = "#172112",
+	string = "#5e5e12", -- first accent
+	type = "#3e5b8e", -- second accent
+	visual = "#c3e3b0",
 	diag_red = "#a13b3b",
 	diag_blue = "#3a6ea5",
 	diag_yellow = "#8a6d1f",

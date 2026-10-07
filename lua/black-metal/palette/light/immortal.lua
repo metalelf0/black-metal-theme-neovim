@@ -1,21 +1,21 @@
 ---@type black-metal.Theme
 --- light variant colors: shared base + accents derived from At the heart of winter, 1999
 local M = {
-	alt = "#3b5959",
-	alt_bg = "#e4e1e7",
-	bg = "#f2f0ec",
-	comment = "#6e685d",
-	constant = "#6d6d6d",
-	fg = "#242019",
-	func = "#696969",
-	keyword = "#6b6b6b",
-	line = "#f2f0ec",
-	number = "#6d6d6d",
-	operator = "#6c6a76",
-	property = "#242019",
-	string = "#366696", -- first accent
-	type = "#4c6680", -- second accent
-	visual = "#d6c9ad",
+	alt = "#633d36",
+	alt_bg = "#c3d6df",
+	bg = "#e3eef2",
+	comment = "#4d5b66",
+	constant = "#3b3e7d",
+	fg = "#121b21",
+	func = "#345779",
+	keyword = "#32577b",
+	line = "#e3eef2",
+	number = "#2b6264",
+	operator = "#4a5c69",
+	property = "#121b21",
+	string = "#315c87", -- first accent
+	type = "#445c73", -- second accent
+	visual = "#c0dde7",
 	diag_red = "#a13b3b",
 	diag_blue = "#3a6ea5",
 	diag_yellow = "#8a6d1f",

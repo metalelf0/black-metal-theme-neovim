@@ -1,21 +1,21 @@
 ---@type black-metal.Theme
 --- light variant colors: shared base + accents derived from Filosofem, 1996
 local M = {
-	alt = "#3b5959",
-	alt_bg = "#ebd7c4",
-	bg = "#f2f0ec",
-	comment = "#6e685d",
-	constant = "#6d6d6d",
-	fg = "#242019",
-	func = "#696969",
-	keyword = "#6b6b6b",
-	line = "#f2f0ec",
-	number = "#6d6d6d",
-	operator = "#6c6a76",
-	property = "#242019",
+	alt = "#63365c",
+	alt_bg = "#e8d5ba",
+	bg = "#e1efe8",
+	comment = "#4b6357",
+	constant = "#306562",
+	fg = "#12211a",
+	func = "#2c6749",
+	keyword = "#476529",
+	line = "#e1efe8",
+	number = "#5b5d28",
+	operator = "#456354",
+	property = "#12211a",
 	string = "#3d6714", -- first accent
-	type = "#37674f", -- second accent
-	visual = "#d6c9ad",
+	type = "#35644c", -- second accent
+	visual = "#bfe3d1",
 	diag_red = "#a13b3b",
 	diag_blue = "#3a6ea5",
 	diag_yellow = "#8a6d1f",

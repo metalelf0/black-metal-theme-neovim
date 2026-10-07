@@ -1,21 +1,21 @@
 ---@type black-metal.Theme
 --- light variant colors: shared base + accents derived from Valdr Galga, 1999
 local M = {
-	alt = "#3b5959",
-	alt_bg = "#f6d6d2",
-	bg = "#f2f0ec",
-	comment = "#6e685d",
-	constant = "#6d6d6d",
-	fg = "#242019",
-	func = "#696969",
-	keyword = "#6b6b6b",
-	line = "#f2f0ec",
-	number = "#6d6d6d",
-	operator = "#6c6a76",
-	property = "#242019",
-	string = "#b12d0c", -- first accent
-	type = "#ab371c", -- second accent
-	visual = "#d6c9ad",
+	alt = "#2f5651",
+	alt_bg = "#eabbb8",
+	bg = "#f5dedb",
+	comment = "#634e4b",
+	constant = "#614f2e",
+	fg = "#170e0d",
+	func = "#794134",
+	keyword = "#7b4132",
+	line = "#f5dedb",
+	number = "#81374a",
+	operator = "#634945",
+	property = "#170e0d",
+	string = "#99270a", -- first accent
+	type = "#912f18", -- second accent
+	visual = "#efb9b3",
 	diag_red = "#a13b3b",
 	diag_blue = "#3a6ea5",
 	diag_yellow = "#8a6d1f",

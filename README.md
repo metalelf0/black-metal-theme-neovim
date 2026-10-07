@@ -102,7 +102,9 @@ With lazy.nvim:
 
 ## Configuration
 
-There are 16 themes included, each with a dark, alternative and light variant. Yes, I know, light variants aren't `TRVE`. There is no light in trve black metal, so light variants are disabled by default -- pass `{ trve = false }` to `setup(options)` if you insist on using them.
+There are 16 themes included, each with a dark, alternative and light variant. Light palettes are checked for distinctness and contrast with `nvim --headless --clean -u NONE -l scripts/check-light.lua`.
+
+Yes, I know, light variants aren't `TRVE`. There is no light in trve black metal, so light variants are disabled by default -- pass `{ trve = false }` to `setup(options)` if you insist on using them.
 The light theme is used when `{ variant = "light" }` is passed to `setup(options)` or when `vim.o.background = "light"` (and `trve = false`).
 
 If you are ok with the default config, just load themes with `:colorscheme <band_name>`, `:colorscheme <band_name>-alt`, `:colorscheme <band_name>-light` (light), or `:colorscheme <band_name>-light-alt` (light, alternative bg). If you need further customization, here you go: 

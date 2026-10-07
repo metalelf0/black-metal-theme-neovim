@@ -1,21 +1,21 @@
 ---@type black-metal.Theme
 --- light variant colors: shared base + accents derived from The secrets of the black arts, 1996
 local M = {
-	alt = "#3b5959",
-	alt_bg = "#e8ecfa",
-	bg = "#f2f0ec",
-	comment = "#6e685d",
-	constant = "#6d6d6d",
-	fg = "#242019",
-	func = "#696969",
-	keyword = "#6b6b6b",
-	line = "#f2f0ec",
-	number = "#6d6d6d",
-	operator = "#6c6a76",
-	property = "#242019",
-	string = "#a35500", -- first accent
-	type = "#276baf", -- second accent
-	visual = "#d6c9ad",
+	alt = "#633d36",
+	alt_bg = "#c0cbed",
+	bg = "#e3e9f7",
+	comment = "#4f5669",
+	constant = "#3b3d7d",
+	fg = "#121621",
+	func = "#345779",
+	keyword = "#6c4e2c",
+	line = "#e3e9f7",
+	number = "#813b37",
+	operator = "#4a5369",
+	property = "#121621",
+	string = "#7f4200", -- first accent
+	type = "#20578e", -- second accent
+	visual = "#bcccf1",
 	diag_red = "#a13b3b",
 	diag_blue = "#3a6ea5",
 	diag_yellow = "#8a6d1f",

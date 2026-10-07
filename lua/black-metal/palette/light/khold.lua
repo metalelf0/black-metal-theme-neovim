@@ -1,21 +1,21 @@
 ---@type black-metal.Theme
 --- light variant colors: shared base + accents derived from Phantom, 2002
 local M = {
-	alt = "#3b5959",
-	alt_bg = "#efd0d5",
-	bg = "#f2f0ec",
-	comment = "#6e685d",
-	constant = "#6d6d6d",
-	fg = "#242019",
-	func = "#696969",
-	keyword = "#6b6b6b",
-	line = "#f2f0ec",
-	number = "#6d6d6d",
-	operator = "#6c6a76",
-	property = "#242019",
-	string = "#58612e", -- first accent
-	type = "#9e3a33", -- second accent
-	visual = "#d6c9ad",
+	alt = "#31594e",
+	alt_bg = "#e9bec7",
+	bg = "#f5e0e5",
+	comment = "#664d52",
+	constant = "#684e31",
+	fg = "#1e1013",
+	func = "#793834",
+	keyword = "#4e5723",
+	line = "#f5e0e5",
+	number = "#615029",
+	operator = "#694a50",
+	property = "#1e1013",
+	string = "#4f5729", -- first accent
+	type = "#8f342e", -- second accent
+	visual = "#eebac6",
 	diag_red = "#a13b3b",
 	diag_blue = "#3a6ea5",
 	diag_yellow = "#8a6d1f",
