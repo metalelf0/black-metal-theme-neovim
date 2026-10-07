@@ -80,6 +80,10 @@ Here are the included themes. Each band has a default theme (on the left) and an
 
 Each theme palette is a slight variation of the base one. I picked two accent colors from an album cover for each band. I also included an alternative variant for each album with a not-black background. 
 
+### Light variants
+
+Every theme also has a hand-tuned light variant (`<band_name>-light`) and a light alternative (`<band_name>-light-alt`). Light palettes are not an inverted copy of the dark ones: each band gets its own tinted paper background, matching ink, comment and selection colors, and syntax colors derived from its two album accents. Inside each light variant, floats, pickers and the cursor line follow the theme background. Darkthrone stays monochrome. Light palettes are checked for distinctness and contrast with `scripts/check-light.lua`.
+
 ## Installation
 
 With lazy.nvim:
@@ -102,7 +106,7 @@ With lazy.nvim:
 
 ## Configuration
 
-There are 16 themes included, each with a dark, alternative and light variant. Light palettes are checked for distinctness and contrast with `nvim --headless --clean -u NONE -l scripts/check-light.lua`.
+There are 16 themes included, each with a dark, alternative, light and light alternative variant. Check light palettes for distinctness and contrast with `nvim --headless --clean -u NONE -l scripts/check-light.lua`.
 
 Yes, I know, light variants aren't `TRVE`. There is no light in trve black metal, so light variants are disabled by default -- pass `{ trve = false }` to `setup(options)` if you insist on using them.
 The light theme is used when `{ variant = "light" }` is passed to `setup(options)` or when `vim.o.background = "light"` (and `trve = false`).
