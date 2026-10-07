@@ -81,6 +81,11 @@ function M.setup()
 	local custom_colors = Config.colors
 
 	for label, color in pairs(custom_colors) do
+		if label ~= "dark" and label ~= "light" then
+			c[label] = color
+		end
+	end
+	for label, color in pairs(custom_colors[Config.variant] or {}) do
 		c[label] = color
 	end
 

@@ -2,7 +2,7 @@ local M = {}
 
 ---@class black-metal.Config
 ---@field alt_bg? boolean If true, uses a darker alternate bg color
----@field colors? table Has string fields to override default colors
+---@field colors? table Has string fields to override default colors. Use `colors.dark` / `colors.light` sub-tables to override only one variant
 ---@field colored_docstrings? boolean If true, highlights docstrings like strings instead like of comments
 ---@field code_style? table Has string values to determine code style. Field values can be the same as gui highlight values, e.g. 'bold', 'italic', 'none'
 ---@field cursorline_gutter? boolean If true, highlights {sign, fold}column the same as cursorline
