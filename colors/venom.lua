@@ -1,2 +1,2 @@
-require("black-metal").setup({})
+require("black-metal").setup_variant({ alt_bg = false })
 require("black-metal").load("venom", "dark")

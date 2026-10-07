@@ -2,6 +2,8 @@ local Config = require("black-metal.config")
 local M = {
 	---@type black-metal.Config
 	__opts = {},
+	---@type black-metal.Config
+	__user_opts = {},
 	-- __setup_called = false,
 }
 
@@ -85,6 +87,8 @@ function M.setup(opts)
 		trve = opts.trve
 	end
 
+	M.__user_opts = vim.deepcopy(opts)
+
 	---@type black-metal.Config
 	M.__opts = vim.tbl_deep_extend("force", Config.default, opts)
 	M.__opts.trve = trve
@@ -98,6 +102,17 @@ function M.setup(opts)
 		)
 	end
 	-- M.__setup_called = true
+end
+
+---Apply per-colorscheme overrides (e.g. `alt_bg`) on top of the options last
+---given to `setup()`, so switching with `:colorscheme` keeps user settings.
+---@param overrides black-metal.Config
+function M.setup_variant(overrides)
+	local trve = M.__opts.trve
+	---@type black-metal.Config
+	M.__opts = vim.tbl_deep_extend("force", Config.default, M.__user_opts, overrides or {})
+	M.__opts.trve = trve
+	M.__theme = M.__opts.theme
 end
 
 return M

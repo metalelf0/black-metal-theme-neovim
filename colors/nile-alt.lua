@@ -1,2 +1,2 @@
-require("black-metal").setup({ alt_bg = true })
+require("black-metal").setup_variant({ alt_bg = true })
 require("black-metal").load("nile", "dark")
