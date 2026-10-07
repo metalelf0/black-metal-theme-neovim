@@ -19,6 +19,7 @@ function M.get(colors)
 
 	local cul = Util.blend(c.bg, 0.95, "#ffffff")
 	local shadow = Util.blend("#000000", 0.05, c.bg)
+	local code_bg = Config.variant == "light" and Util.blend("#000000", 0.07, c.bg) or Util.blend("#ffffff", 0.04, c.bg)
 
 	hl.ColorColumn = { bg = c.line }
 	hl.Conceal = { fg = c.func, bg = Config.transparent and "none" or c.bg }
@@ -107,8 +108,9 @@ function M.get(colors)
 	-- Markdown improvements
 	hl["@markup.link.label.markdown_inline"] = { bg = shadow, fg = c.string }
 	hl["@lsp.type.decorator.markdown"] = { bg = shadow, fg = c.string }
-	hl["@markup.raw"] = { bg = cul }
-	hl.RenderMarkdownCode = { bg = cul }
+	hl.TouchupCodeBlock = { bg = code_bg }
+	hl.RenderMarkdownCode = { bg = code_bg }
+	hl.RenderMarkdownCodeInline = { bg = code_bg }
 	return hl
 end
 

@@ -5,6 +5,7 @@ function M.get(colors)
 	local Config = require("black-metal").options()
 	local Util = require("black-metal.util")
 	local c = colors
+	local code_bg = Config.variant == "light" and Util.blend("#000000", 0.07, c.bg) or Util.blend("#ffffff", 0.04, c.bg)
 	local hl = {}
 
 	local syntax = {
@@ -161,7 +162,7 @@ function M.get(colors)
 				["@markup.list"] = { fg = c.func },
 				["@markup.list.checked"] = { fg = c.func }, -- todo checked
 				["@markup.list.unchecked"] = { fg = c.func }, -- todo unchecked
-				["@markup.raw"] = { fg = c.func }, -- inline code in markdown
+				["@markup.raw"] = { fg = c.func, bg = code_bg }, -- inline code in markdown
 				["@markup.math"] = { fg = c.type }, -- math environments, like `$$` in latex
 
 				-- diff
