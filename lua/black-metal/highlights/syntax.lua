@@ -156,6 +156,15 @@ function M.get(colors)
 					fg = c.keyword,
 					fmt = Config.code_style.headings,
 				}, -- markdown titles
+				["@markup.heading.1"] = { fg = c.string, fmt = Config.code_style.headings },
+				["@markup.heading.2"] = { fg = c.type, fmt = Config.code_style.headings },
+				-- plugins such as touchup.nvim define these without a color, which blocks the fallback above
+				["@markup.heading.1.markdown"] = { fg = c.string, fmt = "bold,underline" },
+				["@markup.heading.2.markdown"] = { fg = c.type, fmt = "underline" },
+				["@markup.heading.3"] = { fg = c.alt, fmt = Config.code_style.headings },
+				["@markup.heading.4"] = { fg = c.constant, fmt = Config.code_style.headings },
+				["@markup.heading.5"] = { fg = c.keyword, fmt = Config.code_style.headings },
+				["@markup.heading.6"] = { fg = c.func, fmt = Config.code_style.headings },
 				["@markup.quote.markdown"] = { fg = c.comment }, -- quotes with >
 				["@markup.link.uri"] = { fg = c.alt, fmt = "underline" }, -- urls, links, emails
 				["@markup.link"] = { fg = c.type }, -- text references, footnotes, citations, etc
