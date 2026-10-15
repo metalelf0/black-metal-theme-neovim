@@ -7,33 +7,33 @@
 [colors.primary]
 background = '#000000'
 # alternate, darker background = '#31120a'
-foreground = '#c1c1c1'
+foreground = '#f1f1f1'
 
 #[colors.cursor]
-#cursor = '#c1c1c1'
+#cursor = '#f1f1f1'
 #text = '#000000'
 
 # Normal colors
 [colors.normal]
 black = '#31120a'
 red = '#5f8787'
-green = '#c1c1c1'
+green = '#f1f1f1'
 yellow = '#888888'
 blue = '#aaaaaa'
 magenta = '#999999'
 cyan = '#B04024'
-white = '#c1c1c1'
+white = '#f1f1f1'
 
 # Bright colors
 [colors.bright]
 black = '#505050'
 red = '#5f8787'
-green = '#c1c1c1'
+green = '#f1f1f1'
 yellow = '#888888'
 blue = '#aaaaaa'
 magenta = '#AF4C35'
 cyan = '#B04024'
-white = '#c1c1c1'
+white = '#f1f1f1'
 
 # Indexed Colors
 [[colors.indexed_colors]]

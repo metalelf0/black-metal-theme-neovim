@@ -21,17 +21,17 @@ gui:
     unstagedChangesColor:
       - "#5f8787"
     defaultFgColor:
-      - "#c1c1c1"
+      - "#f1f1f1"
     searchingActiveBorderColor:
       - "#aaaaaa"
   commitColors:
     "♥": "#5f8787"
     "↻": "#888888"
     "~": "#aaaaaa"
-    "→": "#c1c1c1"
+    "→": "#f1f1f1"
     "☀": "#aaaaaa"
     "✗": "#FFFFFF"
     "⚑": "#FFFFFF"
     "▼": "#999999"
-    "▲": "#c1c1c1"
+    "▲": "#f1f1f1"
     "M": "#aaaaaa"
