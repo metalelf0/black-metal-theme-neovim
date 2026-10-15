@@ -1,4 +1,4 @@
-# Black Metal Neovim
+<img width="3792" height="2236" alt="khold-full" src="https://github.com/user-attachments/assets/f137fd55-78b8-4e18-9632-91f19dd7e9cb" /># Black Metal Neovim
 
 ![logo](https://github.com/user-attachments/assets/ea628526-a058-4aeb-832f-c99d36d508a0)
 
@@ -14,67 +14,68 @@ Here are the included themes. Each band has a default theme (on the left) and an
 
 ### Bathory
 
-![bathory-full](https://github.com/user-attachments/assets/504edd20-df33-4399-bb4a-1b203b8d6a64)
+<img width="3792" height="2236" alt="bathory-full" src="https://github.com/user-attachments/assets/5fe6b215-bde7-40b4-84a4-aca3675ebe3e" />
+
 
 ### Burzum
 
-![burzum-full](https://github.com/user-attachments/assets/bfc67176-9c71-4ede-b99e-36048102140d)
+<img width="3792" height="2236" alt="burzum-full" src="https://github.com/user-attachments/assets/a2d3c794-1968-46d4-8154-e19fcac59bd1" />
 
 ### Dark Funeral
 
-![dark-funeral-full](https://github.com/user-attachments/assets/79850c1c-f5ea-4fac-b6d5-e11e0a1db808)
+<img width="3792" height="2236" alt="dark-funeral-full" src="https://github.com/user-attachments/assets/182a65e5-b68e-4a58-9cdd-97ecc84d29ad" />
 
 ### Darkthrone
 
-![darkthrone-full](https://github.com/user-attachments/assets/25baf96c-85e5-4f84-ac40-39278c71d3f0)
+<img width="3792" height="2236" alt="darkthrone-full" src="https://github.com/user-attachments/assets/d63515d2-ee49-4b45-b376-f91ab8b27298" />
 
 ### Emperor
 
-![emperor-full](https://github.com/user-attachments/assets/e12d7afa-06ca-4ccb-881f-3d1d433f7b47)
+<img width="3792" height="2236" alt="emperor-full" src="https://github.com/user-attachments/assets/4be8df8a-6c12-4747-9c43-807e592343c4" />
 
 ### Gorgoroth
 
-![gorgoroth-full](https://github.com/user-attachments/assets/4a0cc06f-8f3d-4414-a2e0-2ca1999e896d)
+<img width="3792" height="2236" alt="gorgoroth-full" src="https://github.com/user-attachments/assets/078166e7-3ac9-4bad-9d22-03860bf72ace" />
 
 ### Immortal
 
-![immortal-full](https://github.com/user-attachments/assets/720931e6-d8d4-479d-986a-088c0937fd7f)
+<img width="3792" height="2236" alt="immortal-full" src="https://github.com/user-attachments/assets/e863f591-9d8d-450d-8ff6-9daa7e3fa300" />
 
 ### Impaled Nazarene
 
-![impaled-nazarene-full](https://github.com/user-attachments/assets/bd818bea-1cf1-4ef9-9687-775c2f7440b0)
+<img width="3792" height="2236" alt="impaled-nazarene-full" src="https://github.com/user-attachments/assets/d4031f6e-57fe-485d-a70e-e792e325d2ca" />
 
 ### Khold
 
-![khold-full](https://github.com/user-attachments/assets/78d95824-0ad7-4cdc-98ea-0d29bf56f798)
+<img width="3792" height="2236" alt="khold-full" src="https://github.com/user-attachments/assets/3c865585-c01f-42f1-8ad9-697330603858" />
 
 ### Marduk
 
-![marduk-full](https://github.com/user-attachments/assets/9dca9fea-7a70-490c-b2de-798dcfa8d3f4)
+<img width="3792" height="2236" alt="marduk-full" src="https://github.com/user-attachments/assets/d47aa2e8-a5f7-4885-a40d-efeafc2a1850" />
 
 ### Mayhem
 
-![mayhem-full](https://github.com/user-attachments/assets/5ccc7621-97e3-4601-b5b8-c550b3dd7042)
+<img width="3792" height="2236" alt="mayhem-full" src="https://github.com/user-attachments/assets/77928f3f-28fe-42f7-b71c-0f8d02311d20" />
 
 ### Nile 
 
-![nile-full](https://github.com/user-attachments/assets/05b73f47-5bf5-479a-a940-3447fd9e1474)
+<img width="3792" height="2236" alt="nile-full" src="https://github.com/user-attachments/assets/05be0d13-d627-4ca4-8da4-5d216357e1c6" />
 
 ### Taake
 
-![taake-full](https://github.com/user-attachments/assets/96cfb452-e1ef-4fbb-8c2f-1bb8fc3177dc)
+<img width="3792" height="2236" alt="taake-full" src="https://github.com/user-attachments/assets/271a6405-797e-45b2-8d84-76e023b9afb3" />
 
 ### Thyrfing
 
-![thyrfing-full](https://github.com/user-attachments/assets/ab786221-3c18-48d1-9eff-b4412577ae7f)
+<img width="3792" height="2236" alt="thyrfing-full" src="https://github.com/user-attachments/assets/1892259b-2a4c-4f23-bdef-b5dd27d33cfd" />
 
 ### Venom
 
-![venom-full](https://github.com/user-attachments/assets/bacd0404-cf31-4872-ad64-25066bd27a72)
+<img width="3792" height="2236" alt="venom-full" src="https://github.com/user-attachments/assets/437f89e3-aaa5-4d30-a797-ada55ccd8c78" />
 
 ### Windir
 
-![windir-full](https://github.com/user-attachments/assets/7d584730-c8bb-42db-9f49-774a7db14aeb)
+<img width="3792" height="2236" alt="windir-full" src="https://github.com/user-attachments/assets/b8b7d58f-9023-43aa-a34a-a838fc7f679d" />
 
 ## Rationale
 
