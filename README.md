@@ -1,4 +1,4 @@
-<img width="3792" height="2236" alt="khold-full" src="https://github.com/user-attachments/assets/f137fd55-78b8-4e18-9632-91f19dd7e9cb" /># Black Metal Neovim
+# Black Metal Neovim
 
 ![logo](https://github.com/user-attachments/assets/ea628526-a058-4aeb-832f-c99d36d508a0)
 
