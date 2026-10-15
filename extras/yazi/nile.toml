@@ -6,8 +6,8 @@
 [manager]
 cwd = { fg = "#888888" }
 
-hovered         = { fg = "#f1f1f1", bg = "#000000" }
-preview_hovered = { fg = "#f1f1f1", bg = "#000000" }
+hovered         = { fg = "#c1c1c1", bg = "#000000" }
+preview_hovered = { fg = "#c1c1c1", bg = "#000000" }
 
 find_keyword  = { fg = "#5f8787", italic = true }
 find_position = { fg = "#5f8787", bg = "reset", italic = true }
@@ -68,7 +68,7 @@ hovered = { underline = true }
 
 [which]
 mask            = { bg = "#000000" }
-cand            = { fg = "#f1f1f1" }
+cand            = { fg = "#c1c1c1" }
 rest            = { fg = "#777755" }
 desc            = { fg = "#aa9988" }
 separator       = "  "
@@ -78,7 +78,7 @@ separator_style = { fg = "#9b99a3"}
 on      = { fg = "#777755" }
 run    = { fg = "#aa9988" }
 desc    = { fg = "#505050" }
-hovered = { fg = "#f1f1f1", bg = "#000000", bold = true }
+hovered = { fg = "#c1c1c1", bg = "#000000", bold = true }
 footer  = { fg = "#505050", bg = "#000000" }
 
 [filetype]

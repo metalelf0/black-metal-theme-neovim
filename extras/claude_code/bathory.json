@@ -17,7 +17,7 @@
     "grey": "#505050",
     "red": "#5f8787",
     "orange": "#aaaaaa",
-    "green": "#f1f1f1",
+    "green": "#c1c1c1",
     "yellow": "#888888",
     "blue": "#aaaaaa",
     "purple": "#999999",
@@ -33,6 +33,6 @@
     "type": "#e78a43",
     "constant": "#aaaaaa",
     "operator": "#9b99a3",
-    "property": "#f1f1f1"
+    "property": "#c1c1c1"
   }
 }

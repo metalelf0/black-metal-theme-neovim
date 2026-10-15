@@ -14,7 +14,13 @@ function M.generate(colors, info)
 # upstream: ${upstream}
 # author: Andrea Schiavini (original code by Casey Miller)
 
-[palette]
+palette = ${theme}
+
+[palettes.${theme}]
+bg = "${bg}"
+fg = "${fg}"
+alt = "${alt}"
+alt_bg = "${alt_bg}"
 black = "${black}"
 grey = "${grey}"
 red = "${red}"
@@ -26,12 +32,6 @@ purple = "${purple}"
 magenta = "${magenta}"
 cyan = "${cyan}"
 white = "${white}"
-
-[theme]
-bg = "${bg}"
-fg = "${fg}"
-alt_bg = "${alt_bg}"
-alt = "${alt}"
 comment = "${comment}"
 visual = "${visual}"
 line = "${line}"

@@ -18,7 +18,7 @@ set -g func 888888
 set -g keyword 999999 
 set -g number aaaaaa 
 set -g operator 9b99a3 
-set -g property f1f1f1 
+set -g property c1c1c1 
 set -g str ddeecc 
 set -g type 99bbaa 
 
