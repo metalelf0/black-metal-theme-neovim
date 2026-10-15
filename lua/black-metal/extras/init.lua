@@ -18,6 +18,7 @@ M.extras = {
     yazi = { ext = "toml", url = "https://github.com/sxyazi/yazi", label = "Yazi"},
     bat = {ext = "tmTheme", url = "https://github.com/sharkdp/bat", label = "Bat"},
     claude_code = {ext = "json", url = "https://claude.ai/code", label = "Claude Code"},
+    eza = {ext = "sh", url = "https://github.com/eza-community/eza", label = "Eza"},
     herdr = {ext = "toml", url = "https://github.com/herd", label = "Herdr"},
     lazygit = {ext = "yml", url = "https://github.com/jesseduffield/lazygit", label = "Lazygit"},
     opencode = {ext = "json", url = "https://opencode.ai", label = "Opencode"},

@@ -231,6 +231,7 @@ Theme files are generated for:
 - Alacritty
 - Bat
 - Claude Code
+- Eza
 - Fish
 - Foot
 - Fzf
