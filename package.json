@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "build-previews": "bash scripts/build-previews.sh"
+  },
+  "devDependencies": {
+    "playwright": "^1.55.0",
+    "sharp": "^0.34.3"
+  }
+}

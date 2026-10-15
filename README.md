@@ -254,6 +254,18 @@ Files are available under `extras/<tool>`. Regenerate them from Neovim with:
 :lua require("black-metal.extras").setup()
 ```
 
+## Theme previews
+
+Preview JPGs can be generated for every theme variant with Node.js, Playwright, and Sharp:
+
+```sh
+npm install
+npx playwright install chromium
+npm run build-previews
+```
+
+This creates `previews/<theme>.jpg`, `previews/<theme>-alt.jpg`, `previews/<theme>-light.jpg`, and `previews/<theme>-light-alt.jpg`, plus `previews/<theme>-full.jpg` collages. Each collage centers the band logo in a half-height full-width header. The cover is vertically centered beside the two preview rows; each preview has its theme name centered below it. Black spacing and outer padding separate the artwork. Downloaded artwork is cached in `previews/.artwork` and reused on later builds. The artwork fetch uses the ObsiMusic checkout at `../obsimusic` and its Ruby dependencies; set `OBSIMUSIC_ROOT` if it is elsewhere. Set `PLAYWRIGHT_CHROMIUM_EXECUTABLE` to use an existing Chromium installation instead of Playwright's downloaded browser.
+
 ## Cover references
 
 - Bathory: Hammerheart, 1990
