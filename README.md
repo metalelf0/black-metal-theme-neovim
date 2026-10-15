@@ -12,6 +12,8 @@ If you want to support the project, buy a T-shirt with the logo on [printify](ht
 
 Here are the included themes. Each band has a default theme (on the left) and an alternative variant (on the right).
 
+If you want a better view of the previews, look [in the wiki](https://github.com/metalelf0/black-metal-theme-neovim/wiki/Theme-previews).
+
 ### Bathory
 
 <img width="3792" height="2236" alt="bathory-full" src="https://github.com/user-attachments/assets/5fe6b215-bde7-40b4-84a4-aca3675ebe3e" />
