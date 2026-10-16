@@ -1,0 +1,74 @@
+# name: THYRFING LIGHT ALT colors for Starship
+# url: https://starship.rs
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/starship/thyrfing-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+palette = THYRFING LIGHT ALT
+
+[palettes.THYRFING LIGHT ALT]
+bg = "#eabbb8"
+fg = "#170e0d"
+alt = "#2f5651"
+alt_bg = "#eabbb8"
+black = "#eabbb8"
+grey = "#634e4b"
+red = "#a13b3b"
+orange = "#81374a"
+green = "#170e0d"
+yellow = "#794134"
+blue = "#614f2e"
+purple = "#7b4132"
+magenta = "#912f18"
+cyan = "#99270a"
+white = "#170e0d"
+comment = "#634e4b"
+visual = "#efb9b3"
+line = "#eabbb8"
+
+# Format for cmd_duration
+[cmd_duration]
+format = "[$duration]($style) "
+style = "bg:$visual fg:$fg"
+
+# Directory
+[directory]
+style = "fg:$alt"
+
+# Git branch
+[git_branch]
+symbol = "🌱 "
+style = "fg:$orange"
+
+# Git status
+[git_status]
+style = "fg:$green"
+
+# Hostname
+[hostname]
+ssh_symbol = "🔒 "
+style = "fg:$yellow"
+
+# Kubernetes
+[kubernetes]
+symbol = "☸️  "
+style = "fg:$blue"
+
+# Python
+[python]
+symbol = "🐍 "
+style = "fg:$green"
+
+# Rust
+[rust]
+symbol = "🦀 "
+style = "fg:$red"
+
+# Time
+[time]
+format = "[$time]($style) "
+style = "fg:$comment"
+
+# Username
+[username]
+style_root = "fg:$red"
+style_user = "fg:$cyan"

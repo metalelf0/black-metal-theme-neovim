@@ -1,0 +1,45 @@
+# name: BATHORY LIGHT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/bathory-light.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#f7e7de'
+# alternate, darker background = '#eac2b8'
+foreground = '#1e1510'
+
+#[colors.cursor]
+#cursor = '#1e1510'
+#text = '#f7e7de'
+
+# Normal colors
+[colors.normal]
+black = '#eac2b8'
+red = '#a13b3b'
+green = '#1e1510'
+yellow = '#6e4b2f'
+blue = '#5a552b'
+magenta = '#6c4e2c'
+cyan = '#7f4200'
+white = '#1e1510'
+
+# Bright colors
+[colors.bright]
+black = '#63524b'
+red = '#a13b3b'
+green = '#1e1510'
+yellow = '#6e4b2f'
+blue = '#5a552b'
+magenta = '#8a3c00'
+cyan = '#7f4200'
+white = '#1e1510'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#813b37'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#32595c'

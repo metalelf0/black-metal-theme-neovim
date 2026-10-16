@@ -1,0 +1,74 @@
+# name: IMMORTAL LIGHT colors for Starship
+# url: https://starship.rs
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/starship/immortal-light.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+palette = IMMORTAL LIGHT
+
+[palettes.IMMORTAL LIGHT]
+bg = "#e3eef2"
+fg = "#121b21"
+alt = "#633d36"
+alt_bg = "#c3d6df"
+black = "#c3d6df"
+grey = "#4d5b66"
+red = "#a13b3b"
+orange = "#2b6264"
+green = "#121b21"
+yellow = "#345779"
+blue = "#3b3e7d"
+purple = "#32577b"
+magenta = "#445c73"
+cyan = "#315c87"
+white = "#121b21"
+comment = "#4d5b66"
+visual = "#c0dde7"
+line = "#e3eef2"
+
+# Format for cmd_duration
+[cmd_duration]
+format = "[$duration]($style) "
+style = "bg:$visual fg:$fg"
+
+# Directory
+[directory]
+style = "fg:$alt"
+
+# Git branch
+[git_branch]
+symbol = "🌱 "
+style = "fg:$orange"
+
+# Git status
+[git_status]
+style = "fg:$green"
+
+# Hostname
+[hostname]
+ssh_symbol = "🔒 "
+style = "fg:$yellow"
+
+# Kubernetes
+[kubernetes]
+symbol = "☸️  "
+style = "fg:$blue"
+
+# Python
+[python]
+symbol = "🐍 "
+style = "fg:$green"
+
+# Rust
+[rust]
+symbol = "🦀 "
+style = "fg:$red"
+
+# Time
+[time]
+format = "[$time]($style) "
+style = "fg:$comment"
+
+# Username
+[username]
+style_root = "fg:$red"
+style_user = "fg:$cyan"

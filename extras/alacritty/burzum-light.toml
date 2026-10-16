@@ -1,0 +1,45 @@
+# name: BURZUM LIGHT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/burzum-light.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#e1efe8'
+# alternate, darker background = '#e8d5ba'
+foreground = '#12211a'
+
+#[colors.cursor]
+#cursor = '#12211a'
+#text = '#e1efe8'
+
+# Normal colors
+[colors.normal]
+black = '#e8d5ba'
+red = '#a13b3b'
+green = '#12211a'
+yellow = '#2c6749'
+blue = '#306562'
+magenta = '#476529'
+cyan = '#3d6714'
+white = '#12211a'
+
+# Bright colors
+[colors.bright]
+black = '#4b6357'
+red = '#a13b3b'
+green = '#12211a'
+yellow = '#2c6749'
+blue = '#306562'
+magenta = '#35644c'
+cyan = '#3d6714'
+white = '#12211a'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#5b5d28'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#63365c'

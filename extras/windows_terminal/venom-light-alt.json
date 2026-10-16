@@ -1,0 +1,25 @@
+# Add the following object to your Windows Terminal configuration
+# https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes#creating-your-own-color-scheme
+{
+    "background": "#ddcacc", // alternate, darker background=#ddcacc
+    "black": "#ddcacc",
+    "blue": "#6f5034",
+    "brightBlack": "#6c5151",
+    "brightBlue": "#6f5034",
+    "brightCyan": "#5e5527",
+    "brightGreen": "#211212",
+    "brightPurple": "#ae0200",
+    "brightRed": "#a13b3b",
+    "brightWhite": "#211212",
+    "brightYellow": "#793534",
+    "cursorColor": "#211212",
+    "cyan": "#5e5527",
+    "foreground": "#211212",
+    "green": "#211212",
+    "name": "VENOM LIGHT ALT",
+    "purple": "#5e5526",
+    "red": "#a13b3b",
+    "selectionBackground": "#e0d6d6",
+    "white": "#211212",
+    "yellow": "#793534"
+}

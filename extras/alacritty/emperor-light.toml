@@ -1,0 +1,45 @@
+# name: EMPEROR LIGHT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/emperor-light.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#e9e2f3'
+# alternate, darker background = '#cfc1e6'
+foreground = '#15101e'
+
+#[colors.cursor]
+#cursor = '#15101e'
+#text = '#e9e2f3'
+
+# Normal colors
+[colors.normal]
+black = '#cfc1e6'
+red = '#a13b3b'
+green = '#15101e'
+yellow = '#3c3479'
+blue = '#613b7d'
+magenta = '#5b327b'
+cyan = '#5e486f'
+white = '#15101e'
+
+# Bright colors
+[colors.bright]
+black = '#584f69'
+red = '#a13b3b'
+green = '#15101e'
+yellow = '#3c3479'
+blue = '#613b7d'
+magenta = '#4431d4'
+cyan = '#5e486f'
+white = '#15101e'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#3e3781'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#595131'

@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: IMPALED-NAZARENE LIGHT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/impaled-nazarene-light
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #edf1d5
+# alternate, darker background #dbe7ac
+foreground = #1f2112
+selection-background = #e2ebad
+selection-foreground = #1f2112
+cursor-color = #1f2112
+
+# normal
+palette = 0=#dbe7ac
+palette = 1=#a13b3b
+palette = 2=#1f2112
+palette = 3=#6e602f
+palette = 4=#5c6831
+palette = 5=#7b3632
+palette = 6=#c30c03
+palette = 7=#1f2112
+
+# bright
+palette = 8=#61664d
+palette = 9=#a13b3b
+palette = 10=#1f2112
+palette = 11=#6e602f
+palette = 12=#5c6831
+palette = 13=#755f1a
+palette = 14=#c30c03
+palette = 15=#1f2112

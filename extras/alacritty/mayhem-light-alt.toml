@@ -1,0 +1,45 @@
+# name: MAYHEM LIGHT ALT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/mayhem-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#e4afaf'
+# alternate, darker background = '#e4afaf'
+foreground = '#000000'
+
+#[colors.cursor]
+#cursor = '#000000'
+#text = '#e4afaf'
+
+# Normal colors
+[colors.normal]
+black = '#e4afaf'
+red = '#a13b3b'
+green = '#000000'
+yellow = '#554925'
+blue = '#444c24'
+magenta = '#534822'
+cyan = '#5a480c'
+white = '#000000'
+
+# Bright colors
+[colors.bright]
+black = '#524b3e'
+red = '#a13b3b'
+green = '#000000'
+yellow = '#554925'
+blue = '#444c24'
+magenta = '#5c4400'
+cyan = '#5a480c'
+white = '#000000'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#683e2c'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#324c5c'

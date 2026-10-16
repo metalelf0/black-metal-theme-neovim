@@ -1,0 +1,25 @@
+# Add the following object to your Windows Terminal configuration
+# https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes#creating-your-own-color-scheme
+{
+    "background": "#f5e0e5", // alternate, darker background=#e9bec7
+    "black": "#e9bec7",
+    "blue": "#684e31",
+    "brightBlack": "#664d52",
+    "brightBlue": "#684e31",
+    "brightCyan": "#4f5729",
+    "brightGreen": "#1e1013",
+    "brightPurple": "#8f342e",
+    "brightRed": "#a13b3b",
+    "brightWhite": "#1e1013",
+    "brightYellow": "#793834",
+    "cursorColor": "#1e1013",
+    "cyan": "#4f5729",
+    "foreground": "#1e1013",
+    "green": "#1e1013",
+    "name": "KHOLD LIGHT",
+    "purple": "#4e5723",
+    "red": "#a13b3b",
+    "selectionBackground": "#eebac6",
+    "white": "#1e1013",
+    "yellow": "#793834"
+}

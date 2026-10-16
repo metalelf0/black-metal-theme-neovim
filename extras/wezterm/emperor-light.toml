@@ -1,0 +1,48 @@
+[colors]
+foreground = "#15101e"
+background = "#e9e2f3"
+# background = "#cfc1e6" # alternate, darker bg
+cursor_bg = "#15101e"
+cursor_border = "#15101e"
+cursor_fg = "#e9e2f3"
+selection_bg = "#d0bee9"
+selection_fg = "#15101e"
+split = "#584f69"
+compose_cursor = "#3e3781"
+scrollbar_thumb = "#584f69"
+
+ansi = ["#cfc1e6", "#a13b3b", "#15101e", "#3c3479", "#613b7d", "#5b327b", "#5e486f", "#15101e"]
+brights = ["#584f69", "#a13b3b", "#15101e", "#3c3479", "#613b7d", "#4431d4", "#5e486f", "#15101e"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#584f69"
+background = "#e9e2f3"
+
+[colors.tab_bar.active_tab]
+fg_color = "#595131"
+bg_color = "#d0bee9"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#584f69"
+bg_color = "#e9e2f3"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#584f69"
+bg_color = "#e9e2f3"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#595131"
+bg_color = "#d0bee9"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#595131"
+bg_color = "#e9e2f3"
+
+[metadata]
+aliases = []
+name = "EMPEROR LIGHT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/emperor-light.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

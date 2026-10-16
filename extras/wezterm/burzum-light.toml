@@ -1,0 +1,48 @@
+[colors]
+foreground = "#12211a"
+background = "#e1efe8"
+# background = "#e8d5ba" # alternate, darker bg
+cursor_bg = "#12211a"
+cursor_border = "#12211a"
+cursor_fg = "#e1efe8"
+selection_bg = "#bfe3d1"
+selection_fg = "#12211a"
+split = "#4b6357"
+compose_cursor = "#5b5d28"
+scrollbar_thumb = "#4b6357"
+
+ansi = ["#e8d5ba", "#a13b3b", "#12211a", "#2c6749", "#306562", "#476529", "#3d6714", "#12211a"]
+brights = ["#4b6357", "#a13b3b", "#12211a", "#2c6749", "#306562", "#35644c", "#3d6714", "#12211a"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#4b6357"
+background = "#e1efe8"
+
+[colors.tab_bar.active_tab]
+fg_color = "#63365c"
+bg_color = "#bfe3d1"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#4b6357"
+bg_color = "#e1efe8"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#4b6357"
+bg_color = "#e1efe8"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#63365c"
+bg_color = "#bfe3d1"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#63365c"
+bg_color = "#e1efe8"
+
+[metadata]
+aliases = []
+name = "BURZUM LIGHT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/burzum-light.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

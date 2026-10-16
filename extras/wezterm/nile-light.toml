@@ -1,0 +1,48 @@
+[colors]
+foreground = "#17130d"
+background = "#ede0c9"
+# background = "#e5c4a4" # alternate, darker bg
+cursor_bg = "#17130d"
+cursor_border = "#17130d"
+cursor_fg = "#ede0c9"
+selection_bg = "#e8cea1"
+selection_fg = "#17130d"
+split = "#5d5346"
+compose_cursor = "#813a37"
+scrollbar_thumb = "#5d5346"
+
+ansi = ["#e5c4a4", "#a13b3b", "#17130d", "#555525", "#445a2b", "#6c4e2c", "#634f3a", "#17130d"]
+brights = ["#5d5346", "#a13b3b", "#17130d", "#555525", "#445a2b", "#565633", "#634f3a", "#17130d"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#5d5346"
+background = "#ede0c9"
+
+[colors.tab_bar.active_tab]
+fg_color = "#364563"
+bg_color = "#e8cea1"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#5d5346"
+bg_color = "#ede0c9"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#5d5346"
+bg_color = "#ede0c9"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#364563"
+bg_color = "#e8cea1"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#364563"
+bg_color = "#ede0c9"
+
+[metadata]
+aliases = []
+name = "NILE LIGHT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/nile-light.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

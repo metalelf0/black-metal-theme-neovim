@@ -1,0 +1,36 @@
+# name: IMPALED-NAZARENE LIGHT ALT colors for Pi
+# url: https://github.com/pi
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/pi/impaled-nazarene-light-alt.yaml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+theme:
+  background: "#dbe7ac"
+  foreground: "#1f2112"
+  alternate_background: "#dbe7ac"
+  alternate_foreground: "#365063"
+  comment: "#61664d"
+  visual_selection: "#e2ebad"
+  line_highlight: "#dbe7ac"
+
+colors:
+  black: "#dbe7ac"
+  grey: "#61664d"
+  red: "#a13b3b"
+  orange: "#813756"
+  green: "#1f2112"
+  yellow: "#6e602f"
+  blue: "#5c6831"
+  purple: "#7b3632"
+  magenta: "#755f1a"
+  cyan: "#c30c03"
+  white: "#1f2112"
+
+palette:
+  string: "#c30c03"
+  number: "#813756"
+  keyword: "#7b3632"
+  function: "#6e602f"
+  type: "#755f1a"
+  constant: "#5c6831"
+  operator: "#5e6345"
+  property: "#1f2112"

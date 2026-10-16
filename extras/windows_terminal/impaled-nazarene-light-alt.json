@@ -1,0 +1,25 @@
+# Add the following object to your Windows Terminal configuration
+# https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes#creating-your-own-color-scheme
+{
+    "background": "#dbe7ac", // alternate, darker background=#dbe7ac
+    "black": "#dbe7ac",
+    "blue": "#5c6831",
+    "brightBlack": "#61664d",
+    "brightBlue": "#5c6831",
+    "brightCyan": "#c30c03",
+    "brightGreen": "#1f2112",
+    "brightPurple": "#755f1a",
+    "brightRed": "#a13b3b",
+    "brightWhite": "#1f2112",
+    "brightYellow": "#6e602f",
+    "cursorColor": "#1f2112",
+    "cyan": "#c30c03",
+    "foreground": "#1f2112",
+    "green": "#1f2112",
+    "name": "IMPALED-NAZARENE LIGHT ALT",
+    "purple": "#7b3632",
+    "red": "#a13b3b",
+    "selectionBackground": "#e2ebad",
+    "white": "#1f2112",
+    "yellow": "#6e602f"
+}

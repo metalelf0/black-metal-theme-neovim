@@ -1,0 +1,37 @@
+# name: VENOM LIGHT ALT colors for Lazygit
+# url: https://github.com/jesseduffield/lazygit
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/lazygit/venom-light-alt.yml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#325c4f"
+      - bold
+    inactiveBorderColor:
+      - "#6c5151"
+    optionsTextColor:
+      - "#5e5527"
+    selectedLineBgColor:
+      - "#e0d6d6"
+    cherryPickedCommitBgColor:
+      - "#e0d6d6"
+    cherryPickedCommitFgColor:
+      - "#325c4f"
+    unstagedChangesColor:
+      - "#a13b3b"
+    defaultFgColor:
+      - "#211212"
+    searchingActiveBorderColor:
+      - "#764b32"
+  commitColors:
+    "♥": "#a13b3b"
+    "↻": "#793534"
+    "~": "#6f5034"
+    "→": "#211212"
+    "☀": "#764b32"
+    "✗": "#ae0200"
+    "⚑": "#5e5527"
+    "▼": "#5e5526"
+    "▲": "#211212"
+    "M": "#764b32"

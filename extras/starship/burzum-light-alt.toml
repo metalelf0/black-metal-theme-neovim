@@ -1,0 +1,74 @@
+# name: BURZUM LIGHT ALT colors for Starship
+# url: https://starship.rs
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/starship/burzum-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+palette = BURZUM LIGHT ALT
+
+[palettes.BURZUM LIGHT ALT]
+bg = "#e8d5ba"
+fg = "#12211a"
+alt = "#63365c"
+alt_bg = "#e8d5ba"
+black = "#e8d5ba"
+grey = "#4b6357"
+red = "#a13b3b"
+orange = "#5b5d28"
+green = "#12211a"
+yellow = "#2c6749"
+blue = "#306562"
+purple = "#476529"
+magenta = "#35644c"
+cyan = "#3d6714"
+white = "#12211a"
+comment = "#4b6357"
+visual = "#bfe3d1"
+line = "#e8d5ba"
+
+# Format for cmd_duration
+[cmd_duration]
+format = "[$duration]($style) "
+style = "bg:$visual fg:$fg"
+
+# Directory
+[directory]
+style = "fg:$alt"
+
+# Git branch
+[git_branch]
+symbol = "🌱 "
+style = "fg:$orange"
+
+# Git status
+[git_status]
+style = "fg:$green"
+
+# Hostname
+[hostname]
+ssh_symbol = "🔒 "
+style = "fg:$yellow"
+
+# Kubernetes
+[kubernetes]
+symbol = "☸️  "
+style = "fg:$blue"
+
+# Python
+[python]
+symbol = "🐍 "
+style = "fg:$green"
+
+# Rust
+[rust]
+symbol = "🦀 "
+style = "fg:$red"
+
+# Time
+[time]
+format = "[$time]($style) "
+style = "fg:$comment"
+
+# Username
+[username]
+style_root = "fg:$red"
+style_user = "fg:$cyan"

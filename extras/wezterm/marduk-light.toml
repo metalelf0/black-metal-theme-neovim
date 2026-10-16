@@ -1,0 +1,48 @@
+[colors]
+foreground = "#0e1a19"
+background = "#dbe1e0"
+# background = "#bbd3d1" # alternate, darker bg
+cursor_bg = "#0e1a19"
+cursor_border = "#0e1a19"
+cursor_fg = "#dbe1e0"
+selection_bg = "#bcd2ce"
+selection_fg = "#0e1a19"
+split = "#445a58"
+compose_cursor = "#2f6129"
+scrollbar_thumb = "#445a58"
+
+ansi = ["#bbd3d1", "#a13b3b", "#0e1a19", "#296047", "#2c5e5d", "#265e3c", "#4b5950", "#0e1a19"]
+brights = ["#445a58", "#a13b3b", "#0e1a19", "#296047", "#2c5e5d", "#495b52", "#4b5950", "#0e1a19"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#445a58"
+background = "#dbe1e0"
+
+[colors.tab_bar.active_tab]
+fg_color = "#63365b"
+bg_color = "#bcd2ce"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#445a58"
+bg_color = "#dbe1e0"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#445a58"
+bg_color = "#dbe1e0"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#63365b"
+bg_color = "#bcd2ce"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#63365b"
+bg_color = "#dbe1e0"
+
+[metadata]
+aliases = []
+name = "MARDUK LIGHT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/marduk-light.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

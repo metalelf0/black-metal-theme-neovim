@@ -1,0 +1,36 @@
+# name: IMMORTAL LIGHT colors for Herdr
+# url: https://github.com/herd
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/herdr/immortal-light.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+[theme]
+background = "#e3eef2"
+foreground = "#121b21"
+alternate_background = "#c3d6df"
+alternate_foreground = "#633d36"
+comment = "#4d5b66"
+visual_selection = "#c0dde7"
+line_highlight = "#e3eef2"
+
+[colors]
+black = "#c3d6df"
+grey = "#4d5b66"
+red = "#a13b3b"
+orange = "#2b6264"
+green = "#121b21"
+yellow = "#345779"
+blue = "#3b3e7d"
+purple = "#32577b"
+magenta = "#445c73"
+cyan = "#315c87"
+white = "#121b21"
+
+[palette]
+string = "#315c87"
+number = "#2b6264"
+keyword = "#32577b"
+function = "#345779"
+type = "#445c73"
+constant = "#3b3e7d"
+operator = "#4a5c69"
+property = "#121b21"

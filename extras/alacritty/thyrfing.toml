@@ -1,6 +1,6 @@
 # name: THYRFING colors for Alacritty
 # url: https://github.com/alacritty/alacritty
-# upstream: ${upstream}
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/thyrfing.toml
 # author: Andrea Schiavini (original code by Casey Miller)
 
 # Default colors

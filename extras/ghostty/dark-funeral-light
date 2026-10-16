@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: DARK-FUNERAL LIGHT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/dark-funeral-light
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #e3e9f7
+# alternate, darker background #c0cbed
+foreground = #121621
+selection-background = #bcccf1
+selection-foreground = #121621
+cursor-color = #121621
+
+# normal
+palette = 0=#c0cbed
+palette = 1=#a13b3b
+palette = 2=#121621
+palette = 3=#345779
+palette = 4=#3b3d7d
+palette = 5=#6c4e2c
+palette = 6=#7f4200
+palette = 7=#121621
+
+# bright
+palette = 8=#4f5669
+palette = 9=#a13b3b
+palette = 10=#121621
+palette = 11=#345779
+palette = 12=#3b3d7d
+palette = 13=#20578e
+palette = 14=#7f4200
+palette = 15=#121621

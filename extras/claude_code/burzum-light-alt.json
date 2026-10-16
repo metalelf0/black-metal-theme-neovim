@@ -1,0 +1,38 @@
+{
+  "name": "BURZUM LIGHT ALT colors for Claude Code",
+  "url": "https://claude.ai/code",
+  "upstream": "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/claude_code/burzum-light-alt.json",
+  "author": "Andrea Schiavini (original code by Casey Miller)",
+  "theme": {
+    "background": "#e8d5ba",
+    "foreground": "#12211a",
+    "alternateBackground": "#e8d5ba",
+    "alternateForeground": "#63365c",
+    "comment": "#4b6357",
+    "visualSelection": "#bfe3d1",
+    "lineHighlight": "#e8d5ba"
+  },
+  "colors": {
+    "black": "#e8d5ba",
+    "grey": "#4b6357",
+    "red": "#a13b3b",
+    "orange": "#5b5d28",
+    "green": "#12211a",
+    "yellow": "#2c6749",
+    "blue": "#306562",
+    "purple": "#476529",
+    "magenta": "#35644c",
+    "cyan": "#3d6714",
+    "white": "#12211a"
+  },
+  "palette": {
+    "string": "#3d6714",
+    "number": "#5b5d28",
+    "keyword": "#476529",
+    "function": "#2c6749",
+    "type": "#35644c",
+    "constant": "#306562",
+    "operator": "#456354",
+    "property": "#12211a"
+  }
+}

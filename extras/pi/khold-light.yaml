@@ -1,0 +1,36 @@
+# name: KHOLD LIGHT colors for Pi
+# url: https://github.com/pi
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/pi/khold-light.yaml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+theme:
+  background: "#f5e0e5"
+  foreground: "#1e1013"
+  alternate_background: "#e9bec7"
+  alternate_foreground: "#31594e"
+  comment: "#664d52"
+  visual_selection: "#eebac6"
+  line_highlight: "#f5e0e5"
+
+colors:
+  black: "#e9bec7"
+  grey: "#664d52"
+  red: "#a13b3b"
+  orange: "#615029"
+  green: "#1e1013"
+  yellow: "#793834"
+  blue: "#684e31"
+  purple: "#4e5723"
+  magenta: "#8f342e"
+  cyan: "#4f5729"
+  white: "#1e1013"
+
+palette:
+  string: "#4f5729"
+  number: "#615029"
+  keyword: "#4e5723"
+  function: "#793834"
+  type: "#8f342e"
+  constant: "#684e31"
+  operator: "#694a50"
+  property: "#1e1013"

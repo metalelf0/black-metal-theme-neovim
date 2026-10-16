@@ -1,0 +1,36 @@
+# name: THYRFING LIGHT ALT colors for Herdr
+# url: https://github.com/herd
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/herdr/thyrfing-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+[theme]
+background = "#eabbb8"
+foreground = "#170e0d"
+alternate_background = "#eabbb8"
+alternate_foreground = "#2f5651"
+comment = "#634e4b"
+visual_selection = "#efb9b3"
+line_highlight = "#eabbb8"
+
+[colors]
+black = "#eabbb8"
+grey = "#634e4b"
+red = "#a13b3b"
+orange = "#81374a"
+green = "#170e0d"
+yellow = "#794134"
+blue = "#614f2e"
+purple = "#7b4132"
+magenta = "#912f18"
+cyan = "#99270a"
+white = "#170e0d"
+
+[palette]
+string = "#99270a"
+number = "#81374a"
+keyword = "#7b4132"
+function = "#794134"
+type = "#912f18"
+constant = "#614f2e"
+operator = "#634945"
+property = "#170e0d"

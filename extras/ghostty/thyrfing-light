@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: THYRFING LIGHT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/thyrfing-light
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #f5dedb
+# alternate, darker background #eabbb8
+foreground = #170e0d
+selection-background = #efb9b3
+selection-foreground = #170e0d
+cursor-color = #170e0d
+
+# normal
+palette = 0=#eabbb8
+palette = 1=#a13b3b
+palette = 2=#170e0d
+palette = 3=#794134
+palette = 4=#614f2e
+palette = 5=#7b4132
+palette = 6=#99270a
+palette = 7=#170e0d
+
+# bright
+palette = 8=#634e4b
+palette = 9=#a13b3b
+palette = 10=#170e0d
+palette = 11=#794134
+palette = 12=#614f2e
+palette = 13=#912f18
+palette = 14=#99270a
+palette = 15=#170e0d

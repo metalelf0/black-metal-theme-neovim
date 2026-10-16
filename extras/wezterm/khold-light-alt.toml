@@ -1,0 +1,48 @@
+[colors]
+foreground = "#1e1013"
+background = "#e9bec7"
+# background = "#e9bec7" # alternate, darker bg
+cursor_bg = "#1e1013"
+cursor_border = "#1e1013"
+cursor_fg = "#e9bec7"
+selection_bg = "#eebac6"
+selection_fg = "#1e1013"
+split = "#664d52"
+compose_cursor = "#615029"
+scrollbar_thumb = "#664d52"
+
+ansi = ["#e9bec7", "#a13b3b", "#1e1013", "#793834", "#684e31", "#4e5723", "#4f5729", "#1e1013"]
+brights = ["#664d52", "#a13b3b", "#1e1013", "#793834", "#684e31", "#8f342e", "#4f5729", "#1e1013"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#664d52"
+background = "#e9bec7"
+
+[colors.tab_bar.active_tab]
+fg_color = "#31594e"
+bg_color = "#eebac6"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#664d52"
+bg_color = "#e9bec7"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#664d52"
+bg_color = "#e9bec7"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#31594e"
+bg_color = "#eebac6"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#31594e"
+bg_color = "#e9bec7"
+
+[metadata]
+aliases = []
+name = "KHOLD LIGHT ALT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/khold-light-alt.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

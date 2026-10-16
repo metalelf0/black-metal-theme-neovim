@@ -1,0 +1,37 @@
+# name: BURZUM LIGHT colors for Lazygit
+# url: https://github.com/jesseduffield/lazygit
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/lazygit/burzum-light.yml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#63365c"
+      - bold
+    inactiveBorderColor:
+      - "#4b6357"
+    optionsTextColor:
+      - "#3d6714"
+    selectedLineBgColor:
+      - "#bfe3d1"
+    cherryPickedCommitBgColor:
+      - "#bfe3d1"
+    cherryPickedCommitFgColor:
+      - "#63365c"
+    unstagedChangesColor:
+      - "#a13b3b"
+    defaultFgColor:
+      - "#12211a"
+    searchingActiveBorderColor:
+      - "#5b5d28"
+  commitColors:
+    "♥": "#a13b3b"
+    "↻": "#2c6749"
+    "~": "#306562"
+    "→": "#12211a"
+    "☀": "#5b5d28"
+    "✗": "#35644c"
+    "⚑": "#3d6714"
+    "▼": "#476529"
+    "▲": "#12211a"
+    "M": "#5b5d28"

@@ -1,0 +1,45 @@
+# name: EMPEROR ALT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/emperor-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#20173B'
+# alternate, darker background = '#20173B'
+foreground = '#f1f1f1'
+
+#[colors.cursor]
+#cursor = '#f1f1f1'
+#text = '#20173B'
+
+# Normal colors
+[colors.normal]
+black = '#20173B'
+red = '#5f8787'
+green = '#c1c1c1'
+yellow = '#888888'
+blue = '#aaaaaa'
+magenta = '#999999'
+cyan = '#756482'
+white = '#f1f1f1'
+
+# Bright colors
+[colors.bright]
+black = '#505050'
+red = '#5f8787'
+green = '#c1c1c1'
+yellow = '#888888'
+blue = '#aaaaaa'
+magenta = '#A8A1DE'
+cyan = '#756482'
+white = '#f1f1f1'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#aaaaaa'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#5f8787'

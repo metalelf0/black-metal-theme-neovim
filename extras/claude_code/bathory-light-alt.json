@@ -1,0 +1,38 @@
+{
+  "name": "BATHORY LIGHT ALT colors for Claude Code",
+  "url": "https://claude.ai/code",
+  "upstream": "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/claude_code/bathory-light-alt.json",
+  "author": "Andrea Schiavini (original code by Casey Miller)",
+  "theme": {
+    "background": "#eac2b8",
+    "foreground": "#1e1510",
+    "alternateBackground": "#eac2b8",
+    "alternateForeground": "#32595c",
+    "comment": "#63524b",
+    "visualSelection": "#f2ccb5",
+    "lineHighlight": "#eac2b8"
+  },
+  "colors": {
+    "black": "#eac2b8",
+    "grey": "#63524b",
+    "red": "#a13b3b",
+    "orange": "#813b37",
+    "green": "#1e1510",
+    "yellow": "#6e4b2f",
+    "blue": "#5a552b",
+    "purple": "#6c4e2c",
+    "magenta": "#8a3c00",
+    "cyan": "#7f4200",
+    "white": "#1e1510"
+  },
+  "palette": {
+    "string": "#7f4200",
+    "number": "#813b37",
+    "keyword": "#6c4e2c",
+    "function": "#6e4b2f",
+    "type": "#8a3c00",
+    "constant": "#5a552b",
+    "operator": "#634f45",
+    "property": "#1e1510"
+  }
+}

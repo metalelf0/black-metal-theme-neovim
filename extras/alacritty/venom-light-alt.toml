@@ -1,0 +1,45 @@
+# name: VENOM LIGHT ALT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/venom-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#ddcacc'
+# alternate, darker background = '#ddcacc'
+foreground = '#211212'
+
+#[colors.cursor]
+#cursor = '#211212'
+#text = '#ddcacc'
+
+# Normal colors
+[colors.normal]
+black = '#ddcacc'
+red = '#a13b3b'
+green = '#211212'
+yellow = '#793534'
+blue = '#6f5034'
+magenta = '#5e5526'
+cyan = '#5e5527'
+white = '#211212'
+
+# Bright colors
+[colors.bright]
+black = '#6c5151'
+red = '#a13b3b'
+green = '#211212'
+yellow = '#793534'
+blue = '#6f5034'
+magenta = '#ae0200'
+cyan = '#5e5527'
+white = '#211212'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#764b32'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#325c4f'

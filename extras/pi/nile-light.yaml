@@ -1,0 +1,36 @@
+# name: NILE LIGHT colors for Pi
+# url: https://github.com/pi
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/pi/nile-light.yaml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+theme:
+  background: "#ede0c9"
+  foreground: "#17130d"
+  alternate_background: "#e5c4a4"
+  alternate_foreground: "#364563"
+  comment: "#5d5346"
+  visual_selection: "#e8cea1"
+  line_highlight: "#ede0c9"
+
+colors:
+  black: "#e5c4a4"
+  grey: "#5d5346"
+  red: "#a13b3b"
+  orange: "#813a37"
+  green: "#17130d"
+  yellow: "#555525"
+  blue: "#445a2b"
+  purple: "#6c4e2c"
+  magenta: "#565633"
+  cyan: "#634f3a"
+  white: "#17130d"
+
+palette:
+  string: "#634f3a"
+  number: "#813a37"
+  keyword: "#6c4e2c"
+  function: "#555525"
+  type: "#565633"
+  constant: "#445a2b"
+  operator: "#5d5141"
+  property: "#17130d"

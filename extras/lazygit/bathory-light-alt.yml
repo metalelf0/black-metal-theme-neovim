@@ -1,0 +1,37 @@
+# name: BATHORY LIGHT ALT colors for Lazygit
+# url: https://github.com/jesseduffield/lazygit
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/lazygit/bathory-light-alt.yml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#32595c"
+      - bold
+    inactiveBorderColor:
+      - "#63524b"
+    optionsTextColor:
+      - "#7f4200"
+    selectedLineBgColor:
+      - "#f2ccb5"
+    cherryPickedCommitBgColor:
+      - "#f2ccb5"
+    cherryPickedCommitFgColor:
+      - "#32595c"
+    unstagedChangesColor:
+      - "#a13b3b"
+    defaultFgColor:
+      - "#1e1510"
+    searchingActiveBorderColor:
+      - "#813b37"
+  commitColors:
+    "♥": "#a13b3b"
+    "↻": "#6e4b2f"
+    "~": "#5a552b"
+    "→": "#1e1510"
+    "☀": "#813b37"
+    "✗": "#8a3c00"
+    "⚑": "#7f4200"
+    "▼": "#6c4e2c"
+    "▲": "#1e1510"
+    "M": "#813b37"

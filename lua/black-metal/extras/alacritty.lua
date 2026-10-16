@@ -4,7 +4,7 @@ local Util = require("black-metal.util")
 function M.generate(colors, info)
 	colors.extra = info.extra
 	colors.url = info.url
-	colors.upstream = info.upsteam
+	colors.upstream = info.upstream
 	colors.theme = info.theme
 	local alacritty = Util.template(
 		[=[

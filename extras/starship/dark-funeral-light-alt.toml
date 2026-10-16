@@ -1,0 +1,74 @@
+# name: DARK-FUNERAL LIGHT ALT colors for Starship
+# url: https://starship.rs
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/starship/dark-funeral-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+palette = DARK-FUNERAL LIGHT ALT
+
+[palettes.DARK-FUNERAL LIGHT ALT]
+bg = "#c0cbed"
+fg = "#121621"
+alt = "#633d36"
+alt_bg = "#c0cbed"
+black = "#c0cbed"
+grey = "#4f5669"
+red = "#a13b3b"
+orange = "#813b37"
+green = "#121621"
+yellow = "#345779"
+blue = "#3b3d7d"
+purple = "#6c4e2c"
+magenta = "#20578e"
+cyan = "#7f4200"
+white = "#121621"
+comment = "#4f5669"
+visual = "#bcccf1"
+line = "#c0cbed"
+
+# Format for cmd_duration
+[cmd_duration]
+format = "[$duration]($style) "
+style = "bg:$visual fg:$fg"
+
+# Directory
+[directory]
+style = "fg:$alt"
+
+# Git branch
+[git_branch]
+symbol = "🌱 "
+style = "fg:$orange"
+
+# Git status
+[git_status]
+style = "fg:$green"
+
+# Hostname
+[hostname]
+ssh_symbol = "🔒 "
+style = "fg:$yellow"
+
+# Kubernetes
+[kubernetes]
+symbol = "☸️  "
+style = "fg:$blue"
+
+# Python
+[python]
+symbol = "🐍 "
+style = "fg:$green"
+
+# Rust
+[rust]
+symbol = "🦀 "
+style = "fg:$red"
+
+# Time
+[time]
+format = "[$time]($style) "
+style = "fg:$comment"
+
+# Username
+[username]
+style_root = "fg:$red"
+style_user = "fg:$cyan"

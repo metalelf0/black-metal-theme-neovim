@@ -1,0 +1,37 @@
+# name: MAYHEM LIGHT ALT colors for Lazygit
+# url: https://github.com/jesseduffield/lazygit
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/lazygit/mayhem-light-alt.yml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#324c5c"
+      - bold
+    inactiveBorderColor:
+      - "#524b3e"
+    optionsTextColor:
+      - "#5a480c"
+    selectedLineBgColor:
+      - "#f0e1a8"
+    cherryPickedCommitBgColor:
+      - "#f0e1a8"
+    cherryPickedCommitFgColor:
+      - "#324c5c"
+    unstagedChangesColor:
+      - "#a13b3b"
+    defaultFgColor:
+      - "#000000"
+    searchingActiveBorderColor:
+      - "#683e2c"
+  commitColors:
+    "♥": "#a13b3b"
+    "↻": "#554925"
+    "~": "#444c24"
+    "→": "#000000"
+    "☀": "#683e2c"
+    "✗": "#5c4400"
+    "⚑": "#5a480c"
+    "▼": "#534822"
+    "▲": "#000000"
+    "M": "#683e2c"

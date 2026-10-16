@@ -1,0 +1,36 @@
+# name: DARK-FUNERAL LIGHT colors for Pi
+# url: https://github.com/pi
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/pi/dark-funeral-light.yaml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+theme:
+  background: "#e3e9f7"
+  foreground: "#121621"
+  alternate_background: "#c0cbed"
+  alternate_foreground: "#633d36"
+  comment: "#4f5669"
+  visual_selection: "#bcccf1"
+  line_highlight: "#e3e9f7"
+
+colors:
+  black: "#c0cbed"
+  grey: "#4f5669"
+  red: "#a13b3b"
+  orange: "#813b37"
+  green: "#121621"
+  yellow: "#345779"
+  blue: "#3b3d7d"
+  purple: "#6c4e2c"
+  magenta: "#20578e"
+  cyan: "#7f4200"
+  white: "#121621"
+
+palette:
+  string: "#7f4200"
+  number: "#813b37"
+  keyword: "#6c4e2c"
+  function: "#345779"
+  type: "#20578e"
+  constant: "#3b3d7d"
+  operator: "#4a5369"
+  property: "#121621"

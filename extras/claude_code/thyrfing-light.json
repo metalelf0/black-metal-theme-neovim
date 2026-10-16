@@ -1,0 +1,38 @@
+{
+  "name": "THYRFING LIGHT colors for Claude Code",
+  "url": "https://claude.ai/code",
+  "upstream": "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/claude_code/thyrfing-light.json",
+  "author": "Andrea Schiavini (original code by Casey Miller)",
+  "theme": {
+    "background": "#f5dedb",
+    "foreground": "#170e0d",
+    "alternateBackground": "#eabbb8",
+    "alternateForeground": "#2f5651",
+    "comment": "#634e4b",
+    "visualSelection": "#efb9b3",
+    "lineHighlight": "#f5dedb"
+  },
+  "colors": {
+    "black": "#eabbb8",
+    "grey": "#634e4b",
+    "red": "#a13b3b",
+    "orange": "#81374a",
+    "green": "#170e0d",
+    "yellow": "#794134",
+    "blue": "#614f2e",
+    "purple": "#7b4132",
+    "magenta": "#912f18",
+    "cyan": "#99270a",
+    "white": "#170e0d"
+  },
+  "palette": {
+    "string": "#99270a",
+    "number": "#81374a",
+    "keyword": "#7b4132",
+    "function": "#794134",
+    "type": "#912f18",
+    "constant": "#614f2e",
+    "operator": "#634945",
+    "property": "#170e0d"
+  }
+}

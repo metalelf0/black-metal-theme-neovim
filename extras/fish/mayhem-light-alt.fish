@@ -1,0 +1,54 @@
+# name: MAYHEM LIGHT ALT colors for Fish
+# url: https://fishshell.com/docs/current/index.html
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/fish/mayhem-light-alt.fish
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# use in ~/.config/fish/conf.d/
+
+# preferred bg: e4afaf
+# alt background: e4afaf
+
+### Full palette. 
+### Colors defined in neomdern/palette/MAYHEM LIGHT ALT.lua
+set -g alt 324c5c 
+set -g constant 444c24 
+set -g comment 524b3e 
+set -g fg 000000 
+set -g func 554925 
+set -g keyword 534822 
+set -g number 683e2c 
+set -g operator 514939 
+set -g property 000000 
+set -g str 5a480c 
+set -g type 5c4400 
+
+# Syntax Highlighting Colors
+set -g fish_color_normal 000000
+set -g fish_color_command 554925
+set -g fish_color_keyword 534822
+set -g fish_color_quote 5a480c
+set -g fish_color_redirection 444c24
+set -g fish_color_end 514939
+set -g fish_color_error a13b3b
+set -g fish_color_param 000000
+set -g fish_color_valid_path 5c4400
+set -g fish_color_option 324c5c
+set -g fish_color_comment 524b3e
+set -g fish_color_selection --background=e4afaf
+set -g fish_color_operator 514939
+set -g fish_color_escape 534822
+set -g fish_color_autosuggestion 524b3e
+set -g fish_color_cwd 5a480c
+set -g fish_color_hostname 683e2c
+set -g fish_color_status a13b3b
+set -g fish_color_cancel 683e2c
+set -g fish_color_search_match --background=e4afaf
+
+# Completion Pager Colors
+set -g fish_pager_color_progress 324c5c
+set -g fish_pager_color_prefix 5c4400
+set -g fish_pager_color_completion 000000
+set -g fish_pager_color_description 524b3e
+set -g fish_pager_color_selected_prefix 324c5c
+set -g fish_pager_color_selected_completion 324c5c
+set -g fish_pager_color_selected_background --background=e4afaf

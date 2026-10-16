@@ -1,0 +1,36 @@
+# name: TAAKE LIGHT colors for Herdr
+# url: https://github.com/herd
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/herdr/taake-light.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+[theme]
+background = "#e1d6df"
+foreground = "#030203"
+alternate_background = "#cdb7c6"
+alternate_foreground = "#2d4f52"
+comment = "#5d4658"
+visual_selection = "#d4b5cd"
+line_highlight = "#e1d6df"
+
+[colors]
+black = "#cdb7c6"
+grey = "#5d4658"
+red = "#a13b3b"
+orange = "#6f3c2f"
+green = "#030203"
+yellow = "#64432b"
+blue = "#504b26"
+purple = "#5a4925"
+magenta = "#57483d"
+cyan = "#514733"
+white = "#030203"
+
+[palette]
+string = "#514733"
+number = "#6f3c2f"
+keyword = "#5a4925"
+function = "#64432b"
+type = "#57483d"
+constant = "#504b26"
+operator = "#5d4156"
+property = "#030203"

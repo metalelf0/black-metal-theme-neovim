@@ -1,0 +1,48 @@
+[colors]
+foreground = "#121621"
+background = "#c0cbed"
+# background = "#c0cbed" # alternate, darker bg
+cursor_bg = "#121621"
+cursor_border = "#121621"
+cursor_fg = "#c0cbed"
+selection_bg = "#bcccf1"
+selection_fg = "#121621"
+split = "#4f5669"
+compose_cursor = "#813b37"
+scrollbar_thumb = "#4f5669"
+
+ansi = ["#c0cbed", "#a13b3b", "#121621", "#345779", "#3b3d7d", "#6c4e2c", "#7f4200", "#121621"]
+brights = ["#4f5669", "#a13b3b", "#121621", "#345779", "#3b3d7d", "#20578e", "#7f4200", "#121621"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#4f5669"
+background = "#c0cbed"
+
+[colors.tab_bar.active_tab]
+fg_color = "#633d36"
+bg_color = "#bcccf1"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#4f5669"
+bg_color = "#c0cbed"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#4f5669"
+bg_color = "#c0cbed"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#633d36"
+bg_color = "#bcccf1"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#633d36"
+bg_color = "#c0cbed"
+
+[metadata]
+aliases = []
+name = "DARK-FUNERAL LIGHT ALT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/dark-funeral-light-alt.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

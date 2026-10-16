@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: IMMORTAL LIGHT ALT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/immortal-light-alt
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #c3d6df
+# alternate, darker background #c3d6df
+foreground = #121b21
+selection-background = #c0dde7
+selection-foreground = #121b21
+cursor-color = #121b21
+
+# normal
+palette = 0=#c3d6df
+palette = 1=#a13b3b
+palette = 2=#121b21
+palette = 3=#345779
+palette = 4=#3b3e7d
+palette = 5=#32577b
+palette = 6=#315c87
+palette = 7=#121b21
+
+# bright
+palette = 8=#4d5b66
+palette = 9=#a13b3b
+palette = 10=#121b21
+palette = 11=#345779
+palette = 12=#3b3e7d
+palette = 13=#445c73
+palette = 14=#315c87
+palette = 15=#121b21

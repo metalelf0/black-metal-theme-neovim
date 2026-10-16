@@ -8,7 +8,21 @@ local Util = require("black-metal.util")
 function M.colors(with_palette)
     ---@type black-metal.Config
     local Config = require("black-metal").options()
-    local palette = require("black-metal.palette").get(Config.theme, Config.variant)
+    return M.colors_for(Config.theme, Config.variant, Config.alt_bg, with_palette)
+end
+
+---Returns terminal colors for an explicit theme variant without changing editor state.
+---@param theme string
+---@param variant string
+---@param alt_bg boolean?
+---@param with_palette boolean?
+---@return table
+function M.colors_for(theme, variant, alt_bg, with_palette)
+    local palette = require("black-metal.palette").get(theme, variant)
+    if alt_bg then
+        palette.bg = palette.alt_bg
+        palette.line = palette.alt_bg
+    end
     palette.dim = Util.blend(palette.bg, 0.9, "#000000")
     if with_palette then
         return vim.tbl_deep_extend("force", palette.colormap, palette)

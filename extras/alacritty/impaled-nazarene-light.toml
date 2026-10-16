@@ -1,0 +1,45 @@
+# name: IMPALED-NAZARENE LIGHT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/impaled-nazarene-light.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#edf1d5'
+# alternate, darker background = '#dbe7ac'
+foreground = '#1f2112'
+
+#[colors.cursor]
+#cursor = '#1f2112'
+#text = '#edf1d5'
+
+# Normal colors
+[colors.normal]
+black = '#dbe7ac'
+red = '#a13b3b'
+green = '#1f2112'
+yellow = '#6e602f'
+blue = '#5c6831'
+magenta = '#7b3632'
+cyan = '#c30c03'
+white = '#1f2112'
+
+# Bright colors
+[colors.bright]
+black = '#61664d'
+red = '#a13b3b'
+green = '#1f2112'
+yellow = '#6e602f'
+blue = '#5c6831'
+magenta = '#755f1a'
+cyan = '#c30c03'
+white = '#1f2112'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#813756'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#365063'

@@ -1,0 +1,48 @@
+[colors]
+foreground = "#1f2112"
+background = "#edf1d5"
+# background = "#dbe7ac" # alternate, darker bg
+cursor_bg = "#1f2112"
+cursor_border = "#1f2112"
+cursor_fg = "#edf1d5"
+selection_bg = "#e2ebad"
+selection_fg = "#1f2112"
+split = "#61664d"
+compose_cursor = "#813756"
+scrollbar_thumb = "#61664d"
+
+ansi = ["#dbe7ac", "#a13b3b", "#1f2112", "#6e602f", "#5c6831", "#7b3632", "#c30c03", "#1f2112"]
+brights = ["#61664d", "#a13b3b", "#1f2112", "#6e602f", "#5c6831", "#755f1a", "#c30c03", "#1f2112"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#61664d"
+background = "#edf1d5"
+
+[colors.tab_bar.active_tab]
+fg_color = "#365063"
+bg_color = "#e2ebad"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#61664d"
+bg_color = "#edf1d5"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#61664d"
+bg_color = "#edf1d5"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#365063"
+bg_color = "#e2ebad"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#365063"
+bg_color = "#edf1d5"
+
+[metadata]
+aliases = []
+name = "IMPALED-NAZARENE LIGHT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/impaled-nazarene-light.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

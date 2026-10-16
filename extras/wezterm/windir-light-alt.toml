@@ -1,0 +1,48 @@
+[colors]
+foreground = "#172112"
+background = "#bfdeb5"
+# background = "#bfdeb5" # alternate, darker bg
+cursor_bg = "#172112"
+cursor_border = "#172112"
+cursor_fg = "#bfdeb5"
+selection_bg = "#c3e3b0"
+selection_fg = "#172112"
+split = "#506049"
+compose_cursor = "#735431"
+scrollbar_thumb = "#506049"
+
+ansi = ["#bfdeb5", "#a13b3b", "#172112", "#344d79", "#423b7d", "#5e5e26", "#5e5e12", "#172112"]
+brights = ["#506049", "#a13b3b", "#172112", "#344d79", "#423b7d", "#3e5b8e", "#5e5e12", "#172112"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#506049"
+background = "#bfdeb5"
+
+[colors.tab_bar.active_tab]
+fg_color = "#634436"
+bg_color = "#c3e3b0"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#506049"
+bg_color = "#bfdeb5"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#506049"
+bg_color = "#bfdeb5"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#634436"
+bg_color = "#c3e3b0"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#634436"
+bg_color = "#bfdeb5"
+
+[metadata]
+aliases = []
+name = "WINDIR LIGHT ALT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/windir-light-alt.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

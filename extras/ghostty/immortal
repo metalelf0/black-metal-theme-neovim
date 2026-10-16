@@ -2,7 +2,7 @@
 
 # name: IMMORTAL colors for Ghostty
 # url: https://ghostty.org/
-# upstream: ${upstream}
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/immortal
 # author: Andrea Schiavini (original code by Casey Miller)
 
 background = #000000

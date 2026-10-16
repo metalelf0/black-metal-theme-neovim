@@ -1,0 +1,38 @@
+{
+  "name": "MARDUK LIGHT ALT colors for Claude Code",
+  "url": "https://claude.ai/code",
+  "upstream": "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/claude_code/marduk-light-alt.json",
+  "author": "Andrea Schiavini (original code by Casey Miller)",
+  "theme": {
+    "background": "#bbd3d1",
+    "foreground": "#0e1a19",
+    "alternateBackground": "#bbd3d1",
+    "alternateForeground": "#63365b",
+    "comment": "#445a58",
+    "visualSelection": "#bcd2ce",
+    "lineHighlight": "#bbd3d1"
+  },
+  "colors": {
+    "black": "#bbd3d1",
+    "grey": "#445a58",
+    "red": "#a13b3b",
+    "orange": "#2f6129",
+    "green": "#0e1a19",
+    "yellow": "#296047",
+    "blue": "#2c5e5d",
+    "purple": "#265e3c",
+    "magenta": "#495b52",
+    "cyan": "#4b5950",
+    "white": "#0e1a19"
+  },
+  "palette": {
+    "string": "#4b5950",
+    "number": "#2f6129",
+    "keyword": "#265e3c",
+    "function": "#296047",
+    "type": "#495b52",
+    "constant": "#2c5e5d",
+    "operator": "#3f5a56",
+    "property": "#0e1a19"
+  }
+}

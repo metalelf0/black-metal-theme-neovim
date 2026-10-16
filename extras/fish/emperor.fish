@@ -1,6 +1,6 @@
 # name: EMPEROR colors for Fish
 # url: https://fishshell.com/docs/current/index.html
-# upstream: ${upstream}
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/fish/emperor.fish
 # author: Andrea Schiavini (original code by Casey Miller)
 
 # use in ~/.config/fish/conf.d/

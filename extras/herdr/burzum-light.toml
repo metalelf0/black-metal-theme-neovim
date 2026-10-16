@@ -1,0 +1,36 @@
+# name: BURZUM LIGHT colors for Herdr
+# url: https://github.com/herd
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/herdr/burzum-light.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+[theme]
+background = "#e1efe8"
+foreground = "#12211a"
+alternate_background = "#e8d5ba"
+alternate_foreground = "#63365c"
+comment = "#4b6357"
+visual_selection = "#bfe3d1"
+line_highlight = "#e1efe8"
+
+[colors]
+black = "#e8d5ba"
+grey = "#4b6357"
+red = "#a13b3b"
+orange = "#5b5d28"
+green = "#12211a"
+yellow = "#2c6749"
+blue = "#306562"
+purple = "#476529"
+magenta = "#35644c"
+cyan = "#3d6714"
+white = "#12211a"
+
+[palette]
+string = "#3d6714"
+number = "#5b5d28"
+keyword = "#476529"
+function = "#2c6749"
+type = "#35644c"
+constant = "#306562"
+operator = "#456354"
+property = "#12211a"

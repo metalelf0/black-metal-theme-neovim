@@ -1,0 +1,45 @@
+# name: IMMORTAL ALT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/immortal-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#1b161f'
+# alternate, darker background = '#1b161f'
+foreground = '#f1f1f1'
+
+#[colors.cursor]
+#cursor = '#f1f1f1'
+#text = '#1b161f'
+
+# Normal colors
+[colors.normal]
+black = '#1b161f'
+red = '#5f8787'
+green = '#c1c1c1'
+yellow = '#888888'
+blue = '#aaaaaa'
+magenta = '#999999'
+cyan = '#7799bb'
+white = '#f1f1f1'
+
+# Bright colors
+[colors.bright]
+black = '#505050'
+red = '#5f8787'
+green = '#c1c1c1'
+yellow = '#888888'
+blue = '#aaaaaa'
+magenta = '#556677'
+cyan = '#7799bb'
+white = '#f1f1f1'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#aaaaaa'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#5f8787'

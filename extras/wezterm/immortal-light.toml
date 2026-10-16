@@ -1,0 +1,48 @@
+[colors]
+foreground = "#121b21"
+background = "#e3eef2"
+# background = "#c3d6df" # alternate, darker bg
+cursor_bg = "#121b21"
+cursor_border = "#121b21"
+cursor_fg = "#e3eef2"
+selection_bg = "#c0dde7"
+selection_fg = "#121b21"
+split = "#4d5b66"
+compose_cursor = "#2b6264"
+scrollbar_thumb = "#4d5b66"
+
+ansi = ["#c3d6df", "#a13b3b", "#121b21", "#345779", "#3b3e7d", "#32577b", "#315c87", "#121b21"]
+brights = ["#4d5b66", "#a13b3b", "#121b21", "#345779", "#3b3e7d", "#445c73", "#315c87", "#121b21"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#4d5b66"
+background = "#e3eef2"
+
+[colors.tab_bar.active_tab]
+fg_color = "#633d36"
+bg_color = "#c0dde7"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#4d5b66"
+bg_color = "#e3eef2"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#4d5b66"
+bg_color = "#e3eef2"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#633d36"
+bg_color = "#c0dde7"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#633d36"
+bg_color = "#e3eef2"
+
+[metadata]
+aliases = []
+name = "IMMORTAL LIGHT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/immortal-light.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

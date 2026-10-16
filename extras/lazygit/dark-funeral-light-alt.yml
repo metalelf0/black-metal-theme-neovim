@@ -1,0 +1,37 @@
+# name: DARK-FUNERAL LIGHT ALT colors for Lazygit
+# url: https://github.com/jesseduffield/lazygit
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/lazygit/dark-funeral-light-alt.yml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#633d36"
+      - bold
+    inactiveBorderColor:
+      - "#4f5669"
+    optionsTextColor:
+      - "#7f4200"
+    selectedLineBgColor:
+      - "#bcccf1"
+    cherryPickedCommitBgColor:
+      - "#bcccf1"
+    cherryPickedCommitFgColor:
+      - "#633d36"
+    unstagedChangesColor:
+      - "#a13b3b"
+    defaultFgColor:
+      - "#121621"
+    searchingActiveBorderColor:
+      - "#813b37"
+  commitColors:
+    "♥": "#a13b3b"
+    "↻": "#345779"
+    "~": "#3b3d7d"
+    "→": "#121621"
+    "☀": "#813b37"
+    "✗": "#20578e"
+    "⚑": "#7f4200"
+    "▼": "#6c4e2c"
+    "▲": "#121621"
+    "M": "#813b37"

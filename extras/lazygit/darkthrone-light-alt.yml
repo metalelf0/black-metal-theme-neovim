@@ -1,0 +1,37 @@
+# name: DARKTHRONE LIGHT ALT colors for Lazygit
+# url: https://github.com/jesseduffield/lazygit
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/lazygit/darkthrone-light-alt.yml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#444444"
+      - bold
+    inactiveBorderColor:
+      - "#6a6a6a"
+    optionsTextColor:
+      - "#000000"
+    selectedLineBgColor:
+      - "#d9d9d6"
+    cherryPickedCommitBgColor:
+      - "#d9d9d6"
+    cherryPickedCommitFgColor:
+      - "#444444"
+    unstagedChangesColor:
+      - "#a13b3b"
+    defaultFgColor:
+      - "#1a1a1a"
+    searchingActiveBorderColor:
+      - "#5e5e5e"
+  commitColors:
+    "♥": "#a13b3b"
+    "↻": "#555555"
+    "~": "#5e5e5e"
+    "→": "#1a1a1a"
+    "☀": "#5e5e5e"
+    "✗": "#000000"
+    "⚑": "#000000"
+    "▼": "#4a4a4a"
+    "▲": "#1a1a1a"
+    "M": "#5e5e5e"

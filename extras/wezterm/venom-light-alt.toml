@@ -1,0 +1,48 @@
+[colors]
+foreground = "#211212"
+background = "#ddcacc"
+# background = "#ddcacc" # alternate, darker bg
+cursor_bg = "#211212"
+cursor_border = "#211212"
+cursor_fg = "#ddcacc"
+selection_bg = "#e0d6d6"
+selection_fg = "#211212"
+split = "#6c5151"
+compose_cursor = "#764b32"
+scrollbar_thumb = "#6c5151"
+
+ansi = ["#ddcacc", "#a13b3b", "#211212", "#793534", "#6f5034", "#5e5526", "#5e5527", "#211212"]
+brights = ["#6c5151", "#a13b3b", "#211212", "#793534", "#6f5034", "#ae0200", "#5e5527", "#211212"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#6c5151"
+background = "#ddcacc"
+
+[colors.tab_bar.active_tab]
+fg_color = "#325c4f"
+bg_color = "#e0d6d6"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#6c5151"
+bg_color = "#ddcacc"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#6c5151"
+bg_color = "#ddcacc"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#325c4f"
+bg_color = "#e0d6d6"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#325c4f"
+bg_color = "#ddcacc"
+
+[metadata]
+aliases = []
+name = "VENOM LIGHT ALT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/venom-light-alt.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

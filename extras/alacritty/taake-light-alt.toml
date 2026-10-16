@@ -1,0 +1,45 @@
+# name: TAAKE LIGHT ALT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/taake-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#cdb7c6'
+# alternate, darker background = '#cdb7c6'
+foreground = '#030203'
+
+#[colors.cursor]
+#cursor = '#030203'
+#text = '#cdb7c6'
+
+# Normal colors
+[colors.normal]
+black = '#cdb7c6'
+red = '#a13b3b'
+green = '#030203'
+yellow = '#64432b'
+blue = '#504b26'
+magenta = '#5a4925'
+cyan = '#514733'
+white = '#030203'
+
+# Bright colors
+[colors.bright]
+black = '#5d4658'
+red = '#a13b3b'
+green = '#030203'
+yellow = '#64432b'
+blue = '#504b26'
+magenta = '#57483d'
+cyan = '#514733'
+white = '#030203'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#6f3c2f'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#2d4f52'

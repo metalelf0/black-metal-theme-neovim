@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: KHOLD ALT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/khold-alt
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #39121b
+# alternate, darker background #39121b
+foreground = #f1f1f1
+selection-background = #222222
+selection-foreground = #f1f1f1
+cursor-color = #f1f1f1
+
+# normal
+palette = 0=#39121b
+palette = 1=#5f8787
+palette = 2=#c1c1c1
+palette = 3=#888888
+palette = 4=#aaaaaa
+palette = 5=#999999
+palette = 6=#eceee3
+palette = 7=#f1f1f1
+
+# bright
+palette = 8=#505050
+palette = 9=#5f8787
+palette = 10=#c1c1c1
+palette = 11=#888888
+palette = 12=#aaaaaa
+palette = 13=#974b46
+palette = 14=#eceee3
+palette = 15=#f1f1f1

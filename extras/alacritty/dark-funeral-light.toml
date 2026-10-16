@@ -1,0 +1,45 @@
+# name: DARK-FUNERAL LIGHT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/dark-funeral-light.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#e3e9f7'
+# alternate, darker background = '#c0cbed'
+foreground = '#121621'
+
+#[colors.cursor]
+#cursor = '#121621'
+#text = '#e3e9f7'
+
+# Normal colors
+[colors.normal]
+black = '#c0cbed'
+red = '#a13b3b'
+green = '#121621'
+yellow = '#345779'
+blue = '#3b3d7d'
+magenta = '#6c4e2c'
+cyan = '#7f4200'
+white = '#121621'
+
+# Bright colors
+[colors.bright]
+black = '#4f5669'
+red = '#a13b3b'
+green = '#121621'
+yellow = '#345779'
+blue = '#3b3d7d'
+magenta = '#20578e'
+cyan = '#7f4200'
+white = '#121621'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#813b37'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#633d36'

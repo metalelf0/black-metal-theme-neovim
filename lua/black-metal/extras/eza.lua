@@ -15,7 +15,7 @@ function M.generate(colors, info)
 
 	local eza_colors = {
 		theme = info.theme,
-		theme_slug = info.theme:lower(),
+		theme_slug = info.theme_slug or info.theme:lower(),
 		extra = info.extra,
 		url = info.url,
 		upstream = info.upstream,

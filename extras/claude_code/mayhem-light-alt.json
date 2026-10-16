@@ -1,0 +1,38 @@
+{
+  "name": "MAYHEM LIGHT ALT colors for Claude Code",
+  "url": "https://claude.ai/code",
+  "upstream": "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/claude_code/mayhem-light-alt.json",
+  "author": "Andrea Schiavini (original code by Casey Miller)",
+  "theme": {
+    "background": "#e4afaf",
+    "foreground": "#000000",
+    "alternateBackground": "#e4afaf",
+    "alternateForeground": "#324c5c",
+    "comment": "#524b3e",
+    "visualSelection": "#f0e1a8",
+    "lineHighlight": "#e4afaf"
+  },
+  "colors": {
+    "black": "#e4afaf",
+    "grey": "#524b3e",
+    "red": "#a13b3b",
+    "orange": "#683e2c",
+    "green": "#000000",
+    "yellow": "#554925",
+    "blue": "#444c24",
+    "purple": "#534822",
+    "magenta": "#5c4400",
+    "cyan": "#5a480c",
+    "white": "#000000"
+  },
+  "palette": {
+    "string": "#5a480c",
+    "number": "#683e2c",
+    "keyword": "#534822",
+    "function": "#554925",
+    "type": "#5c4400",
+    "constant": "#444c24",
+    "operator": "#514939",
+    "property": "#000000"
+  }
+}

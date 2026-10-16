@@ -1,0 +1,48 @@
+[colors]
+foreground = "#170e0d"
+background = "#eabbb8"
+# background = "#eabbb8" # alternate, darker bg
+cursor_bg = "#170e0d"
+cursor_border = "#170e0d"
+cursor_fg = "#eabbb8"
+selection_bg = "#efb9b3"
+selection_fg = "#170e0d"
+split = "#634e4b"
+compose_cursor = "#81374a"
+scrollbar_thumb = "#634e4b"
+
+ansi = ["#eabbb8", "#a13b3b", "#170e0d", "#794134", "#614f2e", "#7b4132", "#99270a", "#170e0d"]
+brights = ["#634e4b", "#a13b3b", "#170e0d", "#794134", "#614f2e", "#912f18", "#99270a", "#170e0d"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#634e4b"
+background = "#eabbb8"
+
+[colors.tab_bar.active_tab]
+fg_color = "#2f5651"
+bg_color = "#efb9b3"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#634e4b"
+bg_color = "#eabbb8"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#634e4b"
+bg_color = "#eabbb8"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#2f5651"
+bg_color = "#efb9b3"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#2f5651"
+bg_color = "#eabbb8"
+
+[metadata]
+aliases = []
+name = "THYRFING LIGHT ALT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/thyrfing-light-alt.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

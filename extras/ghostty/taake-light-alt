@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: TAAKE LIGHT ALT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/taake-light-alt
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #cdb7c6
+# alternate, darker background #cdb7c6
+foreground = #030203
+selection-background = #d4b5cd
+selection-foreground = #030203
+cursor-color = #030203
+
+# normal
+palette = 0=#cdb7c6
+palette = 1=#a13b3b
+palette = 2=#030203
+palette = 3=#64432b
+palette = 4=#504b26
+palette = 5=#5a4925
+palette = 6=#514733
+palette = 7=#030203
+
+# bright
+palette = 8=#5d4658
+palette = 9=#a13b3b
+palette = 10=#030203
+palette = 11=#64432b
+palette = 12=#504b26
+palette = 13=#57483d
+palette = 14=#514733
+palette = 15=#030203

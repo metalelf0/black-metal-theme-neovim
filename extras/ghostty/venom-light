@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: VENOM LIGHT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/venom-light
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #f3f2f2
+# alternate, darker background #ddcacc
+foreground = #211212
+selection-background = #e0d6d6
+selection-foreground = #211212
+cursor-color = #211212
+
+# normal
+palette = 0=#ddcacc
+palette = 1=#a13b3b
+palette = 2=#211212
+palette = 3=#793534
+palette = 4=#6f5034
+palette = 5=#5e5526
+palette = 6=#5e5527
+palette = 7=#211212
+
+# bright
+palette = 8=#6c5151
+palette = 9=#a13b3b
+palette = 10=#211212
+palette = 11=#793534
+palette = 12=#6f5034
+palette = 13=#ae0200
+palette = 14=#5e5527
+palette = 15=#211212

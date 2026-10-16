@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: DARKTHRONE LIGHT ALT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/darkthrone-light-alt
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #f2f2f0
+# alternate, darker background #f2f2f0
+foreground = #1a1a1a
+selection-background = #d9d9d6
+selection-foreground = #1a1a1a
+cursor-color = #1a1a1a
+
+# normal
+palette = 0=#f2f2f0
+palette = 1=#a13b3b
+palette = 2=#1a1a1a
+palette = 3=#555555
+palette = 4=#5e5e5e
+palette = 5=#4a4a4a
+palette = 6=#000000
+palette = 7=#1a1a1a
+
+# bright
+palette = 8=#6a6a6a
+palette = 9=#a13b3b
+palette = 10=#1a1a1a
+palette = 11=#555555
+palette = 12=#5e5e5e
+palette = 13=#000000
+palette = 14=#000000
+palette = 15=#1a1a1a

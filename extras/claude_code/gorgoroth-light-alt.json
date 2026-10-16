@@ -1,0 +1,38 @@
+{
+  "name": "GORGOROTH LIGHT ALT colors for Claude Code",
+  "url": "https://claude.ai/code",
+  "upstream": "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/claude_code/gorgoroth-light-alt.json",
+  "author": "Andrea Schiavini (original code by Casey Miller)",
+  "theme": {
+    "background": "#cfbfc7",
+    "foreground": "#11090d",
+    "alternateBackground": "#cfbfc7",
+    "alternateForeground": "#315459",
+    "comment": "#604954",
+    "visualSelection": "#d7c1c8",
+    "lineHighlight": "#cfbfc7"
+  },
+  "colors": {
+    "black": "#cfbfc7",
+    "grey": "#604954",
+    "red": "#a13b3b",
+    "orange": "#4d4f22",
+    "green": "#11090d",
+    "yellow": "#67492c",
+    "blue": "#535127",
+    "purple": "#3d5723",
+    "magenta": "#5c4c3d",
+    "cyan": "#335511",
+    "white": "#11090d"
+  },
+  "palette": {
+    "string": "#335511",
+    "number": "#4d4f22",
+    "keyword": "#3d5723",
+    "function": "#67492c",
+    "type": "#5c4c3d",
+    "constant": "#535127",
+    "operator": "#634554",
+    "property": "#11090d"
+  }
+}

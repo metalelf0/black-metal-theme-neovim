@@ -1,0 +1,36 @@
+# name: WINDIR LIGHT colors for Pi
+# url: https://github.com/pi
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/pi/windir-light.yaml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+theme:
+  background: "#ddecd5"
+  foreground: "#172112"
+  alternate_background: "#bfdeb5"
+  alternate_foreground: "#634436"
+  comment: "#506049"
+  visual_selection: "#c3e3b0"
+  line_highlight: "#ddecd5"
+
+colors:
+  black: "#bfdeb5"
+  grey: "#506049"
+  red: "#a13b3b"
+  orange: "#735431"
+  green: "#172112"
+  yellow: "#344d79"
+  blue: "#423b7d"
+  purple: "#5e5e26"
+  magenta: "#3e5b8e"
+  cyan: "#5e5e12"
+  white: "#172112"
+
+palette:
+  string: "#5e5e12"
+  number: "#735431"
+  keyword: "#5e5e26"
+  function: "#344d79"
+  type: "#3e5b8e"
+  constant: "#423b7d"
+  operator: "#4d6043"
+  property: "#172112"

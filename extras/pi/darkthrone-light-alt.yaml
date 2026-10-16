@@ -1,0 +1,36 @@
+# name: DARKTHRONE LIGHT ALT colors for Pi
+# url: https://github.com/pi
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/pi/darkthrone-light-alt.yaml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+theme:
+  background: "#f2f2f0"
+  foreground: "#1a1a1a"
+  alternate_background: "#f2f2f0"
+  alternate_foreground: "#444444"
+  comment: "#6a6a6a"
+  visual_selection: "#d9d9d6"
+  line_highlight: "#f2f2f0"
+
+colors:
+  black: "#f2f2f0"
+  grey: "#6a6a6a"
+  red: "#a13b3b"
+  orange: "#5e5e5e"
+  green: "#1a1a1a"
+  yellow: "#555555"
+  blue: "#5e5e5e"
+  purple: "#4a4a4a"
+  magenta: "#000000"
+  cyan: "#000000"
+  white: "#1a1a1a"
+
+palette:
+  string: "#000000"
+  number: "#5e5e5e"
+  keyword: "#4a4a4a"
+  function: "#555555"
+  type: "#000000"
+  constant: "#5e5e5e"
+  operator: "#666666"
+  property: "#1a1a1a"

@@ -1,6 +1,6 @@
 # name: MAYHEM colors for Fish Themes
 # url: https://fishshell.com/docs/current/interactive.html#syntax-highlighting
-# upstream: ${upstream}
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/fish_themes/mayhem.theme
 # author: Andrea Schiavini (original code by Casey Miller)
 
 # preferred bg: 000000

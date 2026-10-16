@@ -1,0 +1,45 @@
+# name: DARKTHRONE LIGHT ALT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/darkthrone-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#f2f2f0'
+# alternate, darker background = '#f2f2f0'
+foreground = '#1a1a1a'
+
+#[colors.cursor]
+#cursor = '#1a1a1a'
+#text = '#f2f2f0'
+
+# Normal colors
+[colors.normal]
+black = '#f2f2f0'
+red = '#a13b3b'
+green = '#1a1a1a'
+yellow = '#555555'
+blue = '#5e5e5e'
+magenta = '#4a4a4a'
+cyan = '#000000'
+white = '#1a1a1a'
+
+# Bright colors
+[colors.bright]
+black = '#6a6a6a'
+red = '#a13b3b'
+green = '#1a1a1a'
+yellow = '#555555'
+blue = '#5e5e5e'
+magenta = '#000000'
+cyan = '#000000'
+white = '#1a1a1a'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#5e5e5e'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#444444'

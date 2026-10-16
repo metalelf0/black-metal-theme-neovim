@@ -1,0 +1,48 @@
+[colors]
+foreground = "#1a1a1a"
+background = "#f2f2f0"
+# background = "#f2f2f0" # alternate, darker bg
+cursor_bg = "#1a1a1a"
+cursor_border = "#1a1a1a"
+cursor_fg = "#f2f2f0"
+selection_bg = "#d9d9d6"
+selection_fg = "#1a1a1a"
+split = "#6a6a6a"
+compose_cursor = "#5e5e5e"
+scrollbar_thumb = "#6a6a6a"
+
+ansi = ["#f2f2f0", "#a13b3b", "#1a1a1a", "#555555", "#5e5e5e", "#4a4a4a", "#000000", "#1a1a1a"]
+brights = ["#6a6a6a", "#a13b3b", "#1a1a1a", "#555555", "#5e5e5e", "#000000", "#000000", "#1a1a1a"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#6a6a6a"
+background = "#f2f2f0"
+
+[colors.tab_bar.active_tab]
+fg_color = "#444444"
+bg_color = "#d9d9d6"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#6a6a6a"
+bg_color = "#f2f2f0"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#6a6a6a"
+bg_color = "#f2f2f0"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#444444"
+bg_color = "#d9d9d6"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#444444"
+bg_color = "#f2f2f0"
+
+[metadata]
+aliases = []
+name = "DARKTHRONE LIGHT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/darkthrone-light.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

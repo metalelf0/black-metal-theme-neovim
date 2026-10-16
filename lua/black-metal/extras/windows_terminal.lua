@@ -2,7 +2,8 @@ local Util = require("black-metal.util")
 
 local M = {}
 
-function M.generate(colors, _)
+function M.generate(colors, info)
+    colors._style_name = info.theme
     local windows_terminal = Util.template(
         [=[
 # Add the following object to your Windows Terminal configuration

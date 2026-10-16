@@ -1,0 +1,36 @@
+# name: MARDUK LIGHT ALT colors for Pi
+# url: https://github.com/pi
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/pi/marduk-light-alt.yaml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+theme:
+  background: "#bbd3d1"
+  foreground: "#0e1a19"
+  alternate_background: "#bbd3d1"
+  alternate_foreground: "#63365b"
+  comment: "#445a58"
+  visual_selection: "#bcd2ce"
+  line_highlight: "#bbd3d1"
+
+colors:
+  black: "#bbd3d1"
+  grey: "#445a58"
+  red: "#a13b3b"
+  orange: "#2f6129"
+  green: "#0e1a19"
+  yellow: "#296047"
+  blue: "#2c5e5d"
+  purple: "#265e3c"
+  magenta: "#495b52"
+  cyan: "#4b5950"
+  white: "#0e1a19"
+
+palette:
+  string: "#4b5950"
+  number: "#2f6129"
+  keyword: "#265e3c"
+  function: "#296047"
+  type: "#495b52"
+  constant: "#2c5e5d"
+  operator: "#3f5a56"
+  property: "#0e1a19"

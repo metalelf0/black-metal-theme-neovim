@@ -1,0 +1,36 @@
+# name: GORGOROTH LIGHT ALT colors for Herdr
+# url: https://github.com/herd
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/herdr/gorgoroth-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+[theme]
+background = "#cfbfc7"
+foreground = "#11090d"
+alternate_background = "#cfbfc7"
+alternate_foreground = "#315459"
+comment = "#604954"
+visual_selection = "#d7c1c8"
+line_highlight = "#cfbfc7"
+
+[colors]
+black = "#cfbfc7"
+grey = "#604954"
+red = "#a13b3b"
+orange = "#4d4f22"
+green = "#11090d"
+yellow = "#67492c"
+blue = "#535127"
+purple = "#3d5723"
+magenta = "#5c4c3d"
+cyan = "#335511"
+white = "#11090d"
+
+[palette]
+string = "#335511"
+number = "#4d4f22"
+keyword = "#3d5723"
+function = "#67492c"
+type = "#5c4c3d"
+constant = "#535127"
+operator = "#634554"
+property = "#11090d"

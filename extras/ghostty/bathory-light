@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: BATHORY LIGHT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/bathory-light
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #f7e7de
+# alternate, darker background #eac2b8
+foreground = #1e1510
+selection-background = #f2ccb5
+selection-foreground = #1e1510
+cursor-color = #1e1510
+
+# normal
+palette = 0=#eac2b8
+palette = 1=#a13b3b
+palette = 2=#1e1510
+palette = 3=#6e4b2f
+palette = 4=#5a552b
+palette = 5=#6c4e2c
+palette = 6=#7f4200
+palette = 7=#1e1510
+
+# bright
+palette = 8=#63524b
+palette = 9=#a13b3b
+palette = 10=#1e1510
+palette = 11=#6e4b2f
+palette = 12=#5a552b
+palette = 13=#8a3c00
+palette = 14=#7f4200
+palette = 15=#1e1510

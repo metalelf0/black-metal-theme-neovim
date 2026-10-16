@@ -1,6 +1,7 @@
 local M = {}
 
 ---@alias Extra {ext:nil|string, url:string, label:string}
+---@alias ExtraVariant {suffix:string, variant:string, alt_bg:boolean, label:string}
 
 -- map of plugin name to plugin extension
 --- @type table<string, Extra>
@@ -31,40 +32,60 @@ M.extras = {
 ---@param contents string file contents (extra theme)
 ---@param fname string filename to save extra
 local function write(contents, fname)
-	print("[write] extra/" .. fname)
+	print("[write] extras/" .. fname)
 	vim.fn.mkdir(vim.fs.dirname("extras/" .. fname), "p")
-	local file = io.open("extras/" .. fname, "w")
-	if file then
-		file:write(contents)
+	local path = "extras/" .. fname
+	local file, open_error = io.open(path, "w")
+	assert(file, "could not open " .. path .. ": " .. tostring(open_error))
+	local wrote, write_error = file:write(contents)
+	if not wrote then
 		file:close()
+		error("could not write " .. path .. ": " .. tostring(write_error))
 	end
+	local closed, close_error = file:close()
+	assert(closed, "could not close " .. path .. ": " .. tostring(close_error))
 end
+
+M.variants = {
+	{ suffix = "", variant = "dark", alt_bg = false, label = "" },
+	{ suffix = "-alt", variant = "dark", alt_bg = true, label = "ALT" },
+	{ suffix = "-light", variant = "light", alt_bg = false, label = "LIGHT" },
+	{ suffix = "-light-alt", variant = "light", alt_bg = true, label = "LIGHT ALT" },
+}
 
 ---Generates themes found in the Extras folder. Templates are stored in `black-metal/extras/`.
 function M.setup()
-	local black_metal = require("black-metal")
 	local themes = require("black-metal.palette").themes
+	local terminal = require("black-metal.terminal")
 
 	for extra, info in pairs(M.extras) do
 		package.loaded["black-metal.extras." .. extra] = nil
 		local template = require("black-metal.extras." .. extra)
 		for _, theme in pairs(themes) do
-			black_metal.load(theme)
-			local palette = require("black-metal.terminal").colors(true)
-			local fname = extra .. "/" .. theme
-			if info.ext then
-				fname = fname .. "." .. info.ext
-			end
-			local url = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/" .. fname
-			write(
-				template.generate(palette, {
+			for _, variant in ipairs(M.variants) do
+				local theme_slug = theme .. variant.suffix
+				local fname = extra .. "/" .. theme_slug
+				if info.ext then
+					fname = fname .. "." .. info.ext
+				end
+				local url = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/" .. fname
+				local label = variant.label == "" and string.upper(theme) or (string.upper(theme) .. " " .. variant.label)
+				local palette = terminal.colors_for(theme, variant.variant, variant.alt_bg, true)
+				local contents = template.generate(palette, {
 					extra = info.label,
 					url = info.url,
 					upstream = url,
-					theme = string.upper(theme),
-				}),
-				fname
-			)
+					theme = label,
+					theme_slug = theme_slug,
+					variant = variant.variant,
+					alt_bg = variant.alt_bg,
+				})
+				local unresolved = contents:match("%${[%w_%.%-]+}")
+				if unresolved then
+					error("unresolved template value " .. unresolved .. " in " .. fname)
+				end
+				write(contents, fname)
+			end
 		end
 	end
 end

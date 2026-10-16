@@ -1,0 +1,36 @@
+# name: MAYHEM LIGHT colors for Pi
+# url: https://github.com/pi
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/pi/mayhem-light.yaml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+theme:
+  background: "#f4edd2"
+  foreground: "#000000"
+  alternate_background: "#e4afaf"
+  alternate_foreground: "#324c5c"
+  comment: "#524b3e"
+  visual_selection: "#f0e1a8"
+  line_highlight: "#f4edd2"
+
+colors:
+  black: "#e4afaf"
+  grey: "#524b3e"
+  red: "#a13b3b"
+  orange: "#683e2c"
+  green: "#000000"
+  yellow: "#554925"
+  blue: "#444c24"
+  purple: "#534822"
+  magenta: "#5c4400"
+  cyan: "#5a480c"
+  white: "#000000"
+
+palette:
+  string: "#5a480c"
+  number: "#683e2c"
+  keyword: "#534822"
+  function: "#554925"
+  type: "#5c4400"
+  constant: "#444c24"
+  operator: "#514939"
+  property: "#000000"

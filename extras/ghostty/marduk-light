@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: MARDUK LIGHT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/marduk-light
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #dbe1e0
+# alternate, darker background #bbd3d1
+foreground = #0e1a19
+selection-background = #bcd2ce
+selection-foreground = #0e1a19
+cursor-color = #0e1a19
+
+# normal
+palette = 0=#bbd3d1
+palette = 1=#a13b3b
+palette = 2=#0e1a19
+palette = 3=#296047
+palette = 4=#2c5e5d
+palette = 5=#265e3c
+palette = 6=#4b5950
+palette = 7=#0e1a19
+
+# bright
+palette = 8=#445a58
+palette = 9=#a13b3b
+palette = 10=#0e1a19
+palette = 11=#296047
+palette = 12=#2c5e5d
+palette = 13=#495b52
+palette = 14=#4b5950
+palette = 15=#0e1a19

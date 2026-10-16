@@ -1,0 +1,37 @@
+# name: GORGOROTH LIGHT colors for Lazygit
+# url: https://github.com/jesseduffield/lazygit
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/lazygit/gorgoroth-light.yml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#315459"
+      - bold
+    inactiveBorderColor:
+      - "#604954"
+    optionsTextColor:
+      - "#335511"
+    selectedLineBgColor:
+      - "#d7c1c8"
+    cherryPickedCommitBgColor:
+      - "#d7c1c8"
+    cherryPickedCommitFgColor:
+      - "#315459"
+    unstagedChangesColor:
+      - "#a13b3b"
+    defaultFgColor:
+      - "#11090d"
+    searchingActiveBorderColor:
+      - "#4d4f22"
+  commitColors:
+    "♥": "#a13b3b"
+    "↻": "#67492c"
+    "~": "#535127"
+    "→": "#11090d"
+    "☀": "#4d4f22"
+    "✗": "#5c4c3d"
+    "⚑": "#335511"
+    "▼": "#3d5723"
+    "▲": "#11090d"
+    "M": "#4d4f22"

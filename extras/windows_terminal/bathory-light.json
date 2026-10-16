@@ -1,0 +1,25 @@
+# Add the following object to your Windows Terminal configuration
+# https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes#creating-your-own-color-scheme
+{
+    "background": "#f7e7de", // alternate, darker background=#eac2b8
+    "black": "#eac2b8",
+    "blue": "#5a552b",
+    "brightBlack": "#63524b",
+    "brightBlue": "#5a552b",
+    "brightCyan": "#7f4200",
+    "brightGreen": "#1e1510",
+    "brightPurple": "#8a3c00",
+    "brightRed": "#a13b3b",
+    "brightWhite": "#1e1510",
+    "brightYellow": "#6e4b2f",
+    "cursorColor": "#1e1510",
+    "cyan": "#7f4200",
+    "foreground": "#1e1510",
+    "green": "#1e1510",
+    "name": "BATHORY LIGHT",
+    "purple": "#6c4e2c",
+    "red": "#a13b3b",
+    "selectionBackground": "#f2ccb5",
+    "white": "#1e1510",
+    "yellow": "#6e4b2f"
+}

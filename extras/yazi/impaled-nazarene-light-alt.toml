@@ -1,0 +1,98 @@
+# name: IMPALED-NAZARENE LIGHT ALT colors for Yazi
+# url: https://github.com/sxyazi/yazi
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/yazi/impaled-nazarene-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+[manager]
+cwd = { fg = "#6e602f" }
+
+hovered         = { fg = "#1f2112", bg = "#dbe7ac" }
+preview_hovered = { fg = "#1f2112", bg = "#dbe7ac" }
+
+find_keyword  = { fg = "#365063", italic = true }
+find_position = { fg = "#365063", bg = "reset", italic = true }
+
+marker_copied   = { fg = "#c30c03" }
+marker_cut      = { fg = "#a13b3b" }
+marker_selected = { fg = "#365063" }
+
+tab_active   = { fg = "#365063", bg = "#e2ebad" }
+tab_inactive = { fg = "#61664d", bg = "#e2ebad" }
+tab_width    = 1
+
+count_cut      = { fg = "#365063", bg = "#dbe7ac" }
+count_copied   = { fg = "#365063", bg = "#dbe7ac" }
+count_selected = { fg = "#365063", bg = "#dbe7ac" }
+
+border_symbol = "│"
+border_style  = { fg = "#61664d" }
+
+[mode]
+normal_main   = { fg = "#dbe7ac", bg = "#5c6831", bold = true }
+normal_alt    = { fg = "#dbe7ac", bg = "#5c6831", bold = true }
+select_main   = { fg = "#dbe7ac", bg = "#7b3632", bold = true }
+select_alt    = { fg = "#dbe7ac", bg = "#7b3632", bold = true }
+unset_main    = { fg = "#dbe7ac", bg = "#c30c03", bold = true }
+unset_alt     = { fg = "#dbe7ac", bg = "#c30c03", bold = true }
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#e2ebad", bg = "#e2ebad" }
+
+progress_label  = { fg = "#365063", bold = true }
+progress_normal = { fg = "#365063", bg = "#e2ebad" }
+progress_error  = { fg = "#dbe7ac", bg = "#a13b3b" }
+
+permissions_t = { fg = "#1f2112" }
+permissions_r = { fg = "#6e602f" }
+permissions_w = { fg = "#a13b3b" }
+permissions_x = { fg = "#5c6831" }
+permissions_s = { fg = "#5e6345" }
+
+[input]
+border   = { fg = "#61664d" }
+title    = {}
+value    = {}
+selected = { reversed = true }
+
+[select]
+border   = { fg = "#61664d" }
+active   = { fg = "#7b3632" }
+inactive = {}
+
+[tasks]
+border  = { fg = "#61664d" }
+title   = {}
+hovered = { underline = true }
+
+[which]
+mask            = { bg = "#C5D09B" }
+cand            = { fg = "#1f2112" }
+rest            = { fg = "#755f1a" }
+desc            = { fg = "#c30c03" }
+separator       = "  "
+separator_style = { fg = "#5e6345"}
+
+[help]
+on      = { fg = "#755f1a" }
+run    = { fg = "#c30c03" }
+desc    = { fg = "#61664d" }
+hovered = { fg = "#1f2112", bg = "#dbe7ac", bold = true }
+footer  = { fg = "#61664d", bg = "#dbe7ac" }
+
+[filetype]
+rules = [
+# Media
+{ mime = "image/*", fg = "#755f1a"},
+{ mime = "{audio,video}/*", fg = "#c30c03"},
+
+# Archives
+{ mime = "application/{,g}zip", fg = "#a13b3b"},
+{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#a13b3b"},
+
+# Fallback
+{ name = "*", fg = "#1f2112"},
+{ name = "*/", fg = "#6e602f"}
+]
+  

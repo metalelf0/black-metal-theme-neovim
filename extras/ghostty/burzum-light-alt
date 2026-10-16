@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: BURZUM LIGHT ALT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/burzum-light-alt
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #e8d5ba
+# alternate, darker background #e8d5ba
+foreground = #12211a
+selection-background = #bfe3d1
+selection-foreground = #12211a
+cursor-color = #12211a
+
+# normal
+palette = 0=#e8d5ba
+palette = 1=#a13b3b
+palette = 2=#12211a
+palette = 3=#2c6749
+palette = 4=#306562
+palette = 5=#476529
+palette = 6=#3d6714
+palette = 7=#12211a
+
+# bright
+palette = 8=#4b6357
+palette = 9=#a13b3b
+palette = 10=#12211a
+palette = 11=#2c6749
+palette = 12=#306562
+palette = 13=#35644c
+palette = 14=#3d6714
+palette = 15=#12211a

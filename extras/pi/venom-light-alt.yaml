@@ -1,0 +1,36 @@
+# name: VENOM LIGHT ALT colors for Pi
+# url: https://github.com/pi
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/pi/venom-light-alt.yaml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+theme:
+  background: "#ddcacc"
+  foreground: "#211212"
+  alternate_background: "#ddcacc"
+  alternate_foreground: "#325c4f"
+  comment: "#6c5151"
+  visual_selection: "#e0d6d6"
+  line_highlight: "#ddcacc"
+
+colors:
+  black: "#ddcacc"
+  grey: "#6c5151"
+  red: "#a13b3b"
+  orange: "#764b32"
+  green: "#211212"
+  yellow: "#793534"
+  blue: "#6f5034"
+  purple: "#5e5526"
+  magenta: "#ae0200"
+  cyan: "#5e5527"
+  white: "#211212"
+
+palette:
+  string: "#5e5527"
+  number: "#764b32"
+  keyword: "#5e5526"
+  function: "#793534"
+  type: "#ae0200"
+  constant: "#6f5034"
+  operator: "#6f4e4e"
+  property: "#211212"

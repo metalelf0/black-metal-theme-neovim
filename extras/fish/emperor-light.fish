@@ -1,0 +1,54 @@
+# name: EMPEROR LIGHT colors for Fish
+# url: https://fishshell.com/docs/current/index.html
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/fish/emperor-light.fish
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# use in ~/.config/fish/conf.d/
+
+# preferred bg: e9e2f3
+# alt background: cfc1e6
+
+### Full palette. 
+### Colors defined in neomdern/palette/EMPEROR LIGHT.lua
+set -g alt 595131 
+set -g constant 613b7d 
+set -g comment 584f69 
+set -g fg 15101e 
+set -g func 3c3479 
+set -g keyword 5b327b 
+set -g number 3e3781 
+set -g operator 574c6c 
+set -g property 15101e 
+set -g str 5e486f 
+set -g type 4431d4 
+
+# Syntax Highlighting Colors
+set -g fish_color_normal 15101e
+set -g fish_color_command 3c3479
+set -g fish_color_keyword 5b327b
+set -g fish_color_quote 5e486f
+set -g fish_color_redirection 613b7d
+set -g fish_color_end 574c6c
+set -g fish_color_error a13b3b
+set -g fish_color_param 15101e
+set -g fish_color_valid_path 4431d4
+set -g fish_color_option 595131
+set -g fish_color_comment 584f69
+set -g fish_color_selection --background=e9e2f3
+set -g fish_color_operator 574c6c
+set -g fish_color_escape 5b327b
+set -g fish_color_autosuggestion 584f69
+set -g fish_color_cwd 5e486f
+set -g fish_color_hostname 3e3781
+set -g fish_color_status a13b3b
+set -g fish_color_cancel 3e3781
+set -g fish_color_search_match --background=e9e2f3
+
+# Completion Pager Colors
+set -g fish_pager_color_progress 595131
+set -g fish_pager_color_prefix 4431d4
+set -g fish_pager_color_completion 15101e
+set -g fish_pager_color_description 584f69
+set -g fish_pager_color_selected_prefix 595131
+set -g fish_pager_color_selected_completion 595131
+set -g fish_pager_color_selected_background --background=e9e2f3

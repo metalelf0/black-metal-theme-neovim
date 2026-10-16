@@ -1,0 +1,45 @@
+# name: IMMORTAL LIGHT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/immortal-light.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#e3eef2'
+# alternate, darker background = '#c3d6df'
+foreground = '#121b21'
+
+#[colors.cursor]
+#cursor = '#121b21'
+#text = '#e3eef2'
+
+# Normal colors
+[colors.normal]
+black = '#c3d6df'
+red = '#a13b3b'
+green = '#121b21'
+yellow = '#345779'
+blue = '#3b3e7d'
+magenta = '#32577b'
+cyan = '#315c87'
+white = '#121b21'
+
+# Bright colors
+[colors.bright]
+black = '#4d5b66'
+red = '#a13b3b'
+green = '#121b21'
+yellow = '#345779'
+blue = '#3b3e7d'
+magenta = '#445c73'
+cyan = '#315c87'
+white = '#121b21'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#2b6264'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#633d36'

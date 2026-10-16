@@ -1,0 +1,45 @@
+# name: GORGOROTH LIGHT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/gorgoroth-light.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#e6e0e2'
+# alternate, darker background = '#cfbfc7'
+foreground = '#11090d'
+
+#[colors.cursor]
+#cursor = '#11090d'
+#text = '#e6e0e2'
+
+# Normal colors
+[colors.normal]
+black = '#cfbfc7'
+red = '#a13b3b'
+green = '#11090d'
+yellow = '#67492c'
+blue = '#535127'
+magenta = '#3d5723'
+cyan = '#335511'
+white = '#11090d'
+
+# Bright colors
+[colors.bright]
+black = '#604954'
+red = '#a13b3b'
+green = '#11090d'
+yellow = '#67492c'
+blue = '#535127'
+magenta = '#5c4c3d'
+cyan = '#335511'
+white = '#11090d'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#4d4f22'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#315459'

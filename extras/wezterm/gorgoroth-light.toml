@@ -1,0 +1,48 @@
+[colors]
+foreground = "#11090d"
+background = "#e6e0e2"
+# background = "#cfbfc7" # alternate, darker bg
+cursor_bg = "#11090d"
+cursor_border = "#11090d"
+cursor_fg = "#e6e0e2"
+selection_bg = "#d7c1c8"
+selection_fg = "#11090d"
+split = "#604954"
+compose_cursor = "#4d4f22"
+scrollbar_thumb = "#604954"
+
+ansi = ["#cfbfc7", "#a13b3b", "#11090d", "#67492c", "#535127", "#3d5723", "#335511", "#11090d"]
+brights = ["#604954", "#a13b3b", "#11090d", "#67492c", "#535127", "#5c4c3d", "#335511", "#11090d"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#604954"
+background = "#e6e0e2"
+
+[colors.tab_bar.active_tab]
+fg_color = "#315459"
+bg_color = "#d7c1c8"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#604954"
+bg_color = "#e6e0e2"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#604954"
+bg_color = "#e6e0e2"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#315459"
+bg_color = "#d7c1c8"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#315459"
+bg_color = "#e6e0e2"
+
+[metadata]
+aliases = []
+name = "GORGOROTH LIGHT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/gorgoroth-light.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

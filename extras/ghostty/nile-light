@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: NILE LIGHT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/nile-light
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #ede0c9
+# alternate, darker background #e5c4a4
+foreground = #17130d
+selection-background = #e8cea1
+selection-foreground = #17130d
+cursor-color = #17130d
+
+# normal
+palette = 0=#e5c4a4
+palette = 1=#a13b3b
+palette = 2=#17130d
+palette = 3=#555525
+palette = 4=#445a2b
+palette = 5=#6c4e2c
+palette = 6=#634f3a
+palette = 7=#17130d
+
+# bright
+palette = 8=#5d5346
+palette = 9=#a13b3b
+palette = 10=#17130d
+palette = 11=#555525
+palette = 12=#445a2b
+palette = 13=#565633
+palette = 14=#634f3a
+palette = 15=#17130d

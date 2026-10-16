@@ -2,7 +2,7 @@
 
 # name: BURZUM colors for Ghostty
 # url: https://ghostty.org/
-# upstream: ${upstream}
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/burzum
 # author: Andrea Schiavini (original code by Casey Miller)
 
 background = #000000

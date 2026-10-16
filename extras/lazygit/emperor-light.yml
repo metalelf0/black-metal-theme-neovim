@@ -1,0 +1,37 @@
+# name: EMPEROR LIGHT colors for Lazygit
+# url: https://github.com/jesseduffield/lazygit
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/lazygit/emperor-light.yml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#595131"
+      - bold
+    inactiveBorderColor:
+      - "#584f69"
+    optionsTextColor:
+      - "#5e486f"
+    selectedLineBgColor:
+      - "#d0bee9"
+    cherryPickedCommitBgColor:
+      - "#d0bee9"
+    cherryPickedCommitFgColor:
+      - "#595131"
+    unstagedChangesColor:
+      - "#a13b3b"
+    defaultFgColor:
+      - "#15101e"
+    searchingActiveBorderColor:
+      - "#3e3781"
+  commitColors:
+    "♥": "#a13b3b"
+    "↻": "#3c3479"
+    "~": "#613b7d"
+    "→": "#15101e"
+    "☀": "#3e3781"
+    "✗": "#4431d4"
+    "⚑": "#5e486f"
+    "▼": "#5b327b"
+    "▲": "#15101e"
+    "M": "#3e3781"

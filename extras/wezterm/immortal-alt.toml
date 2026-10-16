@@ -1,0 +1,48 @@
+[colors]
+foreground = "#f1f1f1"
+background = "#1b161f"
+# background = "#1b161f" # alternate, darker bg
+cursor_bg = "#f1f1f1"
+cursor_border = "#f1f1f1"
+cursor_fg = "#1b161f"
+selection_bg = "#222222"
+selection_fg = "#f1f1f1"
+split = "#505050"
+compose_cursor = "#aaaaaa"
+scrollbar_thumb = "#505050"
+
+ansi = ["#1b161f", "#5f8787", "#c1c1c1", "#888888", "#aaaaaa", "#999999", "#7799bb", "#f1f1f1"]
+brights = ["#505050", "#5f8787", "#c1c1c1", "#888888", "#aaaaaa", "#556677", "#7799bb", "#f1f1f1"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#505050"
+background = "#1b161f"
+
+[colors.tab_bar.active_tab]
+fg_color = "#5f8787"
+bg_color = "#222222"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#505050"
+bg_color = "#1b161f"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#505050"
+bg_color = "#1b161f"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#5f8787"
+bg_color = "#222222"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#5f8787"
+bg_color = "#1b161f"
+
+[metadata]
+aliases = []
+name = "IMMORTAL ALT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/immortal-alt.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

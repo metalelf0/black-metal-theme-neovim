@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: MAYHEM LIGHT ALT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/mayhem-light-alt
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #e4afaf
+# alternate, darker background #e4afaf
+foreground = #000000
+selection-background = #f0e1a8
+selection-foreground = #000000
+cursor-color = #000000
+
+# normal
+palette = 0=#e4afaf
+palette = 1=#a13b3b
+palette = 2=#000000
+palette = 3=#554925
+palette = 4=#444c24
+palette = 5=#534822
+palette = 6=#5a480c
+palette = 7=#000000
+
+# bright
+palette = 8=#524b3e
+palette = 9=#a13b3b
+palette = 10=#000000
+palette = 11=#554925
+palette = 12=#444c24
+palette = 13=#5c4400
+palette = 14=#5a480c
+palette = 15=#000000

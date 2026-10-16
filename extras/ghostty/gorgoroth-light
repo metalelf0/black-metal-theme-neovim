@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: GORGOROTH LIGHT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/gorgoroth-light
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #e6e0e2
+# alternate, darker background #cfbfc7
+foreground = #11090d
+selection-background = #d7c1c8
+selection-foreground = #11090d
+cursor-color = #11090d
+
+# normal
+palette = 0=#cfbfc7
+palette = 1=#a13b3b
+palette = 2=#11090d
+palette = 3=#67492c
+palette = 4=#535127
+palette = 5=#3d5723
+palette = 6=#335511
+palette = 7=#11090d
+
+# bright
+palette = 8=#604954
+palette = 9=#a13b3b
+palette = 10=#11090d
+palette = 11=#67492c
+palette = 12=#535127
+palette = 13=#5c4c3d
+palette = 14=#335511
+palette = 15=#11090d

@@ -1,0 +1,98 @@
+# name: KHOLD LIGHT colors for Yazi
+# url: https://github.com/sxyazi/yazi
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/yazi/khold-light.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+[manager]
+cwd = { fg = "#793834" }
+
+hovered         = { fg = "#1e1013", bg = "#f5e0e5" }
+preview_hovered = { fg = "#1e1013", bg = "#f5e0e5" }
+
+find_keyword  = { fg = "#31594e", italic = true }
+find_position = { fg = "#31594e", bg = "reset", italic = true }
+
+marker_copied   = { fg = "#4f5729" }
+marker_cut      = { fg = "#a13b3b" }
+marker_selected = { fg = "#31594e" }
+
+tab_active   = { fg = "#31594e", bg = "#eebac6" }
+tab_inactive = { fg = "#664d52", bg = "#eebac6" }
+tab_width    = 1
+
+count_cut      = { fg = "#31594e", bg = "#f5e0e5" }
+count_copied   = { fg = "#31594e", bg = "#f5e0e5" }
+count_selected = { fg = "#31594e", bg = "#f5e0e5" }
+
+border_symbol = "│"
+border_style  = { fg = "#664d52" }
+
+[mode]
+normal_main   = { fg = "#f5e0e5", bg = "#684e31", bold = true }
+normal_alt    = { fg = "#f5e0e5", bg = "#684e31", bold = true }
+select_main   = { fg = "#f5e0e5", bg = "#4e5723", bold = true }
+select_alt    = { fg = "#f5e0e5", bg = "#4e5723", bold = true }
+unset_main    = { fg = "#f5e0e5", bg = "#4f5729", bold = true }
+unset_alt     = { fg = "#f5e0e5", bg = "#4f5729", bold = true }
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#eebac6", bg = "#eebac6" }
+
+progress_label  = { fg = "#31594e", bold = true }
+progress_normal = { fg = "#31594e", bg = "#eebac6" }
+progress_error  = { fg = "#f5e0e5", bg = "#a13b3b" }
+
+permissions_t = { fg = "#1e1013" }
+permissions_r = { fg = "#793834" }
+permissions_w = { fg = "#a13b3b" }
+permissions_x = { fg = "#684e31" }
+permissions_s = { fg = "#694a50" }
+
+[input]
+border   = { fg = "#664d52" }
+title    = {}
+value    = {}
+selected = { reversed = true }
+
+[select]
+border   = { fg = "#664d52" }
+active   = { fg = "#4e5723" }
+inactive = {}
+
+[tasks]
+border  = { fg = "#664d52" }
+title   = {}
+hovered = { underline = true }
+
+[which]
+mask            = { bg = "#DDCACE" }
+cand            = { fg = "#1e1013" }
+rest            = { fg = "#8f342e" }
+desc            = { fg = "#4f5729" }
+separator       = "  "
+separator_style = { fg = "#694a50"}
+
+[help]
+on      = { fg = "#8f342e" }
+run    = { fg = "#4f5729" }
+desc    = { fg = "#664d52" }
+hovered = { fg = "#1e1013", bg = "#f5e0e5", bold = true }
+footer  = { fg = "#664d52", bg = "#f5e0e5" }
+
+[filetype]
+rules = [
+# Media
+{ mime = "image/*", fg = "#8f342e"},
+{ mime = "{audio,video}/*", fg = "#4f5729"},
+
+# Archives
+{ mime = "application/{,g}zip", fg = "#a13b3b"},
+{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#a13b3b"},
+
+# Fallback
+{ name = "*", fg = "#1e1013"},
+{ name = "*/", fg = "#793834"}
+]
+  

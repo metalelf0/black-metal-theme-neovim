@@ -1,6 +1,6 @@
 # name: BATHORY colors for Yazi
 # url: https://github.com/sxyazi/yazi
-# upstream: ${upstream}
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/yazi/bathory.toml
 # author: Andrea Schiavini (original code by Casey Miller)
 
 [manager]

@@ -1,0 +1,25 @@
+# Add the following object to your Windows Terminal configuration
+# https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes#creating-your-own-color-scheme
+{
+    "background": "#dbe1e0", // alternate, darker background=#bbd3d1
+    "black": "#bbd3d1",
+    "blue": "#2c5e5d",
+    "brightBlack": "#445a58",
+    "brightBlue": "#2c5e5d",
+    "brightCyan": "#4b5950",
+    "brightGreen": "#0e1a19",
+    "brightPurple": "#495b52",
+    "brightRed": "#a13b3b",
+    "brightWhite": "#0e1a19",
+    "brightYellow": "#296047",
+    "cursorColor": "#0e1a19",
+    "cyan": "#4b5950",
+    "foreground": "#0e1a19",
+    "green": "#0e1a19",
+    "name": "MARDUK LIGHT",
+    "purple": "#265e3c",
+    "red": "#a13b3b",
+    "selectionBackground": "#bcd2ce",
+    "white": "#0e1a19",
+    "yellow": "#296047"
+}

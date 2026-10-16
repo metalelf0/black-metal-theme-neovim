@@ -1,0 +1,45 @@
+# name: THYRFING LIGHT ALT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/thyrfing-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#eabbb8'
+# alternate, darker background = '#eabbb8'
+foreground = '#170e0d'
+
+#[colors.cursor]
+#cursor = '#170e0d'
+#text = '#eabbb8'
+
+# Normal colors
+[colors.normal]
+black = '#eabbb8'
+red = '#a13b3b'
+green = '#170e0d'
+yellow = '#794134'
+blue = '#614f2e'
+magenta = '#7b4132'
+cyan = '#99270a'
+white = '#170e0d'
+
+# Bright colors
+[colors.bright]
+black = '#634e4b'
+red = '#a13b3b'
+green = '#170e0d'
+yellow = '#794134'
+blue = '#614f2e'
+magenta = '#912f18'
+cyan = '#99270a'
+white = '#170e0d'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#81374a'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#2f5651'

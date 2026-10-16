@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: WINDIR LIGHT ALT colors for Ghostty
+# url: https://ghostty.org/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/ghostty/windir-light-alt
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #bfdeb5
+# alternate, darker background #bfdeb5
+foreground = #172112
+selection-background = #c3e3b0
+selection-foreground = #172112
+cursor-color = #172112
+
+# normal
+palette = 0=#bfdeb5
+palette = 1=#a13b3b
+palette = 2=#172112
+palette = 3=#344d79
+palette = 4=#423b7d
+palette = 5=#5e5e26
+palette = 6=#5e5e12
+palette = 7=#172112
+
+# bright
+palette = 8=#506049
+palette = 9=#a13b3b
+palette = 10=#172112
+palette = 11=#344d79
+palette = 12=#423b7d
+palette = 13=#3e5b8e
+palette = 14=#5e5e12
+palette = 15=#172112

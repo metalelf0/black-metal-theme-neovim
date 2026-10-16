@@ -1,0 +1,36 @@
+# name: EMPEROR LIGHT colors for Pi
+# url: https://github.com/pi
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/pi/emperor-light.yaml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+theme:
+  background: "#e9e2f3"
+  foreground: "#15101e"
+  alternate_background: "#cfc1e6"
+  alternate_foreground: "#595131"
+  comment: "#584f69"
+  visual_selection: "#d0bee9"
+  line_highlight: "#e9e2f3"
+
+colors:
+  black: "#cfc1e6"
+  grey: "#584f69"
+  red: "#a13b3b"
+  orange: "#3e3781"
+  green: "#15101e"
+  yellow: "#3c3479"
+  blue: "#613b7d"
+  purple: "#5b327b"
+  magenta: "#4431d4"
+  cyan: "#5e486f"
+  white: "#15101e"
+
+palette:
+  string: "#5e486f"
+  number: "#3e3781"
+  keyword: "#5b327b"
+  function: "#3c3479"
+  type: "#4431d4"
+  constant: "#613b7d"
+  operator: "#574c6c"
+  property: "#15101e"

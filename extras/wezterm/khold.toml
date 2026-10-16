@@ -44,5 +44,5 @@ bg_color = "#000000"
 aliases = []
 name = "KHOLD"
 url = "https://wezfurlong.org/wezterm/config/files.html"
-upstream = "${upstream}"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/khold.toml"
 author = "Andrea Schiavini (original code by Casey Miller)"

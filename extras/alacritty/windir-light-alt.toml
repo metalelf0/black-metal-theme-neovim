@@ -1,0 +1,45 @@
+# name: WINDIR LIGHT ALT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/windir-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#bfdeb5'
+# alternate, darker background = '#bfdeb5'
+foreground = '#172112'
+
+#[colors.cursor]
+#cursor = '#172112'
+#text = '#bfdeb5'
+
+# Normal colors
+[colors.normal]
+black = '#bfdeb5'
+red = '#a13b3b'
+green = '#172112'
+yellow = '#344d79'
+blue = '#423b7d'
+magenta = '#5e5e26'
+cyan = '#5e5e12'
+white = '#172112'
+
+# Bright colors
+[colors.bright]
+black = '#506049'
+red = '#a13b3b'
+green = '#172112'
+yellow = '#344d79'
+blue = '#423b7d'
+magenta = '#3e5b8e'
+cyan = '#5e5e12'
+white = '#172112'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#735431'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#634436'

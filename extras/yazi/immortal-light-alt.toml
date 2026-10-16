@@ -1,0 +1,98 @@
+# name: IMMORTAL LIGHT ALT colors for Yazi
+# url: https://github.com/sxyazi/yazi
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/yazi/immortal-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+[manager]
+cwd = { fg = "#345779" }
+
+hovered         = { fg = "#121b21", bg = "#c3d6df" }
+preview_hovered = { fg = "#121b21", bg = "#c3d6df" }
+
+find_keyword  = { fg = "#633d36", italic = true }
+find_position = { fg = "#633d36", bg = "reset", italic = true }
+
+marker_copied   = { fg = "#315c87" }
+marker_cut      = { fg = "#a13b3b" }
+marker_selected = { fg = "#633d36" }
+
+tab_active   = { fg = "#633d36", bg = "#c0dde7" }
+tab_inactive = { fg = "#4d5b66", bg = "#c0dde7" }
+tab_width    = 1
+
+count_cut      = { fg = "#633d36", bg = "#c3d6df" }
+count_copied   = { fg = "#633d36", bg = "#c3d6df" }
+count_selected = { fg = "#633d36", bg = "#c3d6df" }
+
+border_symbol = "│"
+border_style  = { fg = "#4d5b66" }
+
+[mode]
+normal_main   = { fg = "#c3d6df", bg = "#3b3e7d", bold = true }
+normal_alt    = { fg = "#c3d6df", bg = "#3b3e7d", bold = true }
+select_main   = { fg = "#c3d6df", bg = "#32577b", bold = true }
+select_alt    = { fg = "#c3d6df", bg = "#32577b", bold = true }
+unset_main    = { fg = "#c3d6df", bg = "#315c87", bold = true }
+unset_alt     = { fg = "#c3d6df", bg = "#315c87", bold = true }
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#c0dde7", bg = "#c0dde7" }
+
+progress_label  = { fg = "#633d36", bold = true }
+progress_normal = { fg = "#633d36", bg = "#c0dde7" }
+progress_error  = { fg = "#c3d6df", bg = "#a13b3b" }
+
+permissions_t = { fg = "#121b21" }
+permissions_r = { fg = "#345779" }
+permissions_w = { fg = "#a13b3b" }
+permissions_x = { fg = "#3b3e7d" }
+permissions_s = { fg = "#4a5c69" }
+
+[input]
+border   = { fg = "#4d5b66" }
+title    = {}
+value    = {}
+selected = { reversed = true }
+
+[select]
+border   = { fg = "#4d5b66" }
+active   = { fg = "#32577b" }
+inactive = {}
+
+[tasks]
+border  = { fg = "#4d5b66" }
+title   = {}
+hovered = { underline = true }
+
+[which]
+mask            = { bg = "#B0C1C9" }
+cand            = { fg = "#121b21" }
+rest            = { fg = "#445c73" }
+desc            = { fg = "#315c87" }
+separator       = "  "
+separator_style = { fg = "#4a5c69"}
+
+[help]
+on      = { fg = "#445c73" }
+run    = { fg = "#315c87" }
+desc    = { fg = "#4d5b66" }
+hovered = { fg = "#121b21", bg = "#c3d6df", bold = true }
+footer  = { fg = "#4d5b66", bg = "#c3d6df" }
+
+[filetype]
+rules = [
+# Media
+{ mime = "image/*", fg = "#445c73"},
+{ mime = "{audio,video}/*", fg = "#315c87"},
+
+# Archives
+{ mime = "application/{,g}zip", fg = "#a13b3b"},
+{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#a13b3b"},
+
+# Fallback
+{ name = "*", fg = "#121b21"},
+{ name = "*/", fg = "#345779"}
+]
+  

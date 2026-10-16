@@ -1,0 +1,45 @@
+# name: KHOLD LIGHT ALT colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/alacritty/khold-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#e9bec7'
+# alternate, darker background = '#e9bec7'
+foreground = '#1e1013'
+
+#[colors.cursor]
+#cursor = '#1e1013'
+#text = '#e9bec7'
+
+# Normal colors
+[colors.normal]
+black = '#e9bec7'
+red = '#a13b3b'
+green = '#1e1013'
+yellow = '#793834'
+blue = '#684e31'
+magenta = '#4e5723'
+cyan = '#4f5729'
+white = '#1e1013'
+
+# Bright colors
+[colors.bright]
+black = '#664d52'
+red = '#a13b3b'
+green = '#1e1013'
+yellow = '#793834'
+blue = '#684e31'
+magenta = '#8f342e'
+cyan = '#4f5729'
+white = '#1e1013'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#615029'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#31594e'

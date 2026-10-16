@@ -1,0 +1,48 @@
+[colors]
+foreground = "#030203"
+background = "#cdb7c6"
+# background = "#cdb7c6" # alternate, darker bg
+cursor_bg = "#030203"
+cursor_border = "#030203"
+cursor_fg = "#cdb7c6"
+selection_bg = "#d4b5cd"
+selection_fg = "#030203"
+split = "#5d4658"
+compose_cursor = "#6f3c2f"
+scrollbar_thumb = "#5d4658"
+
+ansi = ["#cdb7c6", "#a13b3b", "#030203", "#64432b", "#504b26", "#5a4925", "#514733", "#030203"]
+brights = ["#5d4658", "#a13b3b", "#030203", "#64432b", "#504b26", "#57483d", "#514733", "#030203"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#5d4658"
+background = "#cdb7c6"
+
+[colors.tab_bar.active_tab]
+fg_color = "#2d4f52"
+bg_color = "#d4b5cd"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#5d4658"
+bg_color = "#cdb7c6"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#5d4658"
+bg_color = "#cdb7c6"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#2d4f52"
+bg_color = "#d4b5cd"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#2d4f52"
+bg_color = "#cdb7c6"
+
+[metadata]
+aliases = []
+name = "TAAKE LIGHT ALT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/taake-light-alt.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

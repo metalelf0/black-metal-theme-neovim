@@ -1,0 +1,38 @@
+# name: MARDUK LIGHT ALT colors for Fish Themes
+# url: https://fishshell.com/docs/current/interactive.html#syntax-highlighting
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/fish_themes/marduk-light-alt.theme
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# preferred bg: bbd3d1
+# alt background: bbd3d1
+
+# Syntax Highlighting Colors
+set -g fish_color_normal 0e1a19
+set -g fish_color_command 296047
+set -g fish_color_keyword 265e3c
+set -g fish_color_quote 4b5950
+set -g fish_color_redirection 2c5e5d
+set -g fish_color_end 3f5a56
+set -g fish_color_error a13b3b
+set -g fish_color_param 0e1a19
+set -g fish_color_valid_path 495b52
+set -g fish_color_option 63365b
+set -g fish_color_comment 445a58
+set -g fish_color_selection --background=bbd3d1
+set -g fish_color_operator 3f5a56
+set -g fish_color_escape 265e3c
+set -g fish_color_autosuggestion 445a58
+set -g fish_color_cwd 4b5950
+set -g fish_color_hostname 2f6129
+set -g fish_color_status a13b3b
+set -g fish_color_cancel 2f6129
+set -g fish_color_search_match --background=bbd3d1
+
+# Completion Pager Colors
+set -g fish_pager_color_progress 63365b
+set -g fish_pager_color_prefix 495b52
+set -g fish_pager_color_completion 0e1a19
+set -g fish_pager_color_description 445a58
+set -g fish_pager_color_selected_prefix 63365b
+set -g fish_pager_color_selected_completion 63365b
+set -g fish_pager_color_selected_background --background=bbd3d1

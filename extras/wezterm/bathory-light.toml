@@ -1,0 +1,48 @@
+[colors]
+foreground = "#1e1510"
+background = "#f7e7de"
+# background = "#eac2b8" # alternate, darker bg
+cursor_bg = "#1e1510"
+cursor_border = "#1e1510"
+cursor_fg = "#f7e7de"
+selection_bg = "#f2ccb5"
+selection_fg = "#1e1510"
+split = "#63524b"
+compose_cursor = "#813b37"
+scrollbar_thumb = "#63524b"
+
+ansi = ["#eac2b8", "#a13b3b", "#1e1510", "#6e4b2f", "#5a552b", "#6c4e2c", "#7f4200", "#1e1510"]
+brights = ["#63524b", "#a13b3b", "#1e1510", "#6e4b2f", "#5a552b", "#8a3c00", "#7f4200", "#1e1510"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#63524b"
+background = "#f7e7de"
+
+[colors.tab_bar.active_tab]
+fg_color = "#32595c"
+bg_color = "#f2ccb5"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#63524b"
+bg_color = "#f7e7de"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#63524b"
+bg_color = "#f7e7de"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#32595c"
+bg_color = "#f2ccb5"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#32595c"
+bg_color = "#f7e7de"
+
+[metadata]
+aliases = []
+name = "BATHORY LIGHT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/bathory-light.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"

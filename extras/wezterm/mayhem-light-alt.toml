@@ -1,0 +1,48 @@
+[colors]
+foreground = "#000000"
+background = "#e4afaf"
+# background = "#e4afaf" # alternate, darker bg
+cursor_bg = "#000000"
+cursor_border = "#000000"
+cursor_fg = "#e4afaf"
+selection_bg = "#f0e1a8"
+selection_fg = "#000000"
+split = "#524b3e"
+compose_cursor = "#683e2c"
+scrollbar_thumb = "#524b3e"
+
+ansi = ["#e4afaf", "#a13b3b", "#000000", "#554925", "#444c24", "#534822", "#5a480c", "#000000"]
+brights = ["#524b3e", "#a13b3b", "#000000", "#554925", "#444c24", "#5c4400", "#5a480c", "#000000"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#524b3e"
+background = "#e4afaf"
+
+[colors.tab_bar.active_tab]
+fg_color = "#324c5c"
+bg_color = "#f0e1a8"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#524b3e"
+bg_color = "#e4afaf"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#524b3e"
+bg_color = "#e4afaf"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#324c5c"
+bg_color = "#f0e1a8"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#324c5c"
+bg_color = "#e4afaf"
+
+[metadata]
+aliases = []
+name = "MAYHEM LIGHT ALT"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "https://github.com/metalelf0/black-metal.nvim/raw/main/extras/wezterm/mayhem-light-alt.toml"
+author = "Andrea Schiavini (original code by Casey Miller)"
