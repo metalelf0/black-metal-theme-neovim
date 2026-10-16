@@ -217,15 +217,14 @@ require("black-metal").setup {
     keyword = '#817faf', -- redefine an existing color
   },
   highlights = {
-    ...
     ["@keyword"] = { fg = "$keyword", fmt = 'bold' },
     ["@function"] = { bg = "$orange", fmt = 'underline,italic' },
-    ...
+    CustomGroup = { fg = "$fg", bg = "$alt" },
   },
 }
 ```
 
-See `black-metal.palette` for color names.
+Use `$<palette-color>` in highlight `fg`, `bg`, or `sp` overrides to reference the active theme palette. For example, `$fg` uses the palette foreground and `$alt` uses its accent color. References resolve each time the colorscheme loads, so they update when switching themes or variants. See `black-metal.palette` for available color names.
 
 ## Extras
 
@@ -250,10 +249,16 @@ Theme files are generated for:
 - Windows Terminal
 - Yazi
 
-Files are available under `extras/<tool>`. Regenerate them from Neovim with:
+Files are available under `extras/<tool>`. Each theme has dark, dark-alt, light, and light-alt variants (the base dark file has no suffix). Regenerate them from Neovim with:
 
 ```vim
 :lua require("black-metal.extras").setup()
+```
+
+Validate generated extras and confirm generation leaves the active colorscheme unchanged with:
+
+```sh
+nvim --headless --clean -u NONE -l scripts/check-extras.lua
 ```
 
 ## Cover references
