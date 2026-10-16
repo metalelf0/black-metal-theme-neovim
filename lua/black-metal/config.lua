@@ -9,7 +9,7 @@ local M = {}
 ---@field dark_gutter? boolean If true, highlights the gutter darker than the bg
  ---@field diagnostics? table { darker:bool, undercurl:bool, background:bool, underline:bool }
 ---@field favor_treesitter_hl? boolean if true favor treesitter highlights over semantic highlights
----@field highlights? table Has string fields to override default highlights
+---@field highlights? table Highlight-group overrides; fg/bg/sp accept palette references or callbacks receiving (palette, variant)
 ---@field plain_float? boolean If true, does not set background of floating windows. Recommend for when using floating windows with borders
 ---@field plugin? table Has table or string fields to determine appearnce of plugins. Current plugin options are 'lualine', 'cmp', and 'telescope'
 ---@field show_eob? boolean If true, highlights end-of-buffer tildes like comments

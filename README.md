@@ -220,11 +220,23 @@ require("black-metal").setup {
     ["@keyword"] = { fg = "$keyword", fmt = 'bold' },
     ["@function"] = { bg = "$orange", fmt = 'underline,italic' },
     CustomGroup = { fg = "$fg", bg = "$alt" },
+    Hashtag = {
+      fg = "$type",
+      bg = function(palette, _variant)
+        return require("black-metal.utils").blend(palette.type, palette.bg, 0.1)
+      end,
+    },
   },
 }
 ```
 
-Use `$<palette-color>` in highlight `fg`, `bg`, or `sp` overrides to reference the active theme palette. For example, `$fg` uses the palette foreground and `$alt` uses its accent color. References resolve each time the colorscheme loads, so they update when switching themes or variants. See `black-metal.palette` for available color names.
+Use `$<palette-color>` in highlight `fg`, `bg`, or `sp` overrides to reference the active theme palette. Function overrides for those attributes receive `(palette, variant)` and run each time the colorscheme loads, so computed colors update when switching themes or variants. The example blends 10% of the Type color into the active background. Callback errors or invalid colors are reported and only that attribute is skipped. Setting highlight attributes replaces any existing link. See `black-metal.palette` for available color names.
+
+Check dynamic palette callbacks across theme and variant switches with:
+
+```sh
+nvim --headless --clean -u NONE -l scripts/check-highlight-overrides.lua
+```
 
 ## Extras
 
