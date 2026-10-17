@@ -1,0 +1,135 @@
+# name: WINDIR LIGHT ALT colors for Helix
+# url: https://helix-editor.com/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/helix/windir-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Interface
+"ui.background" = { bg = "#bfdeb5" }
+"ui.text" = "#172112"
+"ui.text.focus" = { fg = "#634436", modifiers = ["bold"] }
+"ui.text.inactive" = "#506049"
+"ui.text.info" = "#5e5e12"
+"ui.text.directory" = "#3e5b8e"
+"ui.cursor" = { fg = "#bfdeb5", bg = "#172112" }
+"ui.cursor.primary" = { fg = "#bfdeb5", bg = "#634436" }
+"ui.cursor.match" = { fg = "#634436", modifiers = ["bold"] }
+"ui.gutter" = { fg = "#506049", bg = "#bfdeb5" }
+"ui.gutter.selected" = { fg = "#172112", bg = "#bfdeb5" }
+"ui.linenr" = "#506049"
+"ui.linenr.selected" = { fg = "#634436", modifiers = ["bold"] }
+"ui.statusline" = { fg = "#172112", bg = "#bfdeb5" }
+"ui.statusline.inactive" = { fg = "#506049", bg = "#bfdeb5" }
+"ui.statusline.normal" = { fg = "#bfdeb5", bg = "#634436" }
+"ui.statusline.insert" = { fg = "#bfdeb5", bg = "#4b6b3f" }
+"ui.statusline.select" = { fg = "#bfdeb5", bg = "#3a6ea5" }
+"ui.statusline.separator" = "#506049"
+"ui.bufferline" = { fg = "#506049", bg = "#bfdeb5" }
+"ui.bufferline.active" = { fg = "#172112", bg = "#bfdeb5", modifiers = ["bold"] }
+"ui.bufferline.background" = { bg = "#bfdeb5" }
+"ui.popup" = { fg = "#172112", bg = "#bfdeb5" }
+"ui.popup.info" = { fg = "#5e5e12", bg = "#bfdeb5" }
+"ui.window" = { fg = "#506049" }
+"ui.help" = { fg = "#172112", bg = "#bfdeb5" }
+"ui.virtual.ruler" = { bg = "#bfdeb5" }
+"ui.virtual.whitespace" = "#506049"
+"ui.virtual.indent-guide" = "#506049"
+"ui.virtual.inlay-hint" = { fg = "#506049", modifiers = ["italic"] }
+"ui.virtual.wrap" = "#506049"
+"ui.virtual.jump-label" = { fg = "#634436", modifiers = ["bold"] }
+"ui.menu" = { fg = "#172112", bg = "#bfdeb5" }
+"ui.menu.selected" = { fg = "#bfdeb5", bg = "#634436", modifiers = ["bold"] }
+"ui.menu.scroll" = { fg = "#634436", bg = "#bfdeb5" }
+"ui.selection" = { fg = "#172112", bg = "#c3e3b0" }
+"ui.selection.primary" = { fg = "#172112", bg = "#bfdeb5" }
+"ui.highlight" = { bg = "#bfdeb5" }
+"ui.cursorline.primary" = { bg = "#bfdeb5" }
+"ui.cursorcolumn.primary" = { bg = "#bfdeb5" }
+
+# Syntax
+"attribute" = "#634436"
+"type" = "#3e5b8e"
+"type.builtin" = "#423b7d"
+"type.parameter" = "#172112"
+"type.enum.variant" = "#634436"
+"constructor" = "#344d79"
+"constant" = "#423b7d"
+"constant.builtin" = "#735431"
+"constant.character" = "#5e5e12"
+"constant.character.escape" = "#5e5e26"
+"constant.numeric" = "#735431"
+"string" = "#5e5e12"
+"string.regexp" = "#634436"
+"string.special" = "#634436"
+"string.special.path" = "#5e5e12"
+"string.special.url" = { fg = "#5e5e12", modifiers = ["underlined"] }
+"comment" = { fg = "#506049", modifiers = ["italic"] }
+"comment.documentation" = { fg = "#506049", modifiers = ["italic"] }
+"comment.unused" = { fg = "#506049", modifiers = ["crossed_out"] }
+"variable" = "#172112"
+"variable.builtin" = "#634436"
+"variable.parameter" = "#172112"
+"variable.other.member" = "#172112"
+"label" = "#634436"
+"punctuation" = "#4d6043"
+"keyword" = "#5e5e26"
+"keyword.control" = "#5e5e26"
+"keyword.directive" = "#634436"
+"keyword.function" = "#344d79"
+"keyword.storage" = "#634436"
+"operator" = "#4d6043"
+"function" = "#344d79"
+"function.builtin" = "#634436"
+"function.method" = "#344d79"
+"function.macro" = "#5e5e26"
+"tag" = "#634436"
+"namespace" = "#3e5b8e"
+"special" = "#634436"
+"markup.heading" = { fg = "#344d79", modifiers = ["bold"] }
+"markup.heading.marker" = "#506049"
+"markup.list" = "#4d6043"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "#5e5e12", modifiers = ["underlined"] }
+"markup.link.label" = "#634436"
+"markup.link.text" = "#172112"
+"markup.quote" = "#506049"
+"markup.raw" = "#5e5e12"
+
+# Diagnostics and diff
+"warning" = "#8a6d1f"
+"error" = "#a13b3b"
+"info" = "#3a6ea5"
+"hint" = "#4b6b3f"
+"diagnostic" = { underline = { color = "#506049", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "#4b6b3f", style = "curl" } }
+"diagnostic.info" = { underline = { color = "#3a6ea5", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "#8a6d1f", style = "curl" } }
+"diagnostic.error" = { underline = { color = "#a13b3b", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"diff.plus" = "#4b6b3f"
+"diff.plus.gutter" = "#4b6b3f"
+"diff.minus" = "#a13b3b"
+"diff.minus.gutter" = "#a13b3b"
+"diff.delta" = "#8a6d1f"
+"diff.delta.gutter" = "#8a6d1f"
+"diff.moved" = "#3a6ea5"
+"diff.conflict" = "#735431"
+
+# Theme palette
+[palette]
+black = "#bfdeb5"
+grey = "#506049"
+red = "#a13b3b"
+orange = "#735431"
+green = "#172112"
+yellow = "#344d79"
+blue = "#423b7d"
+purple = "#5e5e26"
+magenta = "#3e5b8e"
+cyan = "#5e5e12"
+white = "#172112"
+foreground = "#172112"
+background = "#bfdeb5"
+selection = "#c3e3b0"

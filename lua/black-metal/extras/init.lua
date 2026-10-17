@@ -13,6 +13,7 @@ M.extras = {
     foot = {ext = "ini", url = "https://codeberg.org/dnkl/foot", label = "Foot"},
     fzf = { ext = "zsh", url = "https://github.com/junegunn/fzf", label = "Fzf"},
     ghostty = { url = "https://ghostty.org/", label = "Ghostty"},
+    helix = {ext = "toml", url = "https://helix-editor.com/", label = "Helix"},
     kitty = {ext = "conf", url = "https://sw.kovidgoyal.net/kitty/conf.html", label = "Kitty"},
     wezterm = {ext = "toml", url = "https://wezfurlong.org/wezterm/config/files.html", label = "WezTerm"},
     windows_terminal = {ext = "json", url = "https://aka.ms/terminal-documentation", label = "Windows Terminal"},

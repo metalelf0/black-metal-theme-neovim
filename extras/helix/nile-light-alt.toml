@@ -1,0 +1,135 @@
+# name: NILE LIGHT ALT colors for Helix
+# url: https://helix-editor.com/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/helix/nile-light-alt.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Interface
+"ui.background" = { bg = "#e5c4a4" }
+"ui.text" = "#17130d"
+"ui.text.focus" = { fg = "#364563", modifiers = ["bold"] }
+"ui.text.inactive" = "#5d5346"
+"ui.text.info" = "#634f3a"
+"ui.text.directory" = "#565633"
+"ui.cursor" = { fg = "#e5c4a4", bg = "#17130d" }
+"ui.cursor.primary" = { fg = "#e5c4a4", bg = "#364563" }
+"ui.cursor.match" = { fg = "#364563", modifiers = ["bold"] }
+"ui.gutter" = { fg = "#5d5346", bg = "#e5c4a4" }
+"ui.gutter.selected" = { fg = "#17130d", bg = "#e5c4a4" }
+"ui.linenr" = "#5d5346"
+"ui.linenr.selected" = { fg = "#364563", modifiers = ["bold"] }
+"ui.statusline" = { fg = "#17130d", bg = "#e5c4a4" }
+"ui.statusline.inactive" = { fg = "#5d5346", bg = "#e5c4a4" }
+"ui.statusline.normal" = { fg = "#e5c4a4", bg = "#364563" }
+"ui.statusline.insert" = { fg = "#e5c4a4", bg = "#4b6b3f" }
+"ui.statusline.select" = { fg = "#e5c4a4", bg = "#3a6ea5" }
+"ui.statusline.separator" = "#5d5346"
+"ui.bufferline" = { fg = "#5d5346", bg = "#e5c4a4" }
+"ui.bufferline.active" = { fg = "#17130d", bg = "#e5c4a4", modifiers = ["bold"] }
+"ui.bufferline.background" = { bg = "#e5c4a4" }
+"ui.popup" = { fg = "#17130d", bg = "#e5c4a4" }
+"ui.popup.info" = { fg = "#634f3a", bg = "#e5c4a4" }
+"ui.window" = { fg = "#5d5346" }
+"ui.help" = { fg = "#17130d", bg = "#e5c4a4" }
+"ui.virtual.ruler" = { bg = "#e5c4a4" }
+"ui.virtual.whitespace" = "#5d5346"
+"ui.virtual.indent-guide" = "#5d5346"
+"ui.virtual.inlay-hint" = { fg = "#5d5346", modifiers = ["italic"] }
+"ui.virtual.wrap" = "#5d5346"
+"ui.virtual.jump-label" = { fg = "#364563", modifiers = ["bold"] }
+"ui.menu" = { fg = "#17130d", bg = "#e5c4a4" }
+"ui.menu.selected" = { fg = "#e5c4a4", bg = "#364563", modifiers = ["bold"] }
+"ui.menu.scroll" = { fg = "#364563", bg = "#e5c4a4" }
+"ui.selection" = { fg = "#17130d", bg = "#e8cea1" }
+"ui.selection.primary" = { fg = "#17130d", bg = "#e5c4a4" }
+"ui.highlight" = { bg = "#e5c4a4" }
+"ui.cursorline.primary" = { bg = "#e5c4a4" }
+"ui.cursorcolumn.primary" = { bg = "#e5c4a4" }
+
+# Syntax
+"attribute" = "#364563"
+"type" = "#565633"
+"type.builtin" = "#445a2b"
+"type.parameter" = "#17130d"
+"type.enum.variant" = "#364563"
+"constructor" = "#555525"
+"constant" = "#445a2b"
+"constant.builtin" = "#813a37"
+"constant.character" = "#634f3a"
+"constant.character.escape" = "#6c4e2c"
+"constant.numeric" = "#813a37"
+"string" = "#634f3a"
+"string.regexp" = "#364563"
+"string.special" = "#364563"
+"string.special.path" = "#634f3a"
+"string.special.url" = { fg = "#634f3a", modifiers = ["underlined"] }
+"comment" = { fg = "#5d5346", modifiers = ["italic"] }
+"comment.documentation" = { fg = "#5d5346", modifiers = ["italic"] }
+"comment.unused" = { fg = "#5d5346", modifiers = ["crossed_out"] }
+"variable" = "#17130d"
+"variable.builtin" = "#364563"
+"variable.parameter" = "#17130d"
+"variable.other.member" = "#17130d"
+"label" = "#364563"
+"punctuation" = "#5d5141"
+"keyword" = "#6c4e2c"
+"keyword.control" = "#6c4e2c"
+"keyword.directive" = "#364563"
+"keyword.function" = "#555525"
+"keyword.storage" = "#364563"
+"operator" = "#5d5141"
+"function" = "#555525"
+"function.builtin" = "#364563"
+"function.method" = "#555525"
+"function.macro" = "#6c4e2c"
+"tag" = "#364563"
+"namespace" = "#565633"
+"special" = "#364563"
+"markup.heading" = { fg = "#555525", modifiers = ["bold"] }
+"markup.heading.marker" = "#5d5346"
+"markup.list" = "#5d5141"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "#634f3a", modifiers = ["underlined"] }
+"markup.link.label" = "#364563"
+"markup.link.text" = "#17130d"
+"markup.quote" = "#5d5346"
+"markup.raw" = "#634f3a"
+
+# Diagnostics and diff
+"warning" = "#8a6d1f"
+"error" = "#a13b3b"
+"info" = "#3a6ea5"
+"hint" = "#4b6b3f"
+"diagnostic" = { underline = { color = "#5d5346", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "#4b6b3f", style = "curl" } }
+"diagnostic.info" = { underline = { color = "#3a6ea5", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "#8a6d1f", style = "curl" } }
+"diagnostic.error" = { underline = { color = "#a13b3b", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"diff.plus" = "#4b6b3f"
+"diff.plus.gutter" = "#4b6b3f"
+"diff.minus" = "#a13b3b"
+"diff.minus.gutter" = "#a13b3b"
+"diff.delta" = "#8a6d1f"
+"diff.delta.gutter" = "#8a6d1f"
+"diff.moved" = "#3a6ea5"
+"diff.conflict" = "#813a37"
+
+# Theme palette
+[palette]
+black = "#e5c4a4"
+grey = "#5d5346"
+red = "#a13b3b"
+orange = "#813a37"
+green = "#17130d"
+yellow = "#555525"
+blue = "#445a2b"
+purple = "#6c4e2c"
+magenta = "#565633"
+cyan = "#634f3a"
+white = "#17130d"
+foreground = "#17130d"
+background = "#e5c4a4"
+selection = "#e8cea1"

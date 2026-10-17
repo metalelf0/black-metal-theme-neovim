@@ -1,0 +1,135 @@
+# name: MARDUK LIGHT colors for Helix
+# url: https://helix-editor.com/
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/helix/marduk-light.toml
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Interface
+"ui.background" = { bg = "#dbe1e0" }
+"ui.text" = "#0e1a19"
+"ui.text.focus" = { fg = "#63365b", modifiers = ["bold"] }
+"ui.text.inactive" = "#445a58"
+"ui.text.info" = "#4b5950"
+"ui.text.directory" = "#495b52"
+"ui.cursor" = { fg = "#dbe1e0", bg = "#0e1a19" }
+"ui.cursor.primary" = { fg = "#dbe1e0", bg = "#63365b" }
+"ui.cursor.match" = { fg = "#63365b", modifiers = ["bold"] }
+"ui.gutter" = { fg = "#445a58", bg = "#dbe1e0" }
+"ui.gutter.selected" = { fg = "#0e1a19", bg = "#dbe1e0" }
+"ui.linenr" = "#445a58"
+"ui.linenr.selected" = { fg = "#63365b", modifiers = ["bold"] }
+"ui.statusline" = { fg = "#0e1a19", bg = "#dbe1e0" }
+"ui.statusline.inactive" = { fg = "#445a58", bg = "#dbe1e0" }
+"ui.statusline.normal" = { fg = "#dbe1e0", bg = "#63365b" }
+"ui.statusline.insert" = { fg = "#dbe1e0", bg = "#4b6b3f" }
+"ui.statusline.select" = { fg = "#dbe1e0", bg = "#3a6ea5" }
+"ui.statusline.separator" = "#445a58"
+"ui.bufferline" = { fg = "#445a58", bg = "#dbe1e0" }
+"ui.bufferline.active" = { fg = "#0e1a19", bg = "#dbe1e0", modifiers = ["bold"] }
+"ui.bufferline.background" = { bg = "#dbe1e0" }
+"ui.popup" = { fg = "#0e1a19", bg = "#dbe1e0" }
+"ui.popup.info" = { fg = "#4b5950", bg = "#dbe1e0" }
+"ui.window" = { fg = "#445a58" }
+"ui.help" = { fg = "#0e1a19", bg = "#dbe1e0" }
+"ui.virtual.ruler" = { bg = "#dbe1e0" }
+"ui.virtual.whitespace" = "#445a58"
+"ui.virtual.indent-guide" = "#445a58"
+"ui.virtual.inlay-hint" = { fg = "#445a58", modifiers = ["italic"] }
+"ui.virtual.wrap" = "#445a58"
+"ui.virtual.jump-label" = { fg = "#63365b", modifiers = ["bold"] }
+"ui.menu" = { fg = "#0e1a19", bg = "#dbe1e0" }
+"ui.menu.selected" = { fg = "#dbe1e0", bg = "#63365b", modifiers = ["bold"] }
+"ui.menu.scroll" = { fg = "#63365b", bg = "#dbe1e0" }
+"ui.selection" = { fg = "#0e1a19", bg = "#bcd2ce" }
+"ui.selection.primary" = { fg = "#0e1a19", bg = "#bbd3d1" }
+"ui.highlight" = { bg = "#dbe1e0" }
+"ui.cursorline.primary" = { bg = "#dbe1e0" }
+"ui.cursorcolumn.primary" = { bg = "#dbe1e0" }
+
+# Syntax
+"attribute" = "#63365b"
+"type" = "#495b52"
+"type.builtin" = "#2c5e5d"
+"type.parameter" = "#0e1a19"
+"type.enum.variant" = "#63365b"
+"constructor" = "#296047"
+"constant" = "#2c5e5d"
+"constant.builtin" = "#2f6129"
+"constant.character" = "#4b5950"
+"constant.character.escape" = "#265e3c"
+"constant.numeric" = "#2f6129"
+"string" = "#4b5950"
+"string.regexp" = "#63365b"
+"string.special" = "#63365b"
+"string.special.path" = "#4b5950"
+"string.special.url" = { fg = "#4b5950", modifiers = ["underlined"] }
+"comment" = { fg = "#445a58", modifiers = ["italic"] }
+"comment.documentation" = { fg = "#445a58", modifiers = ["italic"] }
+"comment.unused" = { fg = "#445a58", modifiers = ["crossed_out"] }
+"variable" = "#0e1a19"
+"variable.builtin" = "#63365b"
+"variable.parameter" = "#0e1a19"
+"variable.other.member" = "#0e1a19"
+"label" = "#63365b"
+"punctuation" = "#3f5a56"
+"keyword" = "#265e3c"
+"keyword.control" = "#265e3c"
+"keyword.directive" = "#63365b"
+"keyword.function" = "#296047"
+"keyword.storage" = "#63365b"
+"operator" = "#3f5a56"
+"function" = "#296047"
+"function.builtin" = "#63365b"
+"function.method" = "#296047"
+"function.macro" = "#265e3c"
+"tag" = "#63365b"
+"namespace" = "#495b52"
+"special" = "#63365b"
+"markup.heading" = { fg = "#296047", modifiers = ["bold"] }
+"markup.heading.marker" = "#445a58"
+"markup.list" = "#3f5a56"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "#4b5950", modifiers = ["underlined"] }
+"markup.link.label" = "#63365b"
+"markup.link.text" = "#0e1a19"
+"markup.quote" = "#445a58"
+"markup.raw" = "#4b5950"
+
+# Diagnostics and diff
+"warning" = "#8a6d1f"
+"error" = "#a13b3b"
+"info" = "#3a6ea5"
+"hint" = "#4b6b3f"
+"diagnostic" = { underline = { color = "#445a58", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "#4b6b3f", style = "curl" } }
+"diagnostic.info" = { underline = { color = "#3a6ea5", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "#8a6d1f", style = "curl" } }
+"diagnostic.error" = { underline = { color = "#a13b3b", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"diff.plus" = "#4b6b3f"
+"diff.plus.gutter" = "#4b6b3f"
+"diff.minus" = "#a13b3b"
+"diff.minus.gutter" = "#a13b3b"
+"diff.delta" = "#8a6d1f"
+"diff.delta.gutter" = "#8a6d1f"
+"diff.moved" = "#3a6ea5"
+"diff.conflict" = "#2f6129"
+
+# Theme palette
+[palette]
+black = "#bbd3d1"
+grey = "#445a58"
+red = "#a13b3b"
+orange = "#2f6129"
+green = "#0e1a19"
+yellow = "#296047"
+blue = "#2c5e5d"
+purple = "#265e3c"
+magenta = "#495b52"
+cyan = "#4b5950"
+white = "#0e1a19"
+foreground = "#0e1a19"
+background = "#dbe1e0"
+selection = "#bcd2ce"

@@ -19,6 +19,9 @@ end
 
 local extras = require("black-metal.extras")
 extras.setup()
+local python_tomllib = vim.fn.executable("python3") == 1
+	and vim.fn.system({ "python3", "-c", "import tomllib" })
+python_tomllib = python_tomllib and vim.v.shell_error == 0
 
 assert(vim.deep_equal(before_options, black_metal.options()), "extras generation changed colorscheme options")
 assert(vim.g.colors_name == before_colors_name, "extras generation changed active colorscheme")
@@ -43,6 +46,14 @@ for extra, info in pairs(extras.extras) do
 			if extra == "eza" then
 				local output = vim.fn.system({ "bash", "-n", path })
 				assert(vim.v.shell_error == 0, "invalid Eza shell file " .. path .. ": " .. output)
+			elseif extra == "helix" and python_tomllib then
+				local output = vim.fn.system({
+					"python3",
+					"-c",
+					"import sys, tomllib; tomllib.load(open(sys.argv[1], 'rb'))",
+					path,
+				})
+				assert(vim.v.shell_error == 0, "invalid Helix TOML " .. path .. ": " .. output)
 			end
 			expected = expected + 1
 		end

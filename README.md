@@ -250,6 +250,7 @@ Theme files are generated for:
 - Foot
 - Fzf
 - Ghostty
+- Helix
 - Herdr
 - Kitty
 - Lazygit

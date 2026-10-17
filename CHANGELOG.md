@@ -5,34 +5,45 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## Unreleased
 
+- add Helix theme generation for all themes and variants
+- add Eza themes and generate extras for dark, dark-alt, light, and light-alt variants
+- brighten default foreground from `#c1c1c1` to `#f1f1f1`
+- allow dynamic highlight overrides with palette references and callbacks
+
 ## v2.2.0 - 2026-10-07
 
-- redesign light variants: every theme now has its own tinted background, ink, comment and selection colors, and syntax colors derived from its accents, so light themes are clearly different from each other
+- give every light theme its own tinted background, ink, comments, selection, and accent-derived syntax colors
 - add `<band_name>-light` and `<band_name>-light-alt` colorschemes for all themes
-- fix pickers, floats and the cursor line using a white background in light variants
-- give inline code and fenced code blocks a background, including for render-markdown.nvim and touchup.nvim
-- color markdown headings per level (H1 to H6)
-- fix markdown link label background being near-black in light variants
-- keep options passed to `setup()` when switching themes with `:colorscheme`, instead of resetting them to defaults
-- allow `colors.dark` and `colors.light` sub-tables to override colors for a single variant
+- improve light-variant Markdown code backgrounds and color headings by level
+- preserve setup options when switching themes with `:colorscheme`
+- allow `colors.dark` and `colors.light` sub-tables to override one variant
+- fix light-variant cursor-line, float, and picker backgrounds
 - fix crash when underline styling is disabled
-- add `scripts/check-light.lua` to check light palettes for distinctness and contrast
+- add light-palette distinction and contrast checks
 
 ## v2.1.0 - 2026-09-21
 
 - add configuration for disabling underline and undercurl styles
 - make FloatBorder transparent when transparent mode is enabled
+- allow users to set custom palette colors
+- improve light variants and add `trve` mode
+- improve light-variant selection backgrounds and Markdown link labels
+- fix colorscheme switching, custom colors, and generated Ghostty, Foot, and Yazi themes
+- add generated themes for Bat, Claude Code, Herdr, Lazygit, OpenCode, Pi, Starship, and Tmux
 
-## v2.0.0 - 2026-01-27
+## 2.0 - 2025-05-04
 
-- add new theme: MOON
-- simplify config and public api
+- add alternate theme variants
+- add Thyrfing and Windir themes
+- allow loading colorschemes before calling `setup()`
 
-## v1.0.0 - 2025-04-16
+## 1.1.0 - 2025-04-30
 
-### Changes
+- add Ghostty themes
 
-- add support for dark/light variants
-- add new themes: GYOKURO and HOJICHA
-- remove support for COFFEECAT, DARKFOREST, DAYLIGHT
-- remove support for telescope appearance options
+## 1.0.0 - 2025-04-22
+
+- publish first Black Metal release, based on the Neomodern structure
+- add initial band palettes, syntax and plugin highlights, and Lualine integration
+- add generated themes for Alacritty, Fish, Fish Themes, Foot, Fzf, Kitty, WezTerm, Windows Terminal, and Yazi
+- include terminal color support and an initial day palette
