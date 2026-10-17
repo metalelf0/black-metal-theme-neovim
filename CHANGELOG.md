@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## v2.3.0 - 2026-10-17
 
 - add Helix theme generation for all themes and variants
 - add Eza themes and generate extras for dark, dark-alt, light, and light-alt variants
