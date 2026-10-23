@@ -2,107 +2,193 @@ local Util = require("black-metal.util")
 
 local M = {}
 
-local function eza_color(color)
-	local red, green, blue = color:match("^#(%x%x)(%x%x)(%x%x)$")
-	assert(red and green and blue, "invalid hex color: " .. tostring(color))
-	return string.format("38;2;%d;%d;%d", tonumber(red, 16), tonumber(green, 16), tonumber(blue, 16))
-end
+local palette_keys = {
+	directory = "func",
+	executable = "green",
+	file = "fg",
+	link = "cyan",
+	orphan = "diag_red",
+	pipe = "purple",
+	socket = "cyan",
+	device = "yellow",
+	special_kind = "orange",
+	mount = "cyan",
+	permission = "yellow",
+	permission_write = "diag_red",
+	permission_exec = "green",
+	special = "diag_red",
+	attribute = "comment",
+	size_number = "fg",
+	size_unit = "grey",
+	size_major = "grey",
+	size_minor = "fg",
+	user = "yellow",
+	user_root = "diag_red",
+	user_none = "grey",
+	group_owner = "func",
+	group_none = "grey",
+	links = "comment",
+	git_added = "green",
+	git_modified = "blue",
+	git_deleted = "diag_red",
+	git_renamed = "cyan",
+	git_typechange = "yellow",
+	git_ignored = "dim",
+	git_conflict = "orange",
+	branch_main = "comment",
+	branch_other = "purple",
+	git_clean = "green",
+	git_dirty = "orange",
+	context = "grey",
+	context_sep = "comment",
+	type_image = "yellow",
+	type_video = "purple",
+	type_music = "green",
+	type_lossless = "cyan",
+	type_crypto = "grey",
+	type_document = "fg",
+	type_compressed = "orange",
+	type_temp = "grey",
+	type_compiled = "blue",
+	type_source = "func",
+	punctuation = "comment",
+	date = "comment",
+	inode = "dim",
+	blocks = "comment",
+	header = "fg",
+	octal = "cyan",
+	flags = "cyan",
+	link_path = "cyan",
+	control_char = "blue",
+	broken_path_overlay = "dim",
+}
 
 function M.generate(colors, info)
-	local color = function(name)
-		return eza_color(colors[name])
-	end
-
 	local eza_colors = {
 		theme = info.theme,
 		theme_slug = info.theme_slug or info.theme:lower(),
 		extra = info.extra,
 		url = info.url,
 		upstream = info.upstream,
-		directory = color("func"),
-		executable = color("green"),
-		file = color("fg"),
-		link = color("cyan"),
-		orphan = color("diag_red"),
-		pipe = color("purple"),
-		socket = color("cyan"),
-		device = color("yellow"),
-		permission = color("yellow"),
-		permission_write = color("diag_red"),
-		permission_exec = color("green"),
-		special = color("diag_red"),
-		attribute = color("comment"),
-		owner = color("fg"),
-		group = color("grey"),
-		user = color("yellow"),
-		user_none = color("grey"),
-		group_owner = color("func"),
-		group_none = color("grey"),
-		date = color("comment"),
-		inode = color("dim"),
-		links = color("comment"),
-		link_path = color("cyan"),
-		git_added = color("green"),
-		git_modified = color("blue"),
-		git_deleted = color("diag_red"),
-		git_renamed = color("cyan"),
-		git_typechange = color("yellow"),
-		git_ignored = color("dim"),
-		git_conflict = color("orange"),
-		header = color("fg"),
 	}
+	for key, name in pairs(palette_keys) do
+		local hex = colors[name]
+		assert(type(hex) == "string" and hex:match("^#%x%x%x%x%x%x$"), "invalid hex color for " .. key .. ": " .. tostring(hex))
+		eza_colors[key] = hex
+	end
 
-	local eza = Util.template([=[
+	local eza = Util.template(
+		[=[
 # name: ${theme} colors for ${extra}
 # url: ${url}
 # upstream: ${upstream}
 # author: Andrea Schiavini (original code by Casey Miller)
 #
-# Install: source this file from your shell rc.
-#   source /path/to/extras/eza/${theme_slug}.sh
+# Install: copy this file to ~/.config/eza/theme.yml (requires eza >= 0.19.2).
+#   Unset EZA_COLORS: it overrides theme.yml.
 
-export EZA_COLORS="\
-di=${directory};1:\
-ex=${executable}:\
-fi=${file}:\
-ln=${link}:\
-or=${orphan}:\
-pi=${pipe}:\
-so=${socket}:\
-bd=${device}:\
-cd=${device}:\
-ur=${permission}:\
-uw=${permission_write}:\
-ux=${permission_exec}:\
-ue=${permission_exec}:\
-gr=${permission}:\
-gw=${permission_write}:\
-gx=${permission_exec}:\
-tr=${permission}:\
-tw=${permission_write}:\
-tx=${permission_exec}:\
-su=${special}:\
-sf=${special}:\
-xa=${attribute}:\
-sn=${owner}:\
-sb=${group}:\
-uu=${user}:\
-un=${user_none}:\
-gu=${group_owner}:\
-gn=${group_none}:\
-da=${date}:\
-in=${inode}:\
-lc=${links}:\
-lp=${link_path}:\
-ga=${git_added}:\
-gm=${git_modified}:\
-gd=${git_deleted}:\
-gv=${git_renamed}:\
-gt=${git_typechange}:\
-gi=${git_ignored}:\
-gc=${git_conflict}:\
-hd=${header};1"
-	]=], eza_colors)
+filekinds:
+  normal: {foreground: "${file}"}
+  directory: {foreground: "${directory}", is_bold: true}
+  symlink: {foreground: "${link}"}
+  pipe: {foreground: "${pipe}"}
+  block_device: {foreground: "${device}"}
+  char_device: {foreground: "${device}"}
+  socket: {foreground: "${socket}"}
+  special: {foreground: "${special_kind}"}
+  executable: {foreground: "${executable}"}
+  mount_point: {foreground: "${mount}"}
+
+perms:
+  user_read: {foreground: "${permission}"}
+  user_write: {foreground: "${permission_write}"}
+  user_execute_file: {foreground: "${permission_exec}"}
+  user_execute_other: {foreground: "${permission_exec}"}
+  group_read: {foreground: "${permission}"}
+  group_write: {foreground: "${permission_write}"}
+  group_execute: {foreground: "${permission_exec}"}
+  other_read: {foreground: "${permission}"}
+  other_write: {foreground: "${permission_write}"}
+  other_execute: {foreground: "${permission_exec}"}
+  special_user_file: {foreground: "${special}"}
+  special_other: {foreground: "${special}"}
+  attribute: {foreground: "${attribute}"}
+
+size:
+  major: {foreground: "${size_major}"}
+  minor: {foreground: "${size_minor}"}
+  number_byte: {foreground: "${size_number}"}
+  number_kilo: {foreground: "${size_number}"}
+  number_mega: {foreground: "${size_number}"}
+  number_giga: {foreground: "${size_number}"}
+  number_huge: {foreground: "${size_number}"}
+  unit_byte: {foreground: "${size_unit}"}
+  unit_kilo: {foreground: "${size_unit}"}
+  unit_mega: {foreground: "${size_unit}"}
+  unit_giga: {foreground: "${size_unit}"}
+  unit_huge: {foreground: "${size_unit}"}
+
+users:
+  user_you: {foreground: "${user}"}
+  user_root: {foreground: "${user_root}"}
+  user_other: {foreground: "${user_none}"}
+  group_yours: {foreground: "${group_owner}"}
+  group_other: {foreground: "${group_none}"}
+  group_root: {foreground: "${user_root}"}
+
+links:
+  normal: {foreground: "${links}"}
+  multi_link_file: {foreground: "${links}"}
+
+git:
+  new: {foreground: "${git_added}"}
+  modified: {foreground: "${git_modified}"}
+  deleted: {foreground: "${git_deleted}"}
+  renamed: {foreground: "${git_renamed}"}
+  typechange: {foreground: "${git_typechange}"}
+  ignored: {foreground: "${git_ignored}"}
+  conflicted: {foreground: "${git_conflict}"}
+
+git_repo:
+  branch_main: {foreground: "${branch_main}"}
+  branch_other: {foreground: "${branch_other}"}
+  git_clean: {foreground: "${git_clean}"}
+  git_dirty: {foreground: "${git_dirty}"}
+
+security_context:
+  colon: {foreground: "${context_sep}"}
+  user: {foreground: "${context}"}
+  role: {foreground: "${context}"}
+  typ: {foreground: "${context}"}
+  range: {foreground: "${context}"}
+
+file_type:
+  image: {foreground: "${type_image}"}
+  video: {foreground: "${type_video}"}
+  music: {foreground: "${type_music}"}
+  lossless: {foreground: "${type_lossless}"}
+  crypto: {foreground: "${type_crypto}"}
+  document: {foreground: "${type_document}"}
+  compressed: {foreground: "${type_compressed}"}
+  temp: {foreground: "${type_temp}"}
+  compiled: {foreground: "${type_compiled}"}
+  source: {foreground: "${type_source}"}
+
+punctuation: {foreground: "${punctuation}"}
+date: {foreground: "${date}"}
+inode: {foreground: "${inode}"}
+blocks: {foreground: "${blocks}"}
+header: {foreground: "${header}", is_bold: true}
+octal: {foreground: "${octal}"}
+flags: {foreground: "${flags}"}
+
+symlink_path: {foreground: "${link_path}"}
+control_char: {foreground: "${control_char}"}
+broken_symlink: {foreground: "${orphan}"}
+broken_path_overlay: {foreground: "${broken_path_overlay}"}
+]=],
+		eza_colors
+	)
 
 	return eza
 end

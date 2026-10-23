@@ -268,6 +268,17 @@ Files are available under `extras/<tool>`. Each theme has dark, dark-alt, light,
 :lua require("black-metal.extras").setup()
 ```
 
+### Eza
+
+Requires eza `>= 0.19.2`. Copy the theme file to `~/.config/eza/theme.yml`:
+
+```sh
+mkdir -p ~/.config/eza
+cp extras/eza/burzum.yml ~/.config/eza/theme.yml
+```
+
+Unset `EZA_COLORS`: it overrides `theme.yml`.
+
 Validate generated extras and confirm generation leaves the active colorscheme unchanged with:
 
 ```sh

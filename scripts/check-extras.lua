@@ -30,6 +30,12 @@ for index = 0, 15 do
 	assert(vim.g["terminal_color_" .. index] == before_terminal_colors[index], "extras generation changed terminal colors")
 end
 
+local python_yaml = false
+if vim.fn.executable("python3") == 1 then
+	vim.fn.system({ "python3", "-c", "import yaml" })
+	python_yaml = vim.v.shell_error == 0
+end
+local has_eza = vim.fn.executable("eza") == 1
 local themes = require("black-metal.palette").themes
 local expected = 0
 for extra, info in pairs(extras.extras) do
@@ -44,8 +50,33 @@ for extra, info in pairs(extras.extras) do
 			local contents = table.concat(vim.fn.readfile(path), "\n")
 			assert(not contents:match("%${[%w_%.%-]+}"), "unresolved template token in " .. path)
 			if extra == "eza" then
-				local output = vim.fn.system({ "bash", "-n", path })
-				assert(vim.v.shell_error == 0, "invalid Eza shell file " .. path .. ": " .. output)
+				if python_yaml then
+					local output = vim.fn.system({
+						"python3",
+						"-c",
+						[[import re, sys, yaml
+def leaves(node):
+    if isinstance(node, dict) and "foreground" not in node:
+        for value in node.values():
+            yield from leaves(value)
+    else:
+        yield node
+data = yaml.safe_load(open(sys.argv[1]))
+assert len(data) >= 20, "too few sections"
+for leaf in leaves(data):
+    assert re.fullmatch(r"#[0-9a-fA-F]{6}", leaf["foreground"]), leaf]],
+						path,
+					})
+					assert(vim.v.shell_error == 0, "invalid Eza YAML " .. path .. ": " .. output)
+				end
+				if has_eza then
+					local dir = vim.fn.tempname()
+					vim.fn.mkdir(dir, "p")
+					vim.fn.writefile(vim.fn.readfile(path), dir .. "/theme.yml")
+					local result = vim.system({ "eza", "-l", "--git", root }, { env = { EZA_CONFIG_DIR = dir }, text = true }):wait()
+					vim.fn.delete(dir, "rf")
+					assert(result.code == 0 and result.stderr == "", "invalid Eza theme " .. path .. ": " .. result.stderr)
+				end
 			elseif extra == "helix" and python_tomllib then
 				local output = vim.fn.system({
 					"python3",

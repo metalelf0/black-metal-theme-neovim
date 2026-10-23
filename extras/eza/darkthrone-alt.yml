@@ -1,0 +1,107 @@
+# name: DARKTHRONE ALT colors for Eza
+# url: https://github.com/eza-community/eza
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/eza/darkthrone-alt.yml
+# author: Andrea Schiavini (original code by Casey Miller)
+#
+# Install: copy this file to ~/.config/eza/theme.yml (requires eza >= 0.19.2).
+#   Unset EZA_COLORS: it overrides theme.yml.
+
+filekinds:
+  normal: {foreground: "#f1f1f1"}
+  directory: {foreground: "#888888", is_bold: true}
+  symlink: {foreground: "#FFFFFF"}
+  pipe: {foreground: "#999999"}
+  block_device: {foreground: "#888888"}
+  char_device: {foreground: "#888888"}
+  socket: {foreground: "#FFFFFF"}
+  special: {foreground: "#aaaaaa"}
+  executable: {foreground: "#c1c1c1"}
+  mount_point: {foreground: "#FFFFFF"}
+
+perms:
+  user_read: {foreground: "#888888"}
+  user_write: {foreground: "#5f8787"}
+  user_execute_file: {foreground: "#c1c1c1"}
+  user_execute_other: {foreground: "#c1c1c1"}
+  group_read: {foreground: "#888888"}
+  group_write: {foreground: "#5f8787"}
+  group_execute: {foreground: "#c1c1c1"}
+  other_read: {foreground: "#888888"}
+  other_write: {foreground: "#5f8787"}
+  other_execute: {foreground: "#c1c1c1"}
+  special_user_file: {foreground: "#5f8787"}
+  special_other: {foreground: "#5f8787"}
+  attribute: {foreground: "#505050"}
+
+size:
+  major: {foreground: "#505050"}
+  minor: {foreground: "#f1f1f1"}
+  number_byte: {foreground: "#f1f1f1"}
+  number_kilo: {foreground: "#f1f1f1"}
+  number_mega: {foreground: "#f1f1f1"}
+  number_giga: {foreground: "#f1f1f1"}
+  number_huge: {foreground: "#f1f1f1"}
+  unit_byte: {foreground: "#505050"}
+  unit_kilo: {foreground: "#505050"}
+  unit_mega: {foreground: "#505050"}
+  unit_giga: {foreground: "#505050"}
+  unit_huge: {foreground: "#505050"}
+
+users:
+  user_you: {foreground: "#888888"}
+  user_root: {foreground: "#5f8787"}
+  user_other: {foreground: "#505050"}
+  group_yours: {foreground: "#888888"}
+  group_other: {foreground: "#505050"}
+  group_root: {foreground: "#5f8787"}
+
+links:
+  normal: {foreground: "#505050"}
+  multi_link_file: {foreground: "#505050"}
+
+git:
+  new: {foreground: "#c1c1c1"}
+  modified: {foreground: "#aaaaaa"}
+  deleted: {foreground: "#5f8787"}
+  renamed: {foreground: "#FFFFFF"}
+  typechange: {foreground: "#888888"}
+  ignored: {foreground: "#000000"}
+  conflicted: {foreground: "#aaaaaa"}
+
+git_repo:
+  branch_main: {foreground: "#505050"}
+  branch_other: {foreground: "#999999"}
+  git_clean: {foreground: "#c1c1c1"}
+  git_dirty: {foreground: "#aaaaaa"}
+
+security_context:
+  colon: {foreground: "#505050"}
+  user: {foreground: "#505050"}
+  role: {foreground: "#505050"}
+  typ: {foreground: "#505050"}
+  range: {foreground: "#505050"}
+
+file_type:
+  image: {foreground: "#888888"}
+  video: {foreground: "#999999"}
+  music: {foreground: "#c1c1c1"}
+  lossless: {foreground: "#FFFFFF"}
+  crypto: {foreground: "#505050"}
+  document: {foreground: "#f1f1f1"}
+  compressed: {foreground: "#aaaaaa"}
+  temp: {foreground: "#505050"}
+  compiled: {foreground: "#aaaaaa"}
+  source: {foreground: "#888888"}
+
+punctuation: {foreground: "#505050"}
+date: {foreground: "#505050"}
+inode: {foreground: "#000000"}
+blocks: {foreground: "#505050"}
+header: {foreground: "#f1f1f1", is_bold: true}
+octal: {foreground: "#FFFFFF"}
+flags: {foreground: "#FFFFFF"}
+
+symlink_path: {foreground: "#FFFFFF"}
+control_char: {foreground: "#aaaaaa"}
+broken_symlink: {foreground: "#5f8787"}
+broken_path_overlay: {foreground: "#000000"}

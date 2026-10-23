@@ -6,7 +6,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## v2.3.0 - 2026-10-17
 
 - add Helix theme generation for all themes and variants
-- add Eza themes and generate extras for dark, dark-alt, light, and light-alt variants
+- add Eza `theme.yml` themes (eza >= 0.19.2) and generate extras for dark, dark-alt, light, and light-alt variants
 - brighten default foreground from `#c1c1c1` to `#f1f1f1`
 - allow dynamic highlight overrides with palette references and callbacks
 
