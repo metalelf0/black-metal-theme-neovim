@@ -1,4 +1,5 @@
 local M = {}
+local Util = require("black-metal.util")
 
 ---@class black-metal.Theme
 ---@field alt string highlight
@@ -68,6 +69,20 @@ M.get = function(theme, variant)
 	else
 		return vim.deepcopy(M[theme])
 	end
+end
+
+---Swaps a palette's background for its alternate one, moving the selection color
+---(`visual`) far enough from it to keep the separation the base background had.
+---Alt backgrounds are hand-picked per theme, so a fixed selection color either
+---disappears into them or stands out far more than in the base variant.
+---@param palette black-metal.Theme
+---@return black-metal.Theme
+function M.with_alt_bg(palette)
+	local separation = math.abs(Util.lightness(palette.visual) - Util.lightness(palette.bg))
+	palette.visual = Util.separate(palette.visual, palette.alt_bg, palette.bg, palette.fg, separation)
+	palette.bg = palette.alt_bg
+	palette.line = palette.alt_bg
+	return palette
 end
 
 return M

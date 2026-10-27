@@ -41,6 +41,41 @@ function M.blend(a, coeff, b)
     )
 end
 
+---Converts a color to its CIE L* lightness (0=black, 100=white).
+---@param color string hex color code
+---@return number
+function M.lightness(color)
+    local function linear(channel)
+        channel = channel / 255
+        return channel <= 0.04045 and channel / 12.92 or ((channel + 0.055) / 1.055) ^ 2.4
+    end
+
+    local rgb = hexToRgb(color)
+    local y = 0.2126 * linear(rgb[1]) + 0.7152 * linear(rgb[2]) + 0.0722 * linear(rgb[3])
+    return y > 0.008856 and 116 * y ^ (1 / 3) - 16 or 903.3 * y
+end
+
+---Moves `color` towards `mix` until it is at least `amount` L* apart from
+---`background`, keeping the direction in which it stands out from `reference`.
+---Returns `color` untouched when it is already far enough.
+---@param color string color to separate (e.g. a selection background)
+---@param background string background it must stay visible on
+---@param reference string color the intended separation is measured against
+---@param mix string color to blend towards
+---@param amount number minimal L* separation
+---@return string
+function M.separate(color, background, reference, mix, amount)
+    local direction = M.lightness(color) >= M.lightness(reference) and 1 or -1
+    local current = color
+    for step = 0, 50 do
+        if (M.lightness(current) - M.lightness(background)) * direction >= amount then
+            return current
+        end
+        current = M.blend(color, 1 - (step + 1) * 0.02, mix)
+    end
+    return current
+end
+
 ---Generates a template from a string containing variables of the form $VAR, and a table
 ---of corresponding replacement variables.
 ---

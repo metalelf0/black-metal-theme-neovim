@@ -16,8 +16,8 @@ marker_copied   = { fg = "#7f4200" }
 marker_cut      = { fg = "#a13b3b" }
 marker_selected = { fg = "#633d36" }
 
-tab_active   = { fg = "#633d36", bg = "#bcccf1" }
-tab_inactive = { fg = "#4f5669", bg = "#bcccf1" }
+tab_active   = { fg = "#633d36", bg = "#A1AFD0" }
+tab_inactive = { fg = "#4f5669", bg = "#A1AFD0" }
 tab_width    = 1
 
 count_cut      = { fg = "#633d36", bg = "#c0cbed" }
@@ -38,10 +38,10 @@ unset_alt     = { fg = "#c0cbed", bg = "#7f4200", bold = true }
 [status]
 separator_open  = ""
 separator_close = ""
-separator_style = { fg = "#bcccf1", bg = "#bcccf1" }
+separator_style = { fg = "#A1AFD0", bg = "#A1AFD0" }
 
 progress_label  = { fg = "#633d36", bold = true }
-progress_normal = { fg = "#633d36", bg = "#bcccf1" }
+progress_normal = { fg = "#633d36", bg = "#A1AFD0" }
 progress_error  = { fg = "#c0cbed", bg = "#a13b3b" }
 
 permissions_t = { fg = "#121621" }

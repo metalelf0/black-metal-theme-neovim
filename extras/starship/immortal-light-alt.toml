@@ -22,7 +22,7 @@ magenta = "#445c73"
 cyan = "#315c87"
 white = "#121b21"
 comment = "#4d5b66"
-visual = "#c0dde7"
+visual = "#A8C2CB"
 line = "#c3d6df"
 
 # Format for cmd_duration

@@ -9,7 +9,7 @@ theme:
   alternate_background: "#eac2b8"
   alternate_foreground: "#32595c"
   comment: "#63524b"
-  visual_selection: "#f2ccb5"
+  visual_selection: "#CCAB97"
   line_highlight: "#eac2b8"
 
 colors:

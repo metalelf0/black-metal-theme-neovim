@@ -20,8 +20,7 @@ end
 function M.colors_for(theme, variant, alt_bg, with_palette)
     local palette = require("black-metal.palette").get(theme, variant)
     if alt_bg then
-        palette.bg = palette.alt_bg
-        palette.line = palette.alt_bg
+        require("black-metal.palette").with_alt_bg(palette)
     end
     palette.dim = Util.blend(palette.bg, 0.9, "#000000")
     if with_palette then

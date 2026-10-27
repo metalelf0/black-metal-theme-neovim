@@ -8,7 +8,7 @@
 background = #4d2020
 # alternate, darker background #4d2020
 foreground = #f1f1f1
-selection-background = #222222
+selection-background = #505050
 selection-foreground = #f1f1f1
 cursor-color = #f1f1f1
 

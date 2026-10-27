@@ -13,9 +13,9 @@ gui:
     optionsTextColor:
       - "#ddeecc"
     selectedLineBgColor:
-      - "#222222"
+      - "#434343"
     cherryPickedCommitBgColor:
-      - "#222222"
+      - "#434343"
     cherryPickedCommitFgColor:
       - "#5f8787"
     unstagedChangesColor:

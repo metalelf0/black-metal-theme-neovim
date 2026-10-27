@@ -8,7 +8,7 @@
 background = #ddcacc
 # alternate, darker background #ddcacc
 foreground = #211212
-selection-background = #e0d6d6
+selection-background = #BAAFAF
 selection-foreground = #211212
 cursor-color = #211212
 
