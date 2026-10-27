@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v2.4.0 - 2026-10-27
+
+- fix: re-derive selection color for alternate backgrounds to maintain visibility
+- feat: add `util.lightness()` and `util.separate()` for palette-aware color adjustment
+- feat: add `palette.with_alt_bg()` to consistently apply alternate backgrounds across all color consumers
+- test: add `scripts/check-alt.lua` to validate selection color contrast on alternate backgrounds
+
 ## v2.3.0 - 2026-10-17
 
 - add Helix theme generation for all themes and variants

@@ -39,7 +39,7 @@
 "ui.menu" = { fg = "#f1f1f1", bg = "#301807" }
 "ui.menu.selected" = { fg = "#301807", bg = "#5f8787", modifiers = ["bold"] }
 "ui.menu.scroll" = { fg = "#5f8787", bg = "#301807" }
-"ui.selection" = { fg = "#f1f1f1", bg = "#222222" }
+"ui.selection" = { fg = "#f1f1f1", bg = "#3B3B3B" }
 "ui.selection.primary" = { fg = "#f1f1f1", bg = "#301807" }
 "ui.highlight" = { bg = "#301807" }
 "ui.cursorline.primary" = { bg = "#301807" }
@@ -132,4 +132,4 @@ cyan = "#aa9988"
 white = "#f1f1f1"
 foreground = "#f1f1f1"
 background = "#301807"
-selection = "#222222"
+selection = "#3B3B3B"

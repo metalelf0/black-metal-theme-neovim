@@ -5,7 +5,7 @@ background = "#eac2b8"
 cursor_bg = "#1e1510"
 cursor_border = "#1e1510"
 cursor_fg = "#eac2b8"
-selection_bg = "#f2ccb5"
+selection_bg = "#CCAB97"
 selection_fg = "#1e1510"
 split = "#63524b"
 compose_cursor = "#813b37"
@@ -20,7 +20,7 @@ background = "#eac2b8"
 
 [colors.tab_bar.active_tab]
 fg_color = "#32595c"
-bg_color = "#f2ccb5"
+bg_color = "#CCAB97"
 
 [colors.tab_bar.inactive_tab]
 fg_color = "#63524b"
@@ -33,7 +33,7 @@ bg_color = "#eac2b8"
 
 [colors.tab_bar.new_tab_hover]
 fg_color = "#32595c"
-bg_color = "#f2ccb5"
+bg_color = "#CCAB97"
 intensity = "Bold"
 
 [colors.tab_bar.new_tab]

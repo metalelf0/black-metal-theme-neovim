@@ -10,8 +10,7 @@ function M.get(colors)
 
 	local darkgutter
 	if Config.alt_bg then
-		c.bg = c.alt_bg
-		c.line = c.alt_bg
+		require("black-metal.palette").with_alt_bg(c)
 		darkgutter = Util.blend(c.bg, 0.85, "#000000")
 	else
 		darkgutter = c.alt_bg

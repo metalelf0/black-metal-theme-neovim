@@ -26,7 +26,7 @@
 				<key>lineHighlight</key>
 				<string>#ddcacc</string>
 				<key>selection</key>
-				<string>#e0d6d6</string>
+				<string>#BAAFAF</string>
 				<key>selectionBorder</key>
 				<string>#325c4f</string>
 			</dict>

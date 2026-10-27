@@ -8,7 +8,7 @@
 background = #cfbfc7
 # alternate, darker background #cfbfc7
 foreground = #11090d
-selection-background = #d7c1c8
+selection-background = #B7A4AA
 selection-foreground = #11090d
 cursor-color = #11090d
 

@@ -81,7 +81,7 @@ If you want a better view of the previews, look [in the wiki](https://github.com
 
 ## Rationale
 
-Each theme palette is a slight variation of the base one. I picked two accent colors from an album cover for each band. I also included an alternative variant for each album with a not-black background. 
+Each theme palette is a slight variation of the base one. I picked two accent colors from an album cover for each band. I also included an alternative variant for each album with a not-black background. Since the alternate background is hand-picked per theme, the selection color is re-derived for it so it keeps the same contrast it has on the base background instead of disappearing into (or glaring against) the alt one.
 
 ### Light variants
 
@@ -109,7 +109,7 @@ With lazy.nvim:
 
 ## Configuration
 
-There are 16 themes included, each with a dark, alternative, light and light alternative variant. Check light palettes for distinctness and contrast with `nvim --headless --clean -u NONE -l scripts/check-light.lua`.
+There are 16 themes included, each with a dark, alternative, light and light alternative variant. Check light palettes for distinctness and contrast with `nvim --headless --clean -u NONE -l scripts/check-light.lua`, and alternate backgrounds for a visible selection color with `nvim --headless --clean -u NONE -l scripts/check-alt.lua`.
 
 Yes, I know, light variants aren't `TRVE`. There is no light in trve black metal, so light variants are disabled by default -- pass `{ trve = false }` to `setup(options)` if you insist on using them.
 The light theme is used when `{ variant = "light" }` is passed to `setup(options)` or when `vim.o.background = "light"` (and `trve = false`).

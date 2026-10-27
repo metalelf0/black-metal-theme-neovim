@@ -9,7 +9,7 @@ foreground = "#000000"
 alternate_background = "#e4afaf"
 alternate_foreground = "#324c5c"
 comment = "#524b3e"
-visual_selection = "#f0e1a8"
+visual_selection = "#BBB083"
 line_highlight = "#e4afaf"
 
 [colors]

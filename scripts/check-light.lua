@@ -57,8 +57,7 @@ local function load(name, variant)
 	package.loaded["black-metal.palette.light." .. name] = nil
 	local c = vim.deepcopy(require("black-metal.palette.light." .. name))
 	if variant == "alt" then
-		c.bg = c.alt_bg
-		c.line = c.alt_bg
+		require("black-metal.palette").with_alt_bg(c)
 	end
 	return c
 end
