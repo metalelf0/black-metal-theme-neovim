@@ -9,6 +9,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - feat: add `util.lightness()` and `util.separate()` for palette-aware color adjustment
 - feat: add `palette.with_alt_bg()` to consistently apply alternate backgrounds across all color consumers
 - test: add `scripts/check-alt.lua` to validate selection color contrast on alternate backgrounds
+- migrate Eza extras from `EZA_COLORS` shell files (`extras/eza/<theme>.sh`) to `theme.yml` files (`extras/eza/<theme>.yml`); requires eza >= 0.19.2
+- **breaking:** the `.sh` files are removed; copy the `.yml` file to `~/.config/eza/theme.yml` and unset `EZA_COLORS`, which overrides `theme.yml`
+- color keys that `EZA_COLORS` could not set (`file_type`, `git_repo`, `security_context`, `punctuation`, ...) now use palette colors instead of eza defaults
+- validate generated Eza themes in `scripts/check-extras.lua` by parsing the YAML and running eza
 
 ## v2.3.0 - 2026-10-17
 
