@@ -1,0 +1,107 @@
+# name: IMMORTAL LIGHT colors for Eza
+# url: https://github.com/eza-community/eza
+# upstream: https://github.com/metalelf0/black-metal.nvim/raw/main/extras/eza/immortal-light.yml
+# author: Andrea Schiavini (original code by Casey Miller)
+#
+# Install: copy this file to ~/.config/eza/theme.yml (requires eza >= 0.19.2).
+#   Unset EZA_COLORS: it overrides theme.yml.
+
+filekinds:
+  normal: {foreground: "#121b21"}
+  directory: {foreground: "#345779", is_bold: true}
+  symlink: {foreground: "#315c87"}
+  pipe: {foreground: "#32577b"}
+  block_device: {foreground: "#345779"}
+  char_device: {foreground: "#345779"}
+  socket: {foreground: "#315c87"}
+  special: {foreground: "#2b6264"}
+  executable: {foreground: "#121b21"}
+  mount_point: {foreground: "#315c87"}
+
+perms:
+  user_read: {foreground: "#345779"}
+  user_write: {foreground: "#a13b3b"}
+  user_execute_file: {foreground: "#121b21"}
+  user_execute_other: {foreground: "#121b21"}
+  group_read: {foreground: "#345779"}
+  group_write: {foreground: "#a13b3b"}
+  group_execute: {foreground: "#121b21"}
+  other_read: {foreground: "#345779"}
+  other_write: {foreground: "#a13b3b"}
+  other_execute: {foreground: "#121b21"}
+  special_user_file: {foreground: "#a13b3b"}
+  special_other: {foreground: "#a13b3b"}
+  attribute: {foreground: "#4d5b66"}
+
+size:
+  major: {foreground: "#4d5b66"}
+  minor: {foreground: "#121b21"}
+  number_byte: {foreground: "#121b21"}
+  number_kilo: {foreground: "#121b21"}
+  number_mega: {foreground: "#121b21"}
+  number_giga: {foreground: "#121b21"}
+  number_huge: {foreground: "#121b21"}
+  unit_byte: {foreground: "#4d5b66"}
+  unit_kilo: {foreground: "#4d5b66"}
+  unit_mega: {foreground: "#4d5b66"}
+  unit_giga: {foreground: "#4d5b66"}
+  unit_huge: {foreground: "#4d5b66"}
+
+users:
+  user_you: {foreground: "#345779"}
+  user_root: {foreground: "#a13b3b"}
+  user_other: {foreground: "#4d5b66"}
+  group_yours: {foreground: "#345779"}
+  group_other: {foreground: "#4d5b66"}
+  group_root: {foreground: "#a13b3b"}
+
+links:
+  normal: {foreground: "#4d5b66"}
+  multi_link_file: {foreground: "#4d5b66"}
+
+git:
+  new: {foreground: "#121b21"}
+  modified: {foreground: "#3b3e7d"}
+  deleted: {foreground: "#a13b3b"}
+  renamed: {foreground: "#315c87"}
+  typechange: {foreground: "#345779"}
+  ignored: {foreground: "#CCD6DA"}
+  conflicted: {foreground: "#2b6264"}
+
+git_repo:
+  branch_main: {foreground: "#4d5b66"}
+  branch_other: {foreground: "#32577b"}
+  git_clean: {foreground: "#121b21"}
+  git_dirty: {foreground: "#2b6264"}
+
+security_context:
+  colon: {foreground: "#4d5b66"}
+  user: {foreground: "#4d5b66"}
+  role: {foreground: "#4d5b66"}
+  typ: {foreground: "#4d5b66"}
+  range: {foreground: "#4d5b66"}
+
+file_type:
+  image: {foreground: "#345779"}
+  video: {foreground: "#32577b"}
+  music: {foreground: "#121b21"}
+  lossless: {foreground: "#315c87"}
+  crypto: {foreground: "#4d5b66"}
+  document: {foreground: "#121b21"}
+  compressed: {foreground: "#2b6264"}
+  temp: {foreground: "#4d5b66"}
+  compiled: {foreground: "#3b3e7d"}
+  source: {foreground: "#345779"}
+
+punctuation: {foreground: "#4d5b66"}
+date: {foreground: "#4d5b66"}
+inode: {foreground: "#CCD6DA"}
+blocks: {foreground: "#4d5b66"}
+header: {foreground: "#121b21", is_bold: true}
+octal: {foreground: "#315c87"}
+flags: {foreground: "#315c87"}
+
+symlink_path: {foreground: "#315c87"}
+control_char: {foreground: "#3b3e7d"}
+broken_symlink: {foreground: "#a13b3b"}
+broken_path_overlay: {foreground: "#CCD6DA"}
